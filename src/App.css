@@ -3,8 +3,21 @@
 }
 
 body { /* For the Background, remember height needs to be included for gradient backgrounds */
-  background: linear-gradient(90deg, #553939, #c48532);
+  background: linear-gradient(to right, rgb(255, 255, 255) 58%, rgba(0, 0, 255, 0.479) 42%), url('/public/geometricBackground.jpg');
+
+  width: 100vw;
   height: 100vh;
+}
+
+.geometricBackground {
+  background-image: url('/public/geometricBackground.jpg');
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: 100% 100%;
+  opacity: 0.5;
+
+  height: 100vh;
+  width: 58%;
 }
 
 .greetingName {
@@ -12,52 +25,52 @@ body { /* For the Background, remember height needs to be included for gradient 
   place-items: center;
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0);
-  color:  rgb(255, 255, 255);
+  color:  rgb(0, 0, 0);
   height: 100px;
   width: 800px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 50px;
 
   position: absolute;
   top: 350px;
-  left: 400px;
+  left: 300px;
 }
 
 .aboutMe {
   display: grid;
   place-items: center;
   border-radius: 30px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-  background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
   height: 150px;
   width: 800px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
   font-size: 20px;
 
   position: absolute;
-  top: 470px;
-  left: 400px;
+  top: 450px;
+  left: 300px;
 }
 
 .myPhoto {
   display: grid;
   place-items: center;
   border-radius: 30px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-  background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
   height: 400px;
-  width: 400px;
+  width: 550px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
 
+  background-image: url('/public/coder.png');
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: 100% 100%;
+
   position: absolute;
-  top: 300px;
-  right: 300px;
+  top: 310px;
+  right: 250px;
 }
 
 .navigationBar {
@@ -68,13 +81,13 @@ body { /* For the Background, remember height needs to be included for gradient 
   background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
   height: 80px;
-  width: 30%;
+  width: 50%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
 
   position: absolute;
-  left: 35%;
+  left: 25%;
   top: 100px;
 }
 
@@ -84,34 +97,41 @@ body { /* For the Background, remember height needs to be included for gradient 
   border-radius: 30px;
   border: 2px solid rgb(196, 196, 196);
   background-color: rgba(255, 255, 255, 0);
-  color:  rgb(255, 255, 255);
-  height: 80px;
-  width: 200px;
+  color:  rgb(0, 0, 0);
+  height: 50px;
+  width: 150px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+
+  cursor: pointer;
 
   position: absolute;
-  left: 700px;
+  left: 625px;
   top: 640px;
 }
 
 .logo {
   display: grid;
   place-items: center;
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
 
+  background-image: url('/public/logo.png');
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: 100% 100%;
+
   position: absolute;
-  left: 400px;
-  top: 100px;
+  left: 300px;
+  top: 115px;
 }
 
 .linkedIn {
@@ -126,6 +146,12 @@ body { /* For the Background, remember height needs to be included for gradient 
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
+
+  background-image: url('/public/LinkedIn\ Logo.jpg');
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
 
   position: absolute;
   right: 300px;
@@ -144,6 +170,12 @@ body { /* For the Background, remember height needs to be included for gradient 
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
+
+  background-image: url('/public/GitHub\ Logo.png');
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
 
   position: absolute;
   right: 370px;
