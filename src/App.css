@@ -163,7 +163,7 @@ body { /* For the Background, remember height needs to be included for gradient 
   top: 110px;
 }
 
-.linkedIn {
+.linkedIn a {
   display: grid;
   place-items: center;
   border-radius: 50px;
@@ -187,7 +187,7 @@ body { /* For the Background, remember height needs to be included for gradient 
   top: 115px;
 }
 
-.GitHub {
+.GitHub a {
   display: grid;
   place-items: center;
   border-radius: 50px;

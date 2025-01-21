@@ -57,8 +57,8 @@ function App() {
         <p>Contact Info</p>
       </div>
       <div className="logo"></div>
-      <div className="linkedIn"></div>
-      <div className="GitHub"></div>
+      <div className="linkedIn"><a href="https://www.linkedin.com/in/lucassetiady" target="_blank" rel="noopener noreferrer"></a></div>
+      <div className="GitHub"><a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer"></a></div>
     </div>
   );
 }
