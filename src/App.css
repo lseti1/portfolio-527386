@@ -2,37 +2,152 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body { /* For the Background, remember height needs to be included for gradient backgrounds */
+  background: linear-gradient(90deg, #553939, #c48532);
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.greetingName {
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  color:  rgb(255, 255, 255);
+  height: 100px;
+  width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+
+  position: absolute;
+  top: 350px;
+  left: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.aboutMe {
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(255, 255, 255);
+  color:  rgb(0, 0, 0);
+  height: 150px;
+  width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  position: absolute;
+  top: 470px;
+  left: 400px;
 }
 
-.App-link {
-  color: #61dafb;
+.myPhoto {
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(255, 255, 255);
+  color:  rgb(0, 0, 0);
+  height: 400px;
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  position: absolute;
+  top: 300px;
+  right: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigationBar {
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(255, 255, 255);
+  color:  rgb(0, 0, 0);
+  height: 80px;
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  position: absolute;
+  left: 35%;
+  top: 100px;
 }
+
+.contactInfo {
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+  border: 2px solid rgb(196, 196, 196);
+  background-color: rgba(255, 255, 255, 0);
+  color:  rgb(255, 255, 255);
+  height: 80px;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  position: absolute;
+  left: 700px;
+  top: 640px;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(255, 255, 255);
+  color:  rgb(0, 0, 0);
+  height: 80px;
+  width: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  position: absolute;
+  left: 400px;
+  top: 100px;
+}
+
+.linkedIn {
+  display: grid;
+  place-items: center;
+  border-radius: 50px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(255, 255, 255);
+  color:  rgb(0, 0, 0);
+  height: 50px;
+  width: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  position: absolute;
+  right: 300px;
+  top: 115px;
+}
+
+.GitHub {
+  display: grid;
+  place-items: center;
+  border-radius: 50px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(255, 255, 255);
+  color:  rgb(0, 0, 0);
+  height: 50px;
+  width: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  position: absolute;
+  right: 370px;
+  top: 115px;
+}
+
+
