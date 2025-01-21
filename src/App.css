@@ -33,7 +33,7 @@ body { /* For the Background, remember height needs to be included for gradient 
   font-size: 50px;
 
   position: absolute;
-  top: 350px;
+  top: 330px;
   left: 300px;
 }
 
@@ -48,7 +48,7 @@ body { /* For the Background, remember height needs to be included for gradient 
   font-size: 20px;
 
   position: absolute;
-  top: 450px;
+  top: 420px;
   left: 300px;
 }
 
@@ -69,13 +69,14 @@ body { /* For the Background, remember height needs to be included for gradient 
   background-size: 100% 100%;
 
   position: absolute;
-  top: 310px;
+  top: 300px;
   right: 250px;
 }
 
 .navigationBar {
   display: grid;
   place-items: center;
+  grid-template-columns: repeat(4, 2fr);
   border-radius: 30px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   background-color: rgb(255, 255, 255);
@@ -89,6 +90,20 @@ body { /* For the Background, remember height needs to be included for gradient 
   position: absolute;
   left: 25%;
   top: 100px;
+}
+
+.navigationItem {
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 30px;
+
+  transition: 
+  background-color 0.3s ease,  color 0.2s ease;
+}
+
+.navigationItem:hover {
+  background-color: rgba(84, 54, 253, 0.527);
+  color: white;
 }
 
 .contactInfo {
@@ -105,10 +120,15 @@ body { /* For the Background, remember height needs to be included for gradient 
   font-weight: lighter;
 
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 
   position: absolute;
-  left: 625px;
-  top: 640px;
+  left: 610px;
+  top: 610px;
+}
+
+.contactInfo:hover {
+  background-color: rgba(84, 54, 253, 0.527);
 }
 
 .logo {
@@ -118,8 +138,8 @@ body { /* For the Background, remember height needs to be included for gradient 
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -131,7 +151,7 @@ body { /* For the Background, remember height needs to be included for gradient 
 
   position: absolute;
   left: 300px;
-  top: 115px;
+  top: 110px;
 }
 
 .linkedIn {
