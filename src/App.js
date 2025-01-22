@@ -17,9 +17,12 @@ function App() {
       case "more":
         return <p>More About Me!</p>;
       case "projects":
-        return <p>The two projects I have worked on are a simple yearly planner, blah blah</p>;
+        return <p>The two projects I have worked on are a yearly planner and a holiday activity searcher. Click one of the two icons below to open them:<br />
+          <div className ="projectOneIcon">Project 1</div><div className ="projectTwoIcon">Project 2</div></p>;
       case "resume":
-        return <p>Here are links to my Resume online -</p>;
+        return <p> Here is a link to my virtual Resume: 
+          <div className ="resumeIcon">Resume</div>
+        </p>;
       default:
         return <p>No page found!</p>;
     }
@@ -30,9 +33,9 @@ function App() {
       case "home":
         return <h1>Hi, my name is Lucas Setiady</h1>;
       case "more":
-        return <h1>More about myself:</h1>;
+        return <h1>More about myself</h1>;
       case "projects":
-        return <h1>My personal projects: </h1>;
+        return <h1>My personal projects </h1>;
       case "resume":
         return <h1>My Resume</h1>;
       default:
