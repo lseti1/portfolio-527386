@@ -98,8 +98,7 @@ body { /* For the Background, remember height needs to be included for gradient 
   padding: 20px;
   border-radius: 30px;
 
-  transition: 
-  background-color 0.3s ease,  color 0.2s ease;
+  transition: background-color 0.3s ease,  color 0.2s ease;
 }
 
 .navigationItem:hover {
@@ -138,6 +137,7 @@ body { /* For the Background, remember height needs to be included for gradient 
 
 .contactInfo:hover {
   background-color: rgba(84, 54, 253, 0.527);
+  color: white;
 }
 
 .logo {
@@ -235,6 +235,7 @@ body { /* For the Background, remember height needs to be included for gradient 
 
 .projectOneIcon:hover {
   background-color: rgba(84, 54, 253, 0.527);
+  color: white;
 }
 
 .projectTwoIcon {
@@ -261,6 +262,7 @@ body { /* For the Background, remember height needs to be included for gradient 
 
 .projectTwoIcon:hover {
   background-color: rgba(84, 54, 253, 0.527);
+  color: white;
 }
 
 .resumeIcon {
@@ -287,5 +289,6 @@ body { /* For the Background, remember height needs to be included for gradient 
 
 .resumeIcon:hover {
   background-color: rgba(84, 54, 253, 0.527);
+  color: white;
 }
 
