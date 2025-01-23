@@ -140,6 +140,44 @@ body { /* For the Background, remember height needs to be included for gradient 
   color: white;
 }
 
+.openContactInfo {
+  display: grid;
+  place-items: center;
+  border-radius: 50px;
+  border: 2px solid rgb(196, 196, 196);
+  background-color: rgba(255, 255, 255, 0);
+  color:  rgb(0, 0, 0);
+  height: 100px;
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  position: absolute;
+  left: 550px;
+  top: 610px;
+}
+
+.openContactInfo:hover::before {
+  content: attr(hover-text);
+  position: absolute;
+  font-size: 12px;
+  left: 0;
+  right: 0;
+  top: 90%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+
+.openContactInfo:hover {
+  background-color: rgba(84, 54, 253, 0.527);
+  color: rgb(255, 255, 255);
+}
+
 .logo {
   display: grid;
   place-items: center;

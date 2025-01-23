@@ -3,10 +3,16 @@ import './App.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home");
+  const [isContactInfo, setContactInfo] = useState(true);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
+
+  const handleContactInfo = () => {
+    setContactInfo((prevState) => !prevState);
+  };
+
 
   const updateContent = () => {
     switch (currentPage) {
@@ -43,6 +49,14 @@ function App() {
     }
   }
 
+  const updateContactInfo = () => {
+    if (isContactInfo) {
+      return <p>Contact Info</p>;
+    }
+    else
+      return <p>Phone Number: 0439629899<br />Email: luca.setia@gmail.com</p>
+  }
+
   return (
     <div className="App">
       <div className="geometricBackground"></div>
@@ -56,9 +70,7 @@ function App() {
         <div className={currentPage === "projects" ? "active" : "navigationItem"} onClick={() => handlePageChange("projects")}>Projects</div>
         <div className={currentPage === "resume" ? "active" : "navigationItem"} onClick={() => handlePageChange("resume")}>Resume</div>
       </div> 
-      <div className="contactInfo">
-        <p>Contact Info</p>
-      </div>
+      <div className={isContactInfo ? "contactInfo" : "openContactInfo"} hover-text="Click to Minimise" onClick={handleContactInfo}>{updateContactInfo()}</div>
       <div className="logo"></div>
       <div className="linkedIn"><a href="https://www.linkedin.com/in/lucassetiady" target="_blank" rel="noopener noreferrer"></a></div>
       <div className="GitHub"><a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer"></a></div>
