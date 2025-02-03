@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-body { /* For the Background, remember height needs to be included for gradient backgrounds */
+body { 
   background: linear-gradient(to right, rgb(255, 255, 255) 58%, rgba(0, 0, 255, 0.479) 42%), url('/public/geometricBackground.jpg');
 
   width: 100vw;

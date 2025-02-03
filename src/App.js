@@ -14,6 +14,7 @@ function App() {
   };
 
 
+  // To Adjust Content When Navigation Bar is Used
   const updateContent = () => {
     switch (currentPage) {
       case "home":
@@ -23,7 +24,7 @@ function App() {
       case "more":
         return <p>More About Me!</p>;
       case "projects":
-        return <p>The two projects I have worked on are a yearly planner and a holiday activity searcher. Click one of the two icons below to open them:<br />
+        return <p>The first project I have prepared is a yearly planner, and the second is a Holiday Activity Searcher. Click one of the two icons below to view them:<br />
           <div className ="projectOneIcon">Project 1</div><div className ="projectTwoIcon">Project 2</div></p>;
       case "resume":
         return <p> Here is a link to my virtual Resume: 
@@ -34,6 +35,7 @@ function App() {
     }
   }
 
+  // To Adjust Titles Accordingly to the selected page
   const updateTitle = () => {
     switch (currentPage) {
       case "home":
@@ -41,7 +43,7 @@ function App() {
       case "more":
         return <h1>More about myself</h1>;
       case "projects":
-        return <h1>My personal projects </h1>;
+        return <h1>My Personal Projects </h1>;
       case "resume":
         return <h1>My Resume</h1>;
       default:
@@ -49,6 +51,7 @@ function App() {
     }
   }
 
+  // To allow the pop up to change
   const updateContactInfo = () => {
     if (isContactInfo) {
       return <p>Contact Info</p>;
