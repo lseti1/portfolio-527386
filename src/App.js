@@ -24,8 +24,14 @@ function App() {
       case "more":
         return <p>More About Me!</p>;
       case "projects":
-        return <p>The first project I have prepared is a yearly planner, and the second is a Holiday Activity Searcher. Click one of the two icons below to view them:<br />
-          <div className ="projectOneIcon">Project 1</div><div className ="projectTwoIcon">Project 2</div></p>;
+        return <p>The first project I have prepared is a Yearly Planner, and the second is a Holiday Activity Searcher. Click one of the two icons below to view them:<br />
+          <div className ="projectOneIcon">
+            <a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer">Project 1</a>
+          </div>
+          <div className ="projectTwoIcon">
+            <a href="https://holidaysearcher198302.vercel.app/" target="_blank" rel="noopener noreferrer">Project 2</a>
+          </div>
+          </p>;
       case "resume":
         return <p> Here is a link to my virtual Resume: 
           <div className ="resumeIcon">Resume</div>
@@ -41,13 +47,13 @@ function App() {
       case "home":
         return <h1>Hi, my name is Lucas Setiady</h1>;
       case "more":
-        return <h1>More about myself</h1>;
+        return <h1>More About Myself</h1>;
       case "projects":
         return <h1>My Personal Projects </h1>;
       case "resume":
         return <h1>My Resume</h1>;
       default:
-        return <h1>No page found!</h1>;
+        return <h1>No Page Found!</h1>;
     }
   }
 
@@ -80,5 +86,8 @@ function App() {
     </div>
   );
 }
+
+// 
+// 
 
 export default App;
