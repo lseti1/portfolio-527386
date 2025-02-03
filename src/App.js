@@ -18,11 +18,15 @@ function App() {
   const updateContent = () => {
     switch (currentPage) {
       case "home":
-        return <p>"I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
-        for Internships and would greatly appreciate any considerations to take me in as a team member. Please feel free to navigate around my digital portfolio
+        return <p>I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
+        for Internships and would greatly appreciate any considerations to take me in as a team member. <br /><br />Please feel free to navigate around my digital portfolio
         to see the projects I've worked on, along with my personal contact information/social networks.</p>;
       case "more":
-        return <p>More About Me!</p>;
+        return <p>I'm currently about to enter my last trimester (as of February) of my degree and I am determined to find a company/start-up that I can grow
+          in both my profession and in life as well. What I'm most excited about is to get a chance to learn from those within the industry and see
+          exactly how the digital world is made. I'm constantly trying to get better and konw that only hard work and repetition can do that, that's why I hope
+          that you may consider my application and see me as a potential asset to your team. 
+        </p>;
       case "projects":
         return <p>The first project I have prepared is a Yearly Planner, and the second is a Holiday Activity Searcher. Click one of the two icons below to view them:<br />
           <div className ="projectOneIcon">
@@ -33,8 +37,10 @@ function App() {
           </div>
           </p>;
       case "resume":
-        return <p> Here is a link to my virtual Resume: 
-          <div className ="resumeIcon">Resume</div>
+        return <p> Link to virtual Resume: 
+          <div className ="resumeIcon">
+            <a href="https://drive.google.com/file/d/1AcFz_lckC-cXhYoaOOXXGiPZoSnIyi_-/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
+          </div>
         </p>;
       default:
         return <p>No page found!</p>;
@@ -88,6 +94,8 @@ function App() {
 }
 
 // 
+
 // 
+
 
 export default App;
