@@ -96,7 +96,7 @@ function App() {
       return <p>Contact Info</p>;
     }
     else
-      return <p>Phone Number: 0439629899<br />Email: luca.setia@gmail.com</p>
+      return <p>Phone Number: 0439 629 899<br />Email: luca.setia@gmail.com</p>
   }
 
   return (
