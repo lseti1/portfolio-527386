@@ -15,7 +15,9 @@ function App() {
       case "home":
         return <p>My name is Lucas and I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
         for Internships and would greatly appreciate any considerations to take me in as a team member. <br/><br/>
-        Please feel free to navigate around my digital portfolio to see the projects I've worked on, along with my personal contact information/social networks.</p>;
+        Please feel free to navigate around my digital portfolio to see the projects I've worked on, along with my personal contact information/social networks.
+        
+        </p>;
       case "projects":
         return <p>The first project I have prepared is a Yearly Planner, and the second is a Holiday Activity Searcher. Click on the icons below to view them:<br />
           <div className ="projectOneIcon">
@@ -95,6 +97,7 @@ function App() {
         <div className={currentPage === "contact" ? "active" : "navigationItem"} onClick={() => handlePageChange("contact")}>Contact</div>
       </div> 
       <div className="logo"></div>
+      <div className = "portfolioDisclaimer">Note: Portfolio is best viewed in Full Screen.</div>
       <div className="linkedIn"><a href="https://www.linkedin.com/in/lucassetiady" target="_blank" rel="noopener noreferrer"></a></div>
       <div className="GitHub"><a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer"></a></div>
     </div>

@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  
+  min-width: 100%; 
+  min-height: 100%;
+  overflow: auto; 
 }
 
 body { 
@@ -7,6 +11,8 @@ body {
 
   width: 100%;
   height: 100%;
+
+  
 }
 
 .geometricBackground {
@@ -33,7 +39,7 @@ body {
   font-size: 25px;
 
   position: absolute;
-  top: 350px;
+  top: 37%;
   left: 15%;
 }
 
@@ -50,7 +56,7 @@ body {
   font-size: 20px;
 
   position: absolute;
-  top: 440px;
+  top: 47%;
   left: 15%;
 }
 
@@ -60,8 +66,8 @@ body {
   place-items: center;
   border-radius: 30px;
   color:  rgb(0, 0, 0);
-  height: 400px;
-  width: 550px;
+  width: 25%;
+  aspect-ratio: 4 / 3;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -72,8 +78,9 @@ body {
   background-size: 100% 100%;
 
   position: absolute;
-  top: 300px;
-  right: 10%;
+  top: 35%;
+  right: 12%;
+  transform: translate(0%, 0%);
 }
 
 .navigationBar {
@@ -92,7 +99,7 @@ body {
 
   position: absolute;
   left: 25%;
-  top: 100px;
+  top: 10%;
 }
 
 .navigationItem {
@@ -112,32 +119,6 @@ body {
   cursor: pointer;
   padding: 20px;
   border-radius: 30px;
-  background-color: rgba(84, 54, 253, 0.527);
-  color: white;
-}
-
-.contactInfo {
-  display: grid;
-  place-items: center;
-  border-radius: 30px;
-  border: 2px solid rgb(196, 196, 196);
-  background-color: rgba(255, 255, 255, 0);
-  color:  rgb(0, 0, 0);
-  height: 6%;
-  width: 10%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight: lighter;
-
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-
-  position: absolute;
-  left: 30%;
-  top: 70%;
-}
-
-.contactInfo:hover {
   background-color: rgba(84, 54, 253, 0.527);
   color: white;
 }
@@ -200,7 +181,7 @@ body {
 
   position: absolute;
   left: 17%;
-  top: 110px;
+  top: 11%;
 }
 
 .linkedIn a {
@@ -224,7 +205,7 @@ body {
 
   position: absolute;
   right: 15%;
-  top: 115px;
+  top: 12%;
 }
 
 .GitHub a {
@@ -248,7 +229,7 @@ body {
 
   position: absolute;
   right: 19%;
-  top: 115px;
+  top: 12%;
 }
 
 .projectOneIcon {
@@ -361,5 +342,14 @@ body {
 .contact {
   position: absolute;
   top: 20%;
+}
+
+.portfolioDisclaimer {
+  color: rgba(0, 0, 0, 0.349);
+  width: 20%;
+
+  position: absolute;
+  left: 25%;
+  bottom: 2%;
 }
 
