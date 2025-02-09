@@ -13,7 +13,7 @@ function App() {
   const updateContent = () => {
     switch (currentPage) {
       case "home":
-        return <p>I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
+        return <p>My name is Lucas and I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
         for Internships and would greatly appreciate any considerations to take me in as a team member. <br/><br/>
         Please feel free to navigate around my digital portfolio to see the projects I've worked on, along with my personal contact information/social networks.</p>;
       case "projects":
