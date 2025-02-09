@@ -29,7 +29,7 @@ function App() {
       case "resume":
         return <p> Link to virtual Resume: 
           <div className ="resumeIcon">
-            <a href="https://drive.google.com/file/d/1AcFz_lckC-cXhYoaOOXXGiPZoSnIyi_-/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://drive.google.com/file/d/1AcFz_lckC-cXhYoaOOXXGiPZoSnIyi_-/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
           </div>
         </p>;
       case "experience":
@@ -66,9 +66,9 @@ function App() {
   const updateTitle = () => {
     switch (currentPage) {
       case "home":
-        return <h1>My name is Lucas Setiady</h1>;
+        return <h1>About Me</h1>;
       case "projects":
-        return <h1>My Personal Projects </h1>;
+        return <h1>My Projects </h1>;
       case "resume":
         return <h1>My Resume</h1>;
       case "experience":
