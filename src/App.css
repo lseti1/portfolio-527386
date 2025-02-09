@@ -5,8 +5,8 @@
 body { 
   background: linear-gradient(to right, rgb(255, 255, 255) 58%, rgba(0, 0, 255, 0.479) 42%), url('/public/geometricBackground.jpg');
 
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .geometricBackground {
@@ -21,45 +21,47 @@ body {
 }
 
 .title {
-  display: flex;
+  display: grid;
   justify-content: center; 
   align-items: center;      
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0);
   color:  rgb(0, 0, 0);
   height: 100px;
-  width: 800px;
+  width: 40%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
 
   position: absolute;
   top: 330px;
-  left: 300px;
+  left: 15%;
 }
 
 .mainContent {
   display: flex;
+
   justify-content: center; 
   align-items: top;   
   border-radius: 30px;
   color:  rgb(0, 0, 0);
   height: 150px;
-  width: 800px;
+  width: 40%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 
   position: absolute;
-  top: 420px;
-  left: 300px;
+  top: 440px;
+  left: 15%;
 }
 
 .mainImage {
-  display: grid;
+  display: flex;
+
   place-items: center;
   border-radius: 30px;
   color:  rgb(0, 0, 0);
   height: 400px;
-  width: 550px;
+  width: 30%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -71,13 +73,13 @@ body {
 
   position: absolute;
   top: 300px;
-  right: 250px;
+  right: 10%;
 }
 
 .navigationBar {
   display: grid;
   place-items: center;
-  grid-template-columns: repeat(5, 2fr);
+  grid-template-columns: repeat(5, 20%);
   border-radius: 30px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   background-color: rgb(255, 255, 255);
@@ -121,8 +123,8 @@ body {
   border: 2px solid rgb(196, 196, 196);
   background-color: rgba(255, 255, 255, 0);
   color:  rgb(0, 0, 0);
-  height: 50px;
-  width: 150px;
+  height: 6%;
+  width: 10%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: lighter;
@@ -131,8 +133,8 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
 
   position: absolute;
-  left: 625px;
-  top: 610px;
+  left: 30%;
+  top: 70%;
 }
 
 .contactInfo:hover {
@@ -147,8 +149,8 @@ body {
   border: 2px solid rgb(196, 196, 196);
   background-color: rgba(255, 255, 255, 0);
   color:  rgb(0, 0, 0);
-  height: 100px;
-  width: 300px;
+  height: 10%;
+  width: 15%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: lighter;
@@ -157,8 +159,8 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
 
   position: absolute;
-  left: 550px;
-  top: 610px;
+  left: 27.5%;
+  top: 70%;
 }
 
 .openContactInfo:hover::before {
@@ -186,7 +188,7 @@ body {
   background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
   height: 70px;
-  width: 70px;
+  width: 4%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -197,7 +199,7 @@ body {
   background-size: 100% 100%;
 
   position: absolute;
-  left: 300px;
+  left: 17%;
   top: 110px;
 }
 
@@ -221,7 +223,7 @@ body {
   cursor: pointer;
 
   position: absolute;
-  right: 300px;
+  right: 15%;
   top: 115px;
 }
 
@@ -245,7 +247,7 @@ body {
   cursor: pointer;
 
   position: absolute;
-  right: 370px;
+  right: 19%;
   top: 115px;
 }
 
@@ -258,7 +260,7 @@ body {
   background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
   height: 50px;
-  width: 150px;
+  width: 20%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -267,7 +269,7 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
 
   position: absolute;
-  right: 420px;
+  right: 52%;
   top: 90px;
 }
 
@@ -285,7 +287,7 @@ body {
   background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
   height: 50px;
-  width: 150px;
+  width: 20%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -294,7 +296,7 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
 
   position: absolute;
-  right: 230px;
+  right: 28%;
   top: 90px;
 }
 
@@ -318,7 +320,7 @@ body {
   background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
   height: 50px;
-  width: 150px;
+  width: 20%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -327,7 +329,7 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
 
   position: absolute;
-  right: 325px;
+  right: 40%;
   top: 70px;
 }
 
@@ -336,9 +338,10 @@ body {
   color: white;
 }
 
-.experience{
+.experience {
   text-align: left;
   font-weight: bold;
+  margin-top: 10px;
   background-color: rgba(0, 0, 0, 0);
   
   font-family: Arial, Helvetica, sans-serif;
@@ -349,9 +352,14 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 10px; 
-  margin-top: 0px;
+  margin-top: 5px;
   font-weight: lighter;
   
   width: 95%;
+}
+
+.contact {
+  position: absolute;
+  top: 20%;
 }
 
