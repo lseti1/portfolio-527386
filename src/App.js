@@ -31,7 +31,7 @@ function App() {
       case "resume":
         return <p> Link to virtual Resume: 
           <div className ="resumeIcon">
-            <a href="https://drive.google.com/file/d/1AcFz_lckC-cXhYoaOOXXGiPZoSnIyi_-/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://drive.google.com/file/d/1EVnFoxOuXq_0qvpaLY5eHc02KuJm6Rao/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
           </div>
         </p>;
       case "experience":
