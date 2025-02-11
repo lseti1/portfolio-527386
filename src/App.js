@@ -13,8 +13,8 @@ function App() {
   const updateContent = () => {
     switch (currentPage) {
       case "home":
-        return <p>My name is Lucas and I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
-        for Internships and would greatly appreciate any considerations to take me in as a team member. <br/><br/>
+        return <p>I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
+        for Real-World Experience and would greatly appreciate any considerations to take me in as one of your team members. <br/><br/>
         Please feel free to navigate around my digital portfolio to see the projects I've worked on, along with my personal contact information/social networks.
         
         </p>;
@@ -54,11 +54,11 @@ function App() {
             <li>React</li>
           </ul>
         </div>;
-      case "contact":
-        return <p className = "contact">
-          Please feel free to contact me at: <br />
-          luca.setia@gmail.com or 0439 629 899
-        </p>;
+      // case "contact":
+      //   return <p className = "contact">
+      //     Please feel free to contact me at: <br />
+      //     luca.setia@gmail.com or 0439 629 899
+      //   </p>;
       default:
         return <p>No page found!</p>;
     }
@@ -75,8 +75,8 @@ function App() {
         return <h1>My Resume</h1>;
       case "experience":
         return <h1>My Coding Experience</h1>;
-      case "contact":
-        return <h1>Contacting Me</h1>;
+      // case "contact":
+      //   return <h1>Contacting Me</h1>;
       default:
         return <h1>No Page Found!</h1>;
     }
@@ -94,7 +94,7 @@ function App() {
         <div className={currentPage === "projects" ? "active" : "navigationItem"} onClick={() => handlePageChange("projects")}>Projects</div>
         <div className={currentPage === "resume" ? "active" : "navigationItem"} onClick={() => handlePageChange("resume")}>Resume</div>
         <div className={currentPage === "experience" ? "active" : "navigationItem"} onClick={() => handlePageChange("experience")}>Experience</div>
-        <div className={currentPage === "contact" ? "active" : "navigationItem"} onClick={() => handlePageChange("contact")}>Contact</div>
+        {/* <div className={currentPage === "contact" ? "active" : "navigationItem"} onClick={() => handlePageChange("contact")}>Contact</div> */}
       </div> 
       <div className="logo"></div>
       <div className = "portfolioDisclaimer">Note: Portfolio is best viewed in Full Screen.</div>
