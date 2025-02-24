@@ -19,7 +19,7 @@ function App() {
         
         </p>;
       case "projects":
-        return <p>The first project I have prepared is a Yearly Planner, and the second is a Holiday Activity Searcher. Click on the icons below to view them:<br />
+        return <p>The first project I have prepared is a Yearly Planner, and the second is a Holiday Activity Searcher. Click on the icons below to view them:
           <div className ="projectOneIcon">
             <a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer">Project 1</a>
           </div>
@@ -52,6 +52,9 @@ function App() {
             <li>VS Code</li>
             <li>Vercel</li>
             <li>React</li>
+            <li>WordPress</li>
+            <li>Elementor</li>
+            <li>Swift</li>
           </ul>
         </div>;
       // case "contact":
