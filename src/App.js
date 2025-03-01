@@ -14,20 +14,9 @@ function App() {
     switch (currentPage) {
       case "home":
         return <p>I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
-        for Real-World Experience and would greatly appreciate any considerations to take me in as one of your team members. <br/><br/>
-        Please feel free to navigate around my digital portfolio to see the projects I've worked on, along with my personal contact information/social networks.
-        
+        for Real-World Experience in the field of Web & Application Development and would greatly appreciate any considerations to take me in as one of your team members. <br/><br/>
+        Please feel free to navigate around my digital portfolio to see the Web Apps & Web Designs I've worked on, along with my personal contact information/social networks.
         </p>;
-      case "projects":
-        return <p>The first project I have prepared is a Yearly Planner, and the second is a Holiday Activity Searcher. Click on the icons below to view them:
-          <div className ="projectOneIcon">
-            <a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer">Project 1</a>
-          </div>
-          <div className ="projectTwoIcon">
-            <a href="https://holidaysearcher198302.vercel.app/" target="_blank" rel="noopener noreferrer">Project 2</a>
-          </div>
-          <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
-          </p>;
       case "resume":
         return <p> Link to virtual Resume: 
           <div className ="resumeIcon">
@@ -48,20 +37,36 @@ function App() {
             <li>C/C++</li>
             <li>Java</li>
             <li>JavaScript</li>
+            <li>Swift</li>
             <li>GitHub</li>
             <li>VS Code</li>
+            <li>XCode</li>
             <li>Vercel</li>
             <li>React</li>
             <li>WordPress</li>
             <li>Elementor</li>
-            <li>Swift</li>
           </ul>
         </div>;
-      // case "contact":
-      //   return <p className = "contact">
-      //     Please feel free to contact me at: <br />
-      //     luca.setia@gmail.com or 0439 629 899
-      //   </p>;
+      case "Web Apps":
+        return <p>The first app  is a Yearly Planner, and the second is a Holiday Activity Searcher. Click on the icons below to view them:
+          <div className ="projectOneIcon">
+            <a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer">App 1</a>
+          </div>
+          <div className ="projectTwoIcon">
+            <a href="https://holidaysearcher198302.vercel.app/" target="_blank" rel="noopener noreferrer">App 2</a>
+          </div>
+          <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
+          </p>;
+      case "Web Design":
+        return <p>The first design is for a Tourism Website, and the second is one for a Restaurant. Click on the icons below to view them:
+          <div className ="projectOneIcon">
+            <a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer">Design 1</a>
+          </div>
+          <div className ="projectTwoIcon">
+            <a href="https://lucas.websitedesign2.in/" target="_blank" rel="noopener noreferrer">Design 2</a>
+          </div>
+          <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
+          </p>;
       default:
         return <p>No page found!</p>;
     }
@@ -72,14 +77,14 @@ function App() {
     switch (currentPage) {
       case "home":
         return <h1>About Me</h1>;
-      case "projects":
-        return <h1>My Projects </h1>;
       case "resume":
         return <h1>My Resume</h1>;
       case "experience":
         return <h1>My Coding Experience</h1>;
-      // case "contact":
-      //   return <h1>Contacting Me</h1>;
+      case "Web Apps":
+        return <h1>Web Apps</h1>;
+      case "Web Design":
+        return <h1>Web Design</h1>;
       default:
         return <h1>No Page Found!</h1>;
     }
@@ -94,10 +99,10 @@ function App() {
       <div className="mainImage"></div>
       <div className="navigationBar">
         <div className={currentPage === "home" ? "active" : "navigationItem"} onClick={() => handlePageChange("home")}>Home</div>
-        <div className={currentPage === "projects" ? "active" : "navigationItem"} onClick={() => handlePageChange("projects")}>Projects</div>
         <div className={currentPage === "resume" ? "active" : "navigationItem"} onClick={() => handlePageChange("resume")}>Resume</div>
         <div className={currentPage === "experience" ? "active" : "navigationItem"} onClick={() => handlePageChange("experience")}>Experience</div>
-        {/* <div className={currentPage === "contact" ? "active" : "navigationItem"} onClick={() => handlePageChange("contact")}>Contact</div> */}
+        <div className={currentPage === "Web Apps" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Apps")}>Web Apps</div>
+        <div className={currentPage === "Web Design" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Design")}>Web Design</div>
       </div> 
       <div className="logo"></div>
       <div className = "portfolioDisclaimer">Note: Portfolio is best viewed in Full Screen.</div>
