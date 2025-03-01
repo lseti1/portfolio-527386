@@ -101,8 +101,8 @@ function App() {
         <div className={currentPage === "home" ? "active" : "navigationItem"} onClick={() => handlePageChange("home")}>Home</div>
         <div className={currentPage === "resume" ? "active" : "navigationItem"} onClick={() => handlePageChange("resume")}>Resume</div>
         <div className={currentPage === "experience" ? "active" : "navigationItem"} onClick={() => handlePageChange("experience")}>Experience</div>
-        <div className={currentPage === "Web Apps" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Apps")}>Web Apps</div>
-        <div className={currentPage === "Web Design" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Design")}>Web Design</div>
+        <div className={currentPage === "Web Apps" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Apps")}>Web-Apps</div>
+        <div className={currentPage === "Web Design" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Design")}>Web-Design</div>
       </div> 
       <div className="logo"></div>
       <div className = "portfolioDisclaimer">Note: Portfolio is best viewed in Full Screen.</div>

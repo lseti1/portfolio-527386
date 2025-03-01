@@ -36,7 +36,7 @@ body {
   height: 100px;
   width: 40%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 1.4vw;
 
   position: absolute;
   top: 37%;
@@ -53,7 +53,7 @@ body {
   height: 150px;
   width: 40%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 1.1vw;
 
   position: absolute;
   top: 47%;
@@ -95,7 +95,7 @@ body {
   width: 50%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1vw;
 
   position: absolute;
   left: 25%;
@@ -290,7 +290,7 @@ body {
 
 .projectDisclaimer {
   margin-top: 95px;
-  font-size: 12px;
+  font-size: 0.7vw;
   color: rgba(0, 0, 0, 0.445);
   margin-top: 110px;
 }
@@ -350,6 +350,7 @@ body {
 .portfolioDisclaimer {
   color: rgba(0, 0, 0, 0.349);
   width: 25%;
+  font-size: 0.8vw;
 
   position: absolute;
   left: 25%;
