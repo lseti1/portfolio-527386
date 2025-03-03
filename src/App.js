@@ -13,16 +13,16 @@ function App() {
   const updateContent = () => {
     switch (currentPage) {
       case "home":
-        return <p>I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
+        return <div>I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
         for Real-World Experience in the field of Web & Application Development and would greatly appreciate any considerations to take me in as one of your team members. <br/><br/>
         Please feel free to navigate around my digital portfolio to see the Web Apps & Web Designs I've worked on, along with my personal contact information/social networks.
-        </p>;
+        </div>;
       case "resume":
-        return <p> Link to digital Resume: 
-          <div className ="resumeIcon">
+        return <div> Link to digital Resume (also includes Academic Transcript): 
+          <button className ="buttonLink">
             <a href="https://drive.google.com/file/d/1EVnFoxOuXq_0qvpaLY5eHc02KuJm6Rao/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
-          </div>
-        </p>;
+          </button>
+        </div>;
       case "experience":
         return <div className = "experience">
           University Projects Include: 
@@ -48,25 +48,29 @@ function App() {
           </ul>
         </div>;
       case "Web Apps":
-        return <p>The first app  is a Yearly Planner, and the second is a Holiday Activity Searcher (Both made with React). Click on the icons below to view them:
-          <div className ="projectOneIcon">
-            <a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer">App 1</a>
-          </div>
-          <div className ="projectTwoIcon">
-            <a href="https://holidaysearcher198302.vercel.app/" target="_blank" rel="noopener noreferrer">App 2</a>
-          </div>
-          <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
-          </p>;
+        return <div>The first app  is a Yearly Planner, and the second is a Holiday Activity Searcher (Both made using React).
+            <div className ="buttonContainers"> 
+              <button className ="buttonLink">
+                <a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer">App 1</a>
+              </button>
+              <button className ="buttonLink">
+                <a href="https://holidaysearcher198302.vercel.app/" target="_blank" rel="noopener noreferrer">App 2</a>
+              </button>
+            </div>
+            <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
+          </div>;
       case "Web Design":
-        return <p>The first design is for a Tourism Website, and the second is one for a Restaurant (Both made with Elementor/WordPress). Click on the icons below to view them:
-          <div className ="projectOneIcon">
-            <a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer">Design 1</a>
-          </div>
-          <div className ="projectTwoIcon">
-            <a href="https://lucas.websitedesign2.in/" target="_blank" rel="noopener noreferrer">Design 2</a>
+        return <div>The first design is for a Tourism Website, and the second is one for a Restaurant (Both made using Elementor/WordPress)
+          <div className ="buttonContainers"> 
+            <button className ="buttonLink">
+              <a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer">Design 1</a>
+            </button>
+            <button className ="buttonLink">
+              <a href="https://lucas.websitedesign2.in/" target="_blank" rel="noopener noreferrer">Design 2</a>
+            </button>
           </div>
           <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
-          </p>;
+          </div>;
       default:
         return <p>No page found!</p>;
     }

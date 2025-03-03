@@ -50,10 +50,12 @@ body {
   align-items: top;   
   border-radius: 30px;
   color:  rgb(0, 0, 0);
-  height: 150px;
+  height: 25%;
   width: 40%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.15vw;
+  margin-top: 20px;
+  padding-bottom: 0px;
 
   position: absolute;
   top: 47%;
@@ -78,7 +80,7 @@ body {
   background-size: 100% 100%;
 
   position: absolute;
-  top: 35%;
+  top: 38%;
   right: 12%;
   transform: translate(0%, 0%);
 }
@@ -232,9 +234,12 @@ body {
   top: 12%;
 }
 
-.projectOneIcon {
-  display: grid;
-  place-items: center;
+.buttonsContainers {
+  display: flex;
+  gap: 30px;
+}
+
+.buttonLink {
   border-radius: 50px;
   border: 2px solid rgb(196, 196, 196);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
@@ -245,42 +250,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
-  margin-top: 10px;
+  margin: 10px 20px;
 
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
-
-  position: absolute;
-  right: 52%;
-  top: 90px;
 }
 
 .projectOneIcon:hover {
   background-color: rgba(84, 54, 253, 0.527);
   color: white;
-}
-
-.projectTwoIcon {
-  display: grid;
-  place-items: center;
-  border-radius: 50px;
-  border: 2px solid rgb(196, 196, 196);
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-  background-color: rgb(255, 255, 255);
-  color:  rgb(0, 0, 0);
-  height: 50px;
-  width: 20%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  margin-top: 10px;
-  
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-
-  position: absolute;
-  right: 28%;
-  top: 90px;
 }
 
 .projectTwoIcon:hover {
@@ -289,10 +267,8 @@ body {
 }
 
 .projectDisclaimer {
-  margin-top: 95px;
   font-size: 0.7vw;
   color: rgba(0, 0, 0, 0.445);
-  margin-top: 110px;
 }
 
 .resumeIcon {
@@ -353,7 +329,7 @@ body {
   font-size: 0.8vw;
 
   position: absolute;
-  left: 25%;
+  left: 23%;
   bottom: 2%;
 }
 
