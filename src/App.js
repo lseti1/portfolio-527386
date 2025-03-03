@@ -18,7 +18,7 @@ function App() {
         Please feel free to navigate around my digital portfolio to see the Web Apps & Web Designs I've worked on, along with my personal contact information/social networks.
         </p>;
       case "resume":
-        return <p> Link to virtual Resume: 
+        return <p> Link to digital Resume: 
           <div className ="resumeIcon">
             <a href="https://drive.google.com/file/d/1EVnFoxOuXq_0qvpaLY5eHc02KuJm6Rao/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
           </div>
@@ -48,7 +48,7 @@ function App() {
           </ul>
         </div>;
       case "Web Apps":
-        return <p>The first app  is a Yearly Planner, and the second is a Holiday Activity Searcher. Click on the icons below to view them:
+        return <p>The first app  is a Yearly Planner, and the second is a Holiday Activity Searcher (Both made with React). Click on the icons below to view them:
           <div className ="projectOneIcon">
             <a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer">App 1</a>
           </div>
@@ -58,7 +58,7 @@ function App() {
           <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
           </p>;
       case "Web Design":
-        return <p>The first design is for a Tourism Website, and the second is one for a Restaurant. Click on the icons below to view them:
+        return <p>The first design is for a Tourism Website, and the second is one for a Restaurant (Both made with Elementor/WordPress). Click on the icons below to view them:
           <div className ="projectOneIcon">
             <a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer">Design 1</a>
           </div>
