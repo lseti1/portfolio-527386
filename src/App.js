@@ -48,16 +48,20 @@ function App() {
           </ul>
         </div>;
       case "Web Apps":
-        return <div>The first app  is a Yearly Planner, and the second is a Holiday Activity Searcher (Both made using React).
+        return <div>The first app is a Yearly Planner, and the second is a Holiday Activity Searcher (Both made using React). The third is a video of an early build of a Mobile 
+          Gaming App (Made using XCode/Swift)
             <div className ="buttonContainers"> 
               <button className ="buttonLink">
-                <a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer">App 1</a>
+                <a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer">Web App 1</a>
               </button>
               <button className ="buttonLink">
-                <a href="https://holidaysearcher198302.vercel.app/" target="_blank" rel="noopener noreferrer">App 2</a>
+                <a href="https://holidaysearcher198302.vercel.app/" target="_blank" rel="noopener noreferrer">Web App 2</a>
+              </button>
+              <button className ="buttonLink">
+                <a href="https://drive.google.com/file/d/1T2SmYEaAI4DeYY82r85d8H4FaafUAUr6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Mobile App</a>
               </button>
             </div>
-            <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
+            <p className = "projectDisclaimer">Please Note: Not All Features May Work</p>
           </div>;
       case "Web Design":
         return <div>The first design is for a Tourism Website, and the second is one for a Restaurant (Both made using Elementor/WordPress)
@@ -86,7 +90,7 @@ function App() {
       case "experience":
         return <h1>My Coding Experience</h1>;
       case "Web Apps":
-        return <h1>Web Apps</h1>;
+        return <h1>Apps</h1>;
       case "Web Design":
         return <h1>Web Design</h1>;
       default:
