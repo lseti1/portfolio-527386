@@ -29,7 +29,7 @@ function App() {
                 <p className="imageTextOverlay">Resume</p>
               </button>
             </a>
-            <p>Digital link to my resume <br/  >(Note: Has been recently updated on the 12th, March)</p>
+            <p>Digital link to my resume <br/  >(Note: Updated on the 12/03)</p>
           </div>
 
           <div className ="individualAppContainers">
@@ -40,7 +40,8 @@ function App() {
             </a>
             <p>A link to my academic transcript (Note: Unofficial)</p>
           </div>
-          </div>
+
+        </div>
         </div>;
       case "experience":
         return <div className = "experience">
@@ -79,7 +80,7 @@ function App() {
                   <p className="imageTextOverlay">Life Planner</p>
                 </button>
               </a>
-              <p>Planner is an Interactive One-Page Planning Website To Store Plans & See Upcoming Plans</p>
+              <p>Planner is an Interactive One-Page Planning Website To Store Plans & See Upcoming Plans (Built in React)</p>
             </div>
 
             <div className="individualAppContainers">
@@ -88,7 +89,7 @@ function App() {
                       <p className="imageTextOverlay">Plan Finder</p>
                   </button>
               </a>
-              <p>Planner is a website that utilises Wikipedia's Free API to quickly show information about things to do while on holidays </p>
+              <p>Planner is a website that utilises Wikipedia's Free API to quickly show information about things to do while on holidays (Built in React) </p>
             </div>
 
             <div className="individualAppContainers">
@@ -97,7 +98,7 @@ function App() {
                   <p className="imageTextOverlay">Brain Boost</p>
                 </button>
               </a>
-              <p>Brain Boost is a simple App that uses various games to keep the brain active & improve overall function</p>
+              <p>Brain Boost is a simple App that uses various games to keep the brain active & improve overall function (Built in XCode with Swift)</p>
             </div>
           </div>
           <p className = "projectDisclaimer">Please Note: Not All Features May Work</p>
@@ -109,19 +110,19 @@ function App() {
           <div className ="individualAppContainers">
             <a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer">
               <button className ="individualAppLinkImage tourism">
-                <p className="imageTextOverlay">Tourism Website</p>
+                <p className="imageTextOverlay">Web-Design</p>
               </button>
             </a>
-            <p>Planner is a website that utilises Wikipedia's Free API to quickly show information about things to do while on holidays </p>
+            <p>This is a website design of a Tourism Site for the city of London (Designed in WordPress with Elementor)</p>
           </div>
 
           <div className ="individualAppContainers">
             <a href="https://lucas.websitedesign2.in/" target="_blank" rel="noopener noreferrer">
               <button className ="individualAppLinkImage restaurant">
-                <p className="imageTextOverlay">Restaurant Website</p>
+                <p className="imageTextOverlay">Web-Design</p>
               </button>
             </a>
-            <p>Planner is a website that utilises Wikipedia's Free API to quickly show information about things to do while on holidays </p>
+            <p>This website style is for a Japanese Restaurant (Designed in WordPress with Elementor)</p>
           </div>
         </div>
         <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
