@@ -90,7 +90,7 @@ function App() {
                       <p className="imageTextOverlay">Plan Finder</p>
                   </button>
               </a>
-              <p>Planner is a website that utilises Wikipedia's Free API to quickly show information about things to do while on holidays (Built in React) </p>
+              <p>Plan Finder is a website that utilises Wikipedia's Free API to quickly show information about things to do while on holidays (Built in React) </p>
             </div>
 
             <div className="individualAppContainers">
@@ -153,11 +153,10 @@ function App() {
 
   return (
     <div className="App">
-      <div className="geometricBackground"></div>
       <div className="title">{updateTitle()}</div>
       <div className="mainContent">{updateContent()}
       </div>
-      <div className="mainImage"></div>
+      {/* <div className="mainImage"></div> */}
       <div className="navigationBar">
         <div className={currentPage === "home" ? "active" : "navigationItem"} onClick={() => handlePageChange("home")}>Home</div>
         <div className={currentPage === "resume" ? "active" : "navigationItem"} onClick={() => handlePageChange("resume")}>Resume</div>
