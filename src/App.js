@@ -13,15 +13,34 @@ function App() {
   const updateContent = () => {
     switch (currentPage) {
       case "home":
-        return <div>I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
-        for Real-World Experience in the field of Web & Application Development and would greatly appreciate any considerations to take me in as one of your team members. <br/><br/>
+        return <div className="updateContentDiv">
+          <p> I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
+        for Real-World Experience in the field of Web & Application Development and would greatly appreciate any considerations to take me in as one of your team members.<br  /><br/>
         Please feel free to navigate around my digital portfolio to see the Web Apps & Web Designs I've worked on, along with my personal contact information/social networks.
+          </p>
         </div>;
       case "resume":
-        return <div> Link to digital Resume (also includes Academic Transcript): 
-          <button className ="buttonLink">
-            <a href="https://drive.google.com/file/d/1EVnFoxOuXq_0qvpaLY5eHc02KuJm6Rao/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
-          </button>
+        return <div className="updateContentDiv">
+        <div className="imageCarousel">
+          
+          <div className ="individualAppContainers">
+            <a href="https://drive.google.com/file/d/1EVnFoxOuXq_0qvpaLY5eHc02KuJm6Rao/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <button className ="individualAppLinkImage resume">
+                <p className="imageTextOverlay">Resume</p>
+              </button>
+            </a>
+            <p>Digital link to my resume <br/  >(Note: Has been recently updated on the 12th, March)</p>
+          </div>
+
+          <div className ="individualAppContainers">
+            <a href="https://drive.google.com/file/d/1csel03zxJA76Y9ueQyO46-9wynmcfIGV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <button className ="individualAppLinkImage transcript">
+                <p className="imageTextOverlay">Academic Transcript</p>
+              </button>
+            </a>
+            <p>A link to my academic transcript (Note: Unofficial)</p>
+          </div>
+          </div>
         </div>;
       case "experience":
         return <div className = "experience">
@@ -38,6 +57,7 @@ function App() {
             <li>Java</li>
             <li>JavaScript</li>
             <li>Swift</li>
+            <li>PHP</li>
             <li>GitHub</li>
             <li>VS Code</li>
             <li>XCode</li>
@@ -45,36 +65,67 @@ function App() {
             <li>React</li>
             <li>WordPress</li>
             <li>Elementor</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
           </ul>
         </div>;
       case "Web Apps":
-        return <div>The first app is a Yearly Planner, and the second is a Holiday Activity Searcher (Both made using React). The third is a video of an early build of a Mobile 
-          Gaming App (Made using XCode/Swift)
-            <div className ="buttonContainers"> 
-              <button className ="buttonLink">
-                <a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer">Web App 1</a>
-              </button>
-              <button className ="buttonLink">
-                <a href="https://holidaysearcher198302.vercel.app/" target="_blank" rel="noopener noreferrer">Web App 2</a>
-              </button>
-              <button className ="buttonLink">
-                <a href="https://drive.google.com/file/d/1T2SmYEaAI4DeYY82r85d8H4FaafUAUr6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Mobile App</a>
-              </button>
+        return <div className="updateContentDiv">
+          <div className="imageCarousel">
+
+            <div className="individualAppContainers">
+              <a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <button className ="individualAppLinkImage lifePlanner">
+                  <p className="imageTextOverlay">Life Planner</p>
+                </button>
+              </a>
+              <p>Planner is an Interactive One-Page Planning Website To Store Plans & See Upcoming Plans</p>
             </div>
-            <p className = "projectDisclaimer">Please Note: Not All Features May Work</p>
+
+            <div className="individualAppContainers">
+              <a href="https://holidaysearcher198302.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <button className ="individualAppLinkImage planFinder">
+                      <p className="imageTextOverlay">Plan Finder</p>
+                  </button>
+              </a>
+              <p>Planner is a website that utilises Wikipedia's Free API to quickly show information about things to do while on holidays </p>
+            </div>
+
+            <div className="individualAppContainers">
+              <a href="https://drive.google.com/file/d/1T2SmYEaAI4DeYY82r85d8H4FaafUAUr6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <button className ="individualAppLinkImage brainBoost">
+                  <p className="imageTextOverlay">Brain Boost</p>
+                </button>
+              </a>
+              <p>Brain Boost is a simple App that uses various games to keep the brain active & improve overall function</p>
+            </div>
+          </div>
+          <p className = "projectDisclaimer">Please Note: Not All Features May Work</p>
           </div>;
       case "Web Design":
-        return <div>The first design is for a Tourism Website, and the second is one for a Restaurant (Both made using Elementor/WordPress)
-          <div className ="buttonContainers"> 
-            <button className ="buttonLink">
-              <a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer">Design 1</a>
-            </button>
-            <button className ="buttonLink">
-              <a href="https://lucas.websitedesign2.in/" target="_blank" rel="noopener noreferrer">Design 2</a>
-            </button>
+        return <div  className="updateContentDiv">
+        <div className="imageCarousel">
+
+          <div className ="individualAppContainers">
+            <a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer">
+              <button className ="individualAppLinkImage tourism">
+                <p className="imageTextOverlay">Tourism Website</p>
+              </button>
+            </a>
+            <p>Planner is a website that utilises Wikipedia's Free API to quickly show information about things to do while on holidays </p>
           </div>
-          <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
-          </div>;
+
+          <div className ="individualAppContainers">
+            <a href="https://lucas.websitedesign2.in/" target="_blank" rel="noopener noreferrer">
+              <button className ="individualAppLinkImage restaurant">
+                <p className="imageTextOverlay">Restaurant Website</p>
+              </button>
+            </a>
+            <p>Planner is a website that utilises Wikipedia's Free API to quickly show information about things to do while on holidays </p>
+          </div>
+        </div>
+        <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
+        </div>;
       default:
         return <p>No page found!</p>;
     }
@@ -92,7 +143,7 @@ function App() {
       case "Web Apps":
         return <h1>Web & Mobile Apps</h1>;
       case "Web Design":
-        return <h1>Web Design</h1>;
+        return <h1>Web Designs</h1>;
       default:
         return <h1>No Page Found!</h1>;
     }
@@ -110,7 +161,7 @@ function App() {
         <div className={currentPage === "resume" ? "active" : "navigationItem"} onClick={() => handlePageChange("resume")}>Resume</div>
         <div className={currentPage === "experience" ? "active" : "navigationItem"} onClick={() => handlePageChange("experience")}>Experience</div>
         <div className={currentPage === "Web Apps" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Apps")}>Apps</div>
-        <div className={currentPage === "Web Design" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Design")}>Web-Design</div>
+        <div className={currentPage === "Web Design" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Design")}>Designs</div>
       </div> 
       <div className="logo"></div>
       <div className = "portfolioDisclaimer">Note: Portfolio is best viewed in Full Screen.</div>
