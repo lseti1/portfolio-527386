@@ -33,7 +33,7 @@ function App() {
                 <p className="imageTextOverlay">Resume</p>
               </button>
             </a>
-            <p>Digital link to my resume <br/  >(Note: Updated on the 12/03)</p>
+            <p>(Updated on the 12/03)</p>
           </div>
 
           <div className ="individualAppContainers">
@@ -42,7 +42,7 @@ function App() {
                 <p className="imageTextOverlay">Academic Transcript</p>
               </button>
             </a>
-            <p>A link to my academic transcript (Note: Unofficial)</p>
+            <p>(Unofficial)</p>
           </div>
 
         </div>
@@ -74,7 +74,7 @@ function App() {
                   <p className="imageTextOverlay">Life Planner</p>
                 </button>
               </a>
-              <p>Planner is an Interactive One-Page Planning Website To Store Plans & See Upcoming Plans (Built in React)</p>
+              <p>Life Planner is an Interactive One-Page Planning Website To Store Plans & See Upcoming Plans (Built in React)</p>
             </div>
 
             <div className="individualAppContainers">

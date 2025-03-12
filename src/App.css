@@ -62,9 +62,10 @@ body {
 .navigationBar {
   display: grid;
   place-items: center;
-  grid-template-columns: repeat(5, 20%);
+  grid-template-columns: repeat(5, auto);
   color:  rgb(255, 255, 255);
-  height: 80px;
+  /* background-color: white; */
+  height: 9%;
   width: 50%;
   font-weight: bolder;
   font-size: 1.5vw;
@@ -76,7 +77,7 @@ body {
 
 .navigationItem {
   cursor: pointer;
-  padding: 8px 5px;
+  padding: 8px 20px;
   position: relative;
   top: 4%;
   border-bottom: 5px solid rgba(255, 123, 0, 0.301);
@@ -105,17 +106,18 @@ body {
 }
 
 .logo {
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 15px;
   border: 2px solid white;
   box-shadow: 0px 0px 5px rgb(0, 0, 97);
   background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
-  height: 7vh;
-  width: 3.5vw;
+  height: 7%;
+  width: 3.5%;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
 
   background-image: url('/public/logo.png');
   background-position: center;
@@ -124,7 +126,7 @@ body {
 
   position: absolute;
   left: 21%;
-  top: 10.5%;
+  top: 11.5%;
 }
 
 .quickLinks {
@@ -146,7 +148,7 @@ body {
   border-radius: 50px;
   /* box-shadow: 0px 0px 5px rgb(255, 255, 255); */
   height: 4.2vh;
-  width: 1.96vw;
+  width: 2.1vw;
 
   background-image: url('/public/LinkedIn\ Logo.jpg');
   background-position: center;
@@ -163,7 +165,7 @@ body {
   /* box-shadow: 0px 0px 5px rgb(255, 255, 255); */
   background-color: rgb(255, 255, 255);
   height: 4.2vh;
-  width: 1.96vw;
+  width: 2.1vw;
 
   background-image: url('/public/GitHub\ Logo.png');
   background-position: center;
@@ -239,7 +241,8 @@ a:hover {
   /* transition-duration: 0.3s; */
 }
 
-.individualAppLinkImage {
+.individualAppLinkImage { 
+  /* Photopea: 30% Fill Layer on Top of Image for button backgrounds */
   display: relative;
 
   border: 3px solid white;
@@ -268,7 +271,11 @@ a:hover {
 }
 
 .lifePlanner {
-  background-image: url("/public/lifePlanner.png");
+  background-image: url("/public/lifePlanner.png"), linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60%;
 }
 
 .planFinder {
@@ -298,7 +305,7 @@ a:hover {
 
 .imageTextOverlay {
   color: white;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   text-shadow: 0px 0px 15px black;
 }
 
