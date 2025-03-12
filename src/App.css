@@ -8,7 +8,7 @@
 
 p {
   padding: 0px;
-  margin: 2%;
+  margin: 5%;
 }
 
 body { 
@@ -85,14 +85,11 @@ body {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(5, 20%);
-  border-radius: 30px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 97, 0.664);
-  background-color: rgb(255, 240, 240);
-  color:  rgb(0, 0, 0);
+  color:  rgb(255, 255, 255);
   height: 80px;
   width: 50%;
-  font-weight: bold;
-  font-size: 1.2vw;
+  font-weight: bolder;
+  font-size: 1.5vw;
 
   position: absolute;
   left: 25%;
@@ -106,7 +103,7 @@ body {
 }
 
 .navigationItem:hover {
-  border-bottom: 5px solid rgba(0, 0, 97, 0.664);
+  border-bottom: 5px solid rgb(255, 123, 0);
   position: relative;
   top: 4%;
   border-radius: 5px;
@@ -117,8 +114,8 @@ body {
   padding: 8px 15px;
   border-radius: 5px;
 
-  color: black;
-  border-bottom: 5px solid rgba(0, 0, 97, 0.664);
+  color: white;
+  border-bottom: 5px solid rgb(255, 123, 0);
   position: relative;
   top: 4%;
 }
@@ -198,6 +195,10 @@ a:hover {
   transform: scale(1.1);
 }
 
+.aboutMe {
+  margin-top: 2%;
+}
+
 .updateContentDiv {
   display: flex;
   flex-direction: column;
@@ -231,8 +232,8 @@ a:hover {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-size: 1vw;
-  font-weight: 100;
+  font-size: 1.1vw;
+  font-weight: thin;
   /* transition-duration: 0.3s; */
 }
 
@@ -241,7 +242,7 @@ a:hover {
 
   border: 2px solid rgb(255, 255, 255);
   /* background-color: rgb(255, 255, 255); */
-  box-shadow: 0px 0px 10px white;
+  box-shadow: 0px 0px 15px rgb(255, 123, 0);
   
   color:  rgb(0, 0, 0);
   height: 60%;

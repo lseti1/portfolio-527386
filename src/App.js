@@ -15,7 +15,7 @@ function App() {
     switch (currentPage) {
       case "home":
         return <div className="updateContentDiv">
-          <p> I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
+          <p class="aboutMe"> I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
         for Real-World Experience in the field of Web & Application Development and would greatly appreciate any considerations to take me in as one of your team members.<br  /><br/>
         Please feel free to navigate around my digital portfolio to see the Web Apps & Web Designs I've worked on, along with my personal contact information/social networks.
           </p>
