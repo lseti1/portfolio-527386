@@ -25,38 +25,28 @@ body {
   margin: 0px;
 }
 
-.title {
-  display: grid;
-  justify-content: center; 
-  align-items: center;      
-  border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0);
-  color:  white;
-  height: 100px;
-  width: 40%;
-  font-size: 1.4vw;
-
-  position: absolute;
-  top: 30%;
-  left: 30%;
-}
-
-.mainContent {
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
+  border: 2px solid white;
+  box-shadow: 0px 0px 5px rgb(0, 0, 97);
+  background-color: rgb(255, 255, 255);
+  color:  rgb(0, 0, 0);
+  height: 7%;
+  width: 3.5%;
+  font-weight: bold;
+  font-size: 15px;
 
-  border-radius: 30px;
-  color: white;
-  /* background-color: lightgrey; */
-  height: 50%;
-  width: 50%;
-  
-  font-size: 1.15vw;
-  
+  background-image: url('/public/logo.png');
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: 100% 100%;
+
   position: absolute;
-  top: 40%;
-  left: 25%;
+  left: 21%;
+  top: 11.5%;
 }
 
 .navigationBar {
@@ -105,28 +95,38 @@ body {
   top: 4%;
 }
 
-.logo {
+.title {
+  display: grid;
+  justify-content: center; 
+  align-items: center;      
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  color:  white;
+  height: 100px;
+  width: 40%;
+  font-size: 1.4vw;
+
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.mainContent {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 15px;
-  border: 2px solid white;
-  box-shadow: 0px 0px 5px rgb(0, 0, 97);
-  background-color: rgb(255, 255, 255);
-  color:  rgb(0, 0, 0);
-  height: 7%;
-  width: 3.5%;
-  font-weight: bold;
-  font-size: 15px;
 
-  background-image: url('/public/logo.png');
-  background-position: center;
-  background-repeat: no repeat;
-  background-size: 100% 100%;
-
+  border-radius: 30px;
+  color: white;
+  /* background-color: lightgrey; */
+  height: 50%;
+  width: 50%;
+  
+  font-size: 1.15vw;
+  
   position: absolute;
-  left: 21%;
-  top: 11.5%;
+  top: 40%;
+  left: 25%;
 }
 
 .quickLinks {

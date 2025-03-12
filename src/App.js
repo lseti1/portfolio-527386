@@ -1,9 +1,9 @@
 import React, { useState } from "react";
+import { Mail } from "lucide-react";
 import './App.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home");
-  const [isVisible, setIsVisible] = useState(true);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
@@ -18,7 +18,7 @@ function App() {
         <p class="aboutMe"> Hi, I'm Lucas, a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
         for Real-World Experience in the field of Web & Application Development and would greatly appreciate any considerations to take me in as one of your team members.</p>
         <div class="potraitContainer">
-          <img class="potrait" src="PotraitMySelf.jpg"/>
+          <img class="potrait" src="PotraitMySelf.jpg" alt="myself"/>
         </div>
         <p class="aboutMe">Please feel free to navigate around my digital portfolio to see the Web Apps & Web Designs I've worked on, along with my personal contact information/social networks.
           </p>
@@ -159,7 +159,7 @@ function App() {
       <div className="title">{updateTitle()}</div>
       <div className="mainContent">{updateContent()}
       </div>
-      {/* <div className="mainImage"></div> */}
+      <div className="logo"></div>
       <div className="navigationBar">
         <div className={currentPage === "home" ? "active" : "navigationItem"} onClick={() => handlePageChange("home")}>Home</div>
         <div className={currentPage === "resume" ? "active" : "navigationItem"} onClick={() => handlePageChange("resume")}>Resume</div>
@@ -167,7 +167,6 @@ function App() {
         <div className={currentPage === "Web Apps" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Apps")}>Apps</div>
         <div className={currentPage === "Web Design" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Design")}>Designs</div>
       </div> 
-      <div className="logo"></div>
       <div className = "portfolioDisclaimer">Note: Portfolio is best viewed in Full Screen.</div>
       <div className="quickLinks">
         <a class="linkedIn" href="https://www.linkedin.com/in/lucassetiady" target="_blank" rel="noopener noreferrer"></a>
@@ -179,6 +178,3 @@ function App() {
 }
 
 export default App;
-
-{/* <div className="linkedIn"></div>
-<div className="GitHub"></div> */}
