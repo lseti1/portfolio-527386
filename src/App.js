@@ -110,7 +110,7 @@ function App() {
           <div className ="individualAppContainers">
             <a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer">
               <button className ="individualAppLinkImage tourism">
-                <p className="imageTextOverlay">Web-Design</p>
+                <p className="imageTextOverlay">Web Design</p>
               </button>
             </a>
             <p>This is a website design of a Tourism Site for the city of London (Designed in WordPress with Elementor)</p>
@@ -119,7 +119,7 @@ function App() {
           <div className ="individualAppContainers">
             <a href="https://lucas.websitedesign2.in/" target="_blank" rel="noopener noreferrer">
               <button className ="individualAppLinkImage restaurant">
-                <p className="imageTextOverlay">Web-Design</p>
+                <p className="imageTextOverlay">Web Design</p>
               </button>
             </a>
             <p>This website style is for a Japanese Restaurant (Designed in WordPress with Elementor)</p>
