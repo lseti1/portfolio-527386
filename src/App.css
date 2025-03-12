@@ -295,6 +295,10 @@ a:hover {
   background-image: url("/public/restaurantWebsite.png");
 }
 
+.portfolioDesign {
+  background-image: url("/public/portfolioDesignImage.png");
+}
+
 .resume {
   background-image: url("/public/resumeImage.png");
 }

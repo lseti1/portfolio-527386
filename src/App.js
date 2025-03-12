@@ -15,7 +15,7 @@ function App() {
     switch (currentPage) {
       case "home":
         return <div className="updateContentDiv">
-        <p class="aboutMe"> Hi, I'm Lucas. I'm a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
+        <p class="aboutMe"> Hi, I'm Lucas, a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
         for Real-World Experience in the field of Web & Application Development and would greatly appreciate any considerations to take me in as one of your team members.</p>
         <div class="potraitContainer">
           <img class="potrait" src="PotraitMySelf.jpg"/>
@@ -104,7 +104,7 @@ function App() {
           <div className ="individualAppContainers">
             <a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer">
               <button className ="individualAppLinkImage tourism">
-                <p className="imageTextOverlay">Web Design</p>
+                <p className="imageTextOverlay">Tourism Site</p>
               </button>
             </a>
             <p>This is a website design of a Tourism Site for the city of London (Designed in WordPress with Elementor)</p>
@@ -113,11 +113,21 @@ function App() {
           <div className ="individualAppContainers">
             <a href="https://lucas.websitedesign2.in/" target="_blank" rel="noopener noreferrer">
               <button className ="individualAppLinkImage restaurant">
-                <p className="imageTextOverlay">Web Design</p>
+                <p className="imageTextOverlay">Restaurant</p>
               </button>
             </a>
             <p>This website style is for a Japanese Restaurant (Designed in WordPress with Elementor)</p>
           </div>
+
+          <div className ="individualAppContainers">
+            <a href="https://portfolio-design-478053.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <button className ="individualAppLinkImage portfolioDesign">
+                <p className="imageTextOverlay">Portfolio</p>
+              </button>
+            </a>
+            <p>This is a website design for a Photography Portfolio (Designed with HTML5/CSS3)</p>
+          </div>
+
         </div>
         <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
         </div>;
