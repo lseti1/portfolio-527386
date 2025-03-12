@@ -45,7 +45,8 @@ function App() {
         </div>
         </div>;
       case "experience":
-        return <div className = "experience">
+        return <div className="updateContentDiv">
+        <div className = "experience">
           University Projects Include: 
           <ul>
             <li>AI Development</li>
@@ -70,6 +71,7 @@ function App() {
             <li>HTML5</li>
             <li>CSS3</li>
           </ul>
+        </div>
         </div>;
       case "Web Apps":
         return <div className="updateContentDiv">
