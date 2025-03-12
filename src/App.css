@@ -59,28 +59,6 @@ body {
   left: 25%;
 }
 
-.mainImage {
-  display: flex;
-
-  place-items: center;
-  border-radius: 30px;
-  color:  rgb(0, 0, 0);
-  /* background-color: grey; */
-  width: 25%;
-  height: 40%;
-  font-weight: bold;
-  font-size: 20px;
-
-  background-image: url('/public/coder.png');
-  background-position: center;
-  background-repeat: no repeat;
-  background-size: 100% 100%;
-
-  position: absolute;
-  top: 38%;
-  right: 12%;
-}
-
 .navigationBar {
   display: grid;
   place-items: center;
@@ -139,20 +117,30 @@ body {
   background-size: 100% 100%;
 
   position: absolute;
-  left: 17%;
-  top: 11%;
+  left: 21%;
+  top: 10.5%;
 }
 
-.linkedIn a {
+.quickLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  width: 50%;
+  height: 5%;
+  background-color: rgba(255, 255, 255, 0);
+
+  position: absolute;
+  left: 25%;
+  bottom: 7%;
+}
+
+.linkedIn {
   display: flex;
   border-radius: 50px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-  background-color: rgb(255, 255, 255);
-  color:  rgb(0, 0, 0);
-  height: 5.5vh;
-  width: 2.6vw;
-  font-weight: bold;
-  font-size: 20px;
+  /* box-shadow: 0px 0px 5px rgb(255, 255, 255); */
+  height: 4.2vh;
+  width: 1.96vw;
 
   background-image: url('/public/LinkedIn\ Logo.jpg');
   background-position: center;
@@ -160,23 +148,16 @@ body {
   background-size: 100% 100%;
   cursor: pointer;
 
-  position: absolute;
-  right: 15%;
-  top: 12%;
-
   transition-duration: 0.5s;
-}
+} 
 
-.GitHub a {
+.GitHub {
   display: flex;
   border-radius: 50px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0px 0px 5px rgb(255, 255, 255); */
   background-color: rgb(255, 255, 255);
-  color:  rgb(0, 0, 0);
-  height: 5.5vh;
-  width: 2.6vw;
-  font-weight: bold;
-  font-size: 20px;
+  height: 4.2vh;
+  width: 1.96vw;
 
   background-image: url('/public/GitHub\ Logo.png');
   background-position: center;
@@ -184,12 +165,8 @@ body {
   background-size: 100% 100%;
   cursor: pointer;
 
-  position: absolute;
-  right: 20%;
-  top: 12%;
-
   transition-duration: 0.5s;
-}
+} 
 
 a:hover {
   transform: scale(1.1);
@@ -197,6 +174,25 @@ a:hover {
 
 .aboutMe {
   margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.potraitContainer {
+  width: 18%;
+  height: 36%;
+  background-color: white;
+  border: 2px solid white;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.potrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: 100px;
+  transform: scale(1.2);
 }
 
 .updateContentDiv {
