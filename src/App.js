@@ -33,7 +33,7 @@ function App() {
                 <p className="imageTextOverlay">Resume</p>
               </button>
             </a>
-            <p>(Updated on the 12/03)</p>
+            <p>(Last updated on the 12th March)</p>
           </div>
 
           <div className ="individualAppContainers">
