@@ -176,6 +176,21 @@ body {
   transition-duration: 0.5s;
 } 
 
+.mailIcon {
+  display: flex;
+  background-color: white;
+  border-radius: 50px;
+  height: 4.2vh;
+  width: 2.1vw;
+
+  background-image: url('/public/mailIcon.png');
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: 100% 100%;
+  transition-duration: 0.5s;
+}
+
+
 a:hover {
   transform: scale(1.1);
 }

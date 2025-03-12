@@ -167,10 +167,14 @@ function App() {
         <div className={currentPage === "Web Apps" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Apps")}>Apps</div>
         <div className={currentPage === "Web Design" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Design")}>Designs</div>
       </div> 
+      <div class="mailIconContainer">
+        
+      </div>
       <div className = "portfolioDisclaimer">Note: Portfolio is best viewed in Full Screen.</div>
       <div className="quickLinks">
         <a class="linkedIn" href="https://www.linkedin.com/in/lucassetiady" target="_blank" rel="noopener noreferrer"></a>
         <a class="GitHub" href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer"></a>
+        <a class="mailIcon" href="mailto:luca.setia@gmail.com"></a>
       </div>
 
     </div>
