@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home");
+  const [isVisible, setIsVisible] = useState(true);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
