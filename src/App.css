@@ -87,7 +87,7 @@ body {
   grid-template-columns: repeat(5, 20%);
   border-radius: 30px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 240, 240);
   color:  rgb(0, 0, 0);
   height: 80px;
   width: 50%;
@@ -101,23 +101,28 @@ body {
 
 .navigationItem {
   cursor: pointer;
-  padding: 20px;
-  border-radius: 30px;
+  padding: 8px 15px;
+  /* border-radius: 30px; */
 
-  transition: background-color 0.3s ease,  color 0.2s ease;
+  /* transition-duration: 0.2s; */
 }
 
 .navigationItem:hover {
-  background-color:  rgba(0, 0, 97, 0.664);
-  color: white;
+  border-bottom: 5px solid rgba(0, 0, 97, 0.664);
+  position: relative;
+  top: 4%;
+  border-radius: 5px;
 }
 
 .active {
   cursor: pointer;
-  padding: 20px;
-  border-radius: 30px;
-  background-color: rgba(0, 0, 97, 0.664);
-  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  
+  color: black;
+  border-bottom: 5px solid rgba(0, 0, 97, 0.664);
+  position: relative;
+  top: 4%;
 }
 
 .logo {
@@ -127,8 +132,8 @@ body {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
-  height: 70px;
-  width: 70px;
+  height: 7vh;
+  width: 3.5vw;
   font-weight: bold;
   font-size: 20px;
 
@@ -148,8 +153,8 @@ body {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
-  height: 50px;
-  width: 50px;
+  height: 5.5vh;
+  width: 2.6vw;
   font-weight: bold;
   font-size: 20px;
 
@@ -172,8 +177,8 @@ body {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   background-color: rgb(255, 255, 255);
   color:  rgb(0, 0, 0);
-  height: 50px;
-  width: 50px;
+  height: 5.5vh;
+  width: 2.6vw;
   font-weight: bold;
   font-size: 20px;
 
