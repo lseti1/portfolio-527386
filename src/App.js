@@ -244,7 +244,7 @@ function App() {
       <div class="mailIconContainer">
         
       </div>
-      <div className = "portfolioDisclaimer">Note: Portfolio is best viewed in Full Screen.</div>
+      <div className = "portfolioDisclaimer">Note: Portfolio is best viewed in Full Screen on a Laptop/Computer.</div>
       <div className="quickLinks">
         <a class="linkedIn" href="https://www.linkedin.com/in/lucassetiady" target="_blank" rel="noopener noreferrer"></a>
         <a class="GitHub" href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer"></a>
