@@ -23,6 +23,7 @@ function App() {
         <p class="aboutMe">Please feel free to navigate around my digital portfolio to see the Web Apps & Web Designs I've worked on, along with my personal contact information/social networks.
           </p>
         </div>;
+
       case "resume":
         return <div className="updateContentDiv">
         <div className="imageCarousel">
@@ -62,8 +63,14 @@ function App() {
             <li>Vercel</li><li>React</li><li>WordPress</li>
             <li>Elementor</li><li>HTML5</li><li>CSS3</li>
           </ul>
+          Other Skills:
+          <ul>
+            <li>PhotoShop</li>
+          </ul>
+          
         </div>
         </div>;
+
       case "Web Apps":
         return <div className="updateContentDiv">
           <div className="imageCarousel">
@@ -97,6 +104,7 @@ function App() {
           </div>
           <p className = "projectDisclaimer">Please Note: Not All Features May Work</p>
           </div>;
+
       case "Web Design":
         return <div  className="updateContentDiv">
         <div className="imageCarousel">
@@ -140,7 +148,7 @@ function App() {
   const updateTitle = () => {
     switch (currentPage) {
       case "home":
-        return <h1>About Me</h1>;
+        return <h1>About Myself</h1>;
       case "resume":
         return <h1>My Resume</h1>;
       case "experience":
