@@ -1,28 +1,28 @@
-React Portfolio Version 1.00 (07/02/25)
+React Portfolio Version 1.50 (12/03/25)
 # Portfolio
-This is my digital portfolio that houses projects I've worked on, languages/tools I've used, things about myself and my contact information.
+This is a digital portfolio that houses projects/designs I've worked on, languages/tools I've used, and other work documents/information.
 
 ## Installation
 The portfolio does not require installation. Simply ensure that you have an internet connection and access to a Personal Computer. 
 
 ## Usage
 - Navigate through the portfolio by pressing the desired section on the navigation bar
-- For the Projects and Resume sections, there will be links that will open new tabs to open extra content
+- Links throughout the portfolio may open through Vercel, Google Drive or through Hostinger
 - GitHub and LinkedIn icons will also open new tabs to view my accounts on those websites
-- The Contact Info pop-up at the bottom of each section can be minimised or opened on any page to find out how to get in touch with me
+- Mail Icon can be clicked to directly email me for contact
 
-Note: The portfolio is best viewed in Full Screen Mode on a Personal Computer.
+Note: The portfolio has been updated to adapt to different viewports but is best viewed in Full Screen on a Personal Computer.
 
 ## Features
 - Multi-section portfolio 
 - Links to personal GitHub and LinkedIn
-- Google-drive link to digital resume
-- Access to personal projects
-- Simplistic design that is easy to navigate 
+- Google-drive links to digital resume & transcript
+- Access to personal projects and designs
+- Simple layout for a user-friendly experience
 
 ## Author
 Lucas Setiady   
 
 ## Contact
-For any questions or to get in contact, please refer to the Contact Info presented on the portfolio. 
+For any questions or to get in contact, please email me using the mail icon on the portfolio. 
 
