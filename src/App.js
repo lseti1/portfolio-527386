@@ -35,11 +35,11 @@ function App() {
       case "home":
         return <div className="updateContentDiv">
         <p class="aboutMe"> Hi, I'm Lucas, a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
-        for Real-World Experience in the field of Web & Application Development and would greatly appreciate any considerations to take me in as one of your team members.</p>
+        for Real-World Experience in the field of Front-End Development and would greatly appreciate any considerations to take me in as one of your team members.</p>
         <div class="potraitContainer">
           <img class="potrait" src="PotraitMySelf.jpg" alt="myself"/>
         </div>
-        <p class="aboutMe">Please feel free to navigate around my digital portfolio to see the Web Apps & Web Designs I've worked on, along with my personal contact information/social networks.
+        <p class="aboutMe">Please feel free to navigate around my digital portfolio to see the apps and designs I've worked on, along with my personal contact information/social networks.
           </p>
         </div>;
 
@@ -70,11 +70,11 @@ function App() {
       case "experience":
         return <div className="updateContentDiv">
         <div className = "experience">
-          University Projects Include: 
+          <div className="listTitle">University Projects Include:</div>
           <ul>
             <li>AI Development</li><li>Client-Server Systems</li><li>OOP Encoder/Decoder </li>
           </ul>
-          Languages/Tools/Frameworks:
+          <div className="listTitle">Languages/Tools/Frameworks:</div>
           <ul>
             <li>Python</li><li>C/C++</li><li>Java</li>
             <li>JavaScript</li><li>Swift</li><li>PHP</li>
@@ -82,9 +82,9 @@ function App() {
             <li>Vercel</li><li>React</li><li>WordPress</li>
             <li>Elementor</li><li>HTML5</li><li>CSS3</li>
           </ul>
-          Other Skills:
+          <div className="listTitle">Other Skills:</div>
           <ul>
-            <li>Photoshop</li>
+            <li>Photoshop</li><li>Indonesian (Language)</li>
           </ul>
           
         </div>
