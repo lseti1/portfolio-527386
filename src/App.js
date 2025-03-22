@@ -35,7 +35,7 @@ function App() {
       case "home":
         return <div className="updateContentDiv">
         <p class="aboutMe"> Hi, I'm Lucas, a 3rd year Computer Science student majoring in Software Development, studying online at Griffith University. I am currently looking
-        for Real-World Experience in the field of Front-End Development and would greatly appreciate any considerations to take me in as one of your team members.</p>
+        for Real-World Experience in the area of Front-End Development and would greatly appreciate any considerations to become part of your team.</p>
         <div class="potraitContainer">
           <img class="potrait" src="PotraitMySelf.jpg" alt="myself"/>
         </div>
