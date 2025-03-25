@@ -41,7 +41,7 @@ function App() {
           <img class="potrait" src="PotraitMySelf.jpg" alt="myself"/>
         </div>
           <p class="aboutMe">Feel free to explore my portfolio to discover the apps and designs I’ve made. While my passion lies in Front-End Development and Design, 
-            I have a diverse set of skills and I'm eager to expand my knowledge across the full stack. I'm excited about the opportunity to take on any programming 
+            I have a diverse set of skills and I'm eager to expand my knowledge across both front-end & back-end technologies. I'm excited about the opportunity to take on any programming 
             role and contribute my expertise to new challenges.
           </p>
         </div>;
