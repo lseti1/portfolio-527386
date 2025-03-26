@@ -34,15 +34,16 @@ function App() {
     switch (currentPage) {
       case "home":
         return <div className="updateContentDiv">
-          <p class="aboutMe">Hi, I’m Lucas, a third-year Computer Science student at Griffith University, studying online. I am actively seeking real-world experience in 
-          Software Development and Programming and would be grateful for any opportunity to be a part of your team.
+          <p class="aboutMe">Hi, I’m Lucas, a third-year Computer Science student at Griffith University (online). I am passionate about the tech industry and
+          am currently seeking hands-on experience in Software Development, Programming or Design. I'm excited to learn and grow as part of an impactful team and improve
+          in this field of work. 
           </p>
         <div class="potraitContainer">
           <img class="potrait" src="PotraitMySelf.jpg" alt="myself"/>
         </div>
-          <p class="aboutMe">Feel free to explore my portfolio to discover the apps and designs I’ve made. While my passion lies in Front-End Development and Design, 
-            I have a diverse set of skills and I'm eager to expand my knowledge across both front-end & back-end technologies. I'm excited about the opportunity to take on any programming 
-            role and contribute my expertise to new challenges.
+          <p class="aboutMe">Feel free to explore my portfolio to discover the apps and designs I’ve created. While my passion is in Front-End Development and Design, 
+            I also have a diverse set of skills and am motivated to expand my expertise in both front-end and back-end technologies, as well as creative design. 
+            I'm excited about the opportunity to take on any role and contribute my expertise to new challenges.
           </p>
         </div>;
 
