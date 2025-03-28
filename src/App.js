@@ -125,7 +125,6 @@ function App() {
               <p>Brain Boost is a simple mobile app that uses various games to keep the brain active & improve overall function (Built in XCode with Swift)</p>
             </div>
           </div>
-          <p className = "projectDisclaimer">Please Note: Not All Features May Work</p>
           </div>;
 
       case "Web Design":
@@ -160,7 +159,6 @@ function App() {
           </div>
 
         </div>
-        <p className = "projectDisclaimer">Please Note: Not All Features May Work.</p>
         </div>;
 
       case "Photoshop Design":
@@ -246,13 +244,20 @@ function App() {
         <div className={(currentPage === "Web Design") | (currentPage === "Photoshop Design") ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Design")}>Designs</div>
       </div> 
       <div class="mailIconContainer">
-        
+      
       </div>
-      <div className = "portfolioDisclaimer">Note: Portfolio is best viewed in Full Screen on a Laptop/Computer.</div>
+      {(currentPage === "Web Apps" || currentPage === "Web Design") && (
+        <div className = "projectDisclaimer">
+          <p>Please Note: Not All Features May Work</p>
+        </div>
+      )}
       <div className="quickLinks">
         <a class="linkedIn" href="https://www.linkedin.com/in/lucassetiady" target="_blank" rel="noopener noreferrer"></a>
         <a class="GitHub" href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer"></a>
         <a class="mailIcon" href="mailto:luca.setia@gmail.com"></a>
+      </div>
+      <div className = "portfolioDisclaimer">
+        <p>Note: Portfolio is best viewed in Full Screen on a Laptop/Computer.</p>
       </div>
 
     </div>
