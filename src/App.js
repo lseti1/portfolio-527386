@@ -184,7 +184,6 @@ function App() {
             </div>
 
           </div>
-          <p className = "projectDisclaimer">Please Note: These were made using a Free Version of Photopea</p>
         </div>;
       default:
         return <p>No page found!</p>;
@@ -249,6 +248,12 @@ function App() {
       {(currentPage === "Web Apps" || currentPage === "Web Design") && (
         <div className = "projectDisclaimer">
           <p>Please Note: Not All Features May Work</p>
+        </div>
+      )}
+
+      {(currentPage === "Photoshop Design") && (
+        <div className = "projectDisclaimer">
+          <p>Please Note: These were made using a Free Version of Photopea</p>
         </div>
       )}
       <div className="quickLinks">
