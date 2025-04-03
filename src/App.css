@@ -200,7 +200,7 @@ body {
 
   position: absolute;
   left: 25%;
-  bottom: 7%;
+  bottom: 2%;
 }
 
 .linkedIn {
@@ -390,7 +390,6 @@ a:hover {
   margin-top: 2%;
   /* background-color: rgba(0, 0, 0, 0.404); */
   
-  
   width: 100%;
 }
 
@@ -414,12 +413,11 @@ a:hover {
 
   position: absolute;
   left: 0%;
-  bottom: 12%;
+  bottom: 7%;
 }
 
-.portfolioDisclaimer {
+/* .portfolioDisclaimer {
   color: rgba(255, 255, 255, 0.699);
-  /* background-color: white; */
   width: 100%;
   height: 4%;
   font-size: 1.6vh;
@@ -427,7 +425,7 @@ a:hover {
   position: absolute;
   left: 0%;
   bottom: 2%;
-}
+} */
 
 /* Smaller Phone Size Adjustments:   */
 @media screen and (orientation: portrait) and (max-width: 480px) { 
@@ -527,12 +525,10 @@ a:hover {
 
   .quickLinks {
     gap: 10%;
-    bottom: 6%;
   }
   
   .projectDisclaimer {
     font-size: 1.3vh;
-    bottom: 10%;
   }
 
   .portfolioDisclaimer {

@@ -261,9 +261,6 @@ function App() {
         <a class="GitHub" href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer"></a>
         <a class="mailIcon" href="mailto:luca.setia@gmail.com"></a>
       </div>
-      <div className = "portfolioDisclaimer">
-        <p>Note: Portfolio is best viewed in Full Screen on a Laptop/Computer.</p>
-      </div>
 
     </div>
   );
