@@ -82,9 +82,9 @@ function App() {
           <ul>
             <li>Python</li><li>C/C++</li><li>Java</li>
             <li>JavaScript</li><li>Swift</li><li>PHP</li>
-            <li>GitHub</li><li>VS Code</li><li>XCode</li>
+            <li>GitHub</li><li>VS Code</li><li>Laravel</li>
             <li>Vercel</li><li>React</li><li>WordPress</li>
-            <li>Elementor</li><li>HTML5</li><li>CSS3</li>
+            <li>Elementor</li><li>HTML5</li><li>CSS3/Tailwind CSS</li>
           </ul>
           <div className="listTitle">Other Skills:</div>
           <ul>
