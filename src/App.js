@@ -117,12 +117,12 @@ function App() {
             </div>
 
             <div className="individualAppContainers">
-              <a href="https://drive.google.com/file/d/1T2SmYEaAI4DeYY82r85d8H4FaafUAUr6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                <button className ="individualAppLinkImage brainBoost">
-                  <p className="imageTextOverlay">Brain Boost</p>
+              <a href="https://sky-cast-853920.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <button className ="individualAppLinkImage skyCast">
+                  <p className="imageTextOverlay">Skycast</p>
                 </button>
               </a>
-              <p>Brain Boost is a simple mobile app that uses various games to keep the brain active & improve overall function (Built in XCode with Swift)</p>
+              <p>Skycast is a weather app that uses OpenWeather's free API to show various weather stats for today and coming days (Built in ReactVite)</p>
             </div>
           </div>
           </div>;
