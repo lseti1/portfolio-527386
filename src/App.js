@@ -35,14 +35,14 @@ function App() {
       case "home":
         return <div className="updateContentDiv">
           <p class="aboutMe">Hi, I’m Lucas, a third-year Computer Science student at Griffith University (online). I am passionate about the tech industry and
-          am currently seeking hands-on experience in Software Development, Programming or Design. I'm excited to learn and grow as part of an impactful team and improve
+          am currently seeking hands-on experience in Front-End/Web Development. I'm excited to learn and grow as part of an impactful team and improve
           in this field of work. 
           </p>
         <div class="potraitContainer">
           <img class="potrait" src="PotraitMySelf.jpg" alt="myself"/>
         </div>
-          <p class="aboutMe">Feel free to explore my portfolio to discover the apps and designs I’ve created. While my passion is in Front-End Development and Design, 
-            I also have a diverse set of skills and am motivated to expand my expertise in both front-end and back-end technologies, as well as creative design. 
+          <p class="aboutMe">Feel free to explore my portfolio to discover the apps and designs I’ve created. While my passion is in Front-End Development and Web Design, 
+            I also have a diverse set of skills and am motivated to expand my expertise in both frontend and backend technologies. 
             I'm excited about the opportunity to take on any role and contribute my expertise to new challenges.
           </p>
         </div>;
@@ -171,7 +171,7 @@ function App() {
                   <p className="imageTextOverlay">49ers Graphic</p>
                 </button>
               </a>
-              <p>This graphic is of 49ers Running Back, Christian McCaffrey (Made with Photopea, a Photoshop alternative)</p>
+              <p>This graphic is of 49ers Running Back, Christian McCaffrey</p>
             </div>
 
             <div className ="individualAppContainers">
@@ -180,7 +180,7 @@ function App() {
                   <p className="imageTextOverlay">GSW Graphic</p>
                 </button>
               </a>
-              <p>This is a graphic made for Golden State Warriors Point Guard, Stephen Curry (Made with Photopea, a Photoshop alternative)</p>
+              <p>This is a graphic made for Golden State Warriors Point Guard, Stephen Curry</p>
             </div>
 
           </div>
@@ -253,7 +253,7 @@ function App() {
 
       {(currentPage === "Photoshop Design") && (
         <div className = "projectDisclaimer">
-          <p>Please Note: These were made using a Free Version of Photopea</p>
+          <p>Please Note: These were made using a Free Version of Photopea (Photoshop alternative)</p>
         </div>
       )}
       <div className="quickLinks">
