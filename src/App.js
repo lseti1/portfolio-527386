@@ -57,7 +57,7 @@ function App() {
                 <p className="imageTextOverlay">Resume</p>
               </button>
             </a>
-            <p>(Last updated on the 12th March)</p>
+            <p>My current resume with technical skills, work experience and project breakdowns</p>
           </div>
 
           <div className ="individualAppContainers">
@@ -66,7 +66,7 @@ function App() {
                 <p className="imageTextOverlay">Academic Transcript</p>
               </button>
             </a>
-            <p>(Unofficial)</p>
+            <p>My official academic transcript from my studies at Griffith University</p>
           </div>
 
         </div>
