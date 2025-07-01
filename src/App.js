@@ -194,10 +194,6 @@ function App() {
     switch (currentPage) {
       case "home":
         return <h1>About Myself</h1>;
-      case "resume":
-        return <h1>My Resume</h1>;
-      case "experience":
-        return <h1>My Coding Experience</h1>;
       case "Web Apps":
         return <h1>Web & Mobile Apps</h1>;
       case "Web Design":
@@ -212,6 +208,10 @@ function App() {
           {updateDesignPageTitle()}
           <button class="designsPageButton RightButton" onClick={() => handleArrowClick("right")}>&gt;</button>
         </div>;  
+      case "experience":
+        return <h1>My Coding Experience</h1>;
+      case "resume":
+        return <h1>My Resume</h1>;
       default:
         return <h1>No Page Found!</h1>;
     }
@@ -236,10 +236,10 @@ function App() {
       <div className="logo"></div>
       <div className="navigationBar">
         <div className={currentPage === "home" ? "active" : "navigationItem"} onClick={() => handlePageChange("home")}>Home</div>
-        <div className={currentPage === "resume" ? "active" : "navigationItem"} onClick={() => handlePageChange("resume")}>Resume</div>
-        <div className={currentPage === "experience" ? "active" : "navigationItem"} onClick={() => handlePageChange("experience")}>Experience</div>
         <div className={currentPage === "Web Apps" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Apps")}>Apps</div>
         <div className={(currentPage === "Web Design") | (currentPage === "Photoshop Design") ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Design")}>Designs</div>
+        <div className={currentPage === "experience" ? "active" : "navigationItem"} onClick={() => handlePageChange("experience")}>Experience</div>
+        <div className={currentPage === "resume" ? "active" : "navigationItem"} onClick={() => handlePageChange("resume")}>Resume</div>
       </div> 
       <div class="mailIconContainer">
       
