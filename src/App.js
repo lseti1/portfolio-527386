@@ -35,15 +35,14 @@ function App() {
       case "home":
         return <div className="updateContentDiv">
           <p class="aboutMe">Hi, I’m Lucas, a third-year Computer Science student at Griffith University (online). I am passionate about the tech industry and
-          am currently seeking hands-on experience in Front-End/Web Development. I'm excited to learn and grow as part of an impactful team and improve
+          am currently seeking real-world experience in front/web/software development. I'm excited to learn and grow as part of an impactful team and improve
           in this field of work. 
           </p>
         <div class="potraitContainer">
           <img class="potrait" src="PotraitMySelf.jpg" alt="myself"/>
         </div>
-          <p class="aboutMe">Feel free to explore my portfolio to discover the apps and designs I’ve created. While my passion is in Front-End Development and Web Design, 
-            I also have a diverse set of skills and am motivated to expand my expertise in both frontend and backend technologies. 
-            I'm excited about the opportunity to take on any role and contribute my expertise to new challenges.
+          <p class="aboutMe">Please feel free to explore my portfolio to discover the apps and designs I’ve created. While my passion is in frontend/web development, 
+            I am motivated to expand my expertise in frontend, backend and other areas.  I'm excited about the opportunity to take on any role and contribute my expertise to new challenges.
           </p>
         </div>;
 
