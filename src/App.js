@@ -35,7 +35,7 @@ function App() {
       case "home":
         return <div className="updateContentDiv">
           <p class="aboutMe">Hi, I’m Lucas, a third-year Computer Science student at Griffith University (online). I am passionate about the tech industry and
-          am currently seeking real-world experience in front/web/software development. I'm excited to learn and grow as part of an impactful team and improve
+          am currently seeking real-world experience in frontend/web/software development. I'm excited to learn and grow as part of an impactful team and improve
           in this field of work. 
           </p>
         <div class="potraitContainer">
