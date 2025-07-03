@@ -153,7 +153,7 @@ function App() {
                 <p className="imageTextOverlay">E-commerce store</p>
               </button>
             </a>
-            <p>This is an e-commerce website design for a tech store (Design with HTML5/Tailwind CSS)</p>
+            <p>This is an e-commerce website design for a tech store (Designed with HTML5/Tailwind CSS)</p>
           </div>
           
           <div className ="individualAppContainers">
