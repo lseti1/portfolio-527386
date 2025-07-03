@@ -294,22 +294,26 @@ a:hover {
 
 .imageCarousel {
   /* background-color: grey; */
+  padding: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: flex-start;
   margin-top: 2vh;
   gap: 3%;
-  height: 100%;
+  height: 65%;
   width: 100%;
   
   flex-grow: 0;
+  overflow-x: auto;
+  scrollbar-width: thin;               
+  scrollbar-color: #888 transparent;
 }
 
 .individualAppContainers {
   /* background-color: rgb(207, 207, 207);  */
   border-radius: 20px;
   text-shadow:  0px 0px 1px grey;
-  width: 40%;
+  width: 1/3;
   height: 100%;
 
   padding: 0px;
@@ -370,6 +374,10 @@ a:hover {
 
 .portfolioDesign {
   background-image: url("/public/portfolioDesignImage.png");
+}
+
+.eCommerceDesign1 {
+  background-image: url("/public/eCommerceDesign1.png");
 }
 
 .CMC {
@@ -558,7 +566,7 @@ a:hover {
     width: 80%;
     gap: 5%;
     font-size: 2vh;
-    background-color: rgb(82, 32, 32);
+    /* background-color: rgb(82, 32, 32); */
   }
 
   .title {
@@ -640,8 +648,22 @@ a:hover {
     width: 80%;
   }
 
+  /* .imageCarousel {
+    background-color: yellowgreen;
+    overflow-x: auto;
+  } */
+
+  .individualAppContainers {
+    font-size: 1.5vh;
+  }
+
+  .imageTextOverlay {
+    font-size: 2vh;
+  }
+
   .individualAppLinkImage {
     width: 100%;
+    height: 60%;
   }
 
   .LeftButton {

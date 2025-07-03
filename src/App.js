@@ -34,7 +34,7 @@ function App() {
     switch (currentPage) {
       case "home":
         return <div className="updateContentDiv">
-          <p class="aboutMe">Hi, I’m Lucas, a third-year Computer Science student at Griffith University (online). I am passionate about the tech industry and
+          <p class="aboutMe">Hi, I’m Lucas, a Bachelor of Computer Science graduate from Griffith University. I am passionate about the tech industry and
           am currently seeking real-world experience in frontend/web/software development. I'm excited to learn and grow as part of an impactful team and improve
           in this field of work. 
           </p>
@@ -42,7 +42,7 @@ function App() {
           <img class="potrait" src="PotraitMySelf.jpg" alt="myself"/>
         </div>
           <p class="aboutMe">Please feel free to explore my portfolio to discover the apps and designs I’ve created. While my passion is in frontend/web development, 
-            I am motivated to expand my expertise in frontend, backend and other areas.  I'm excited about the opportunity to take on any role and contribute my expertise to new challenges.
+            I am motivated to expand my expertise in frontend, backend and other areas.  I'm excited about the opportunity to take on any role and have immediate, full-time availability.
           </p>
         </div>;
 
@@ -129,7 +129,6 @@ function App() {
       case "Web Design":
         return <div  className="updateContentDiv">
         <div className="imageCarousel">
-
           <div className ="individualAppContainers">
             <a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer">
               <button className ="individualAppLinkImage tourism">
@@ -149,6 +148,15 @@ function App() {
           </div>
 
           <div className ="individualAppContainers">
+            <a href="https://e-commerce-design-202501.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <button className ="individualAppLinkImage eCommerceDesign1">
+                <p className="imageTextOverlay">E-commerce store</p>
+              </button>
+            </a>
+            <p>This is an e-commerce website design for a tech store (Design with HTML5/Tailwind CSS)</p>
+          </div>
+          
+          <div className ="individualAppContainers">
             <a href="https://portfolio-design-478053.vercel.app/" target="_blank" rel="noopener noreferrer">
               <button className ="individualAppLinkImage portfolioDesign">
                 <p className="imageTextOverlay">Portfolio</p>
@@ -156,6 +164,8 @@ function App() {
             </a>
             <p>This is a website design for a Photography Portfolio (Designed with HTML5/CSS3)</p>
           </div>
+
+          
 
         </div>
         </div>;
