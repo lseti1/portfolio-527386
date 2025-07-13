@@ -150,10 +150,19 @@ function App() {
           <div className ="individualAppContainers">
             <a href="https://e-commerce-design-202501.vercel.app/" target="_blank" rel="noopener noreferrer">
               <button className ="individualAppLinkImage eCommerceDesign1">
-                <p className="imageTextOverlay">E-commerce store</p>
+                <p className="imageTextOverlay">Tech store</p>
               </button>
             </a>
             <p>This is an e-commerce website design for a tech store (Designed with HTML5/Tailwind CSS)</p>
+          </div>
+
+          <div className ="individualAppContainers">
+            <a href="https://e-commerce-design-202502.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <button className ="individualAppLinkImage eCommerceDesign2">
+                <p className="imageTextOverlay">Music store</p>
+              </button>
+            </a>
+            <p>This is an e-commerce website design for a music store (Designed with HTML5/Tailwind CSS)</p>
           </div>
           
           <div className ="individualAppContainers">
