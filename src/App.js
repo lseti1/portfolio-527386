@@ -144,7 +144,7 @@ function App() {
                 <p className="imageTextOverlay">Restaurant</p>
               </button>
             </a>
-            <p>This website style is for a Japanese Restaurant (Designed in WordPress with Elementor)</p>
+            <p>This is a website design of a Hospitality Site for a Japanese Restaurant (Designed in WordPress with Elementor)</p>
           </div>
 
           <div className ="individualAppContainers">
@@ -153,7 +153,7 @@ function App() {
                 <p className="imageTextOverlay">Tech store</p>
               </button>
             </a>
-            <p>This is an e-commerce website design for a tech store (Designed with HTML5/Tailwind CSS)</p>
+            <p>This is an e-commerce website design for a Tech Store (Designed with HTML5/Tailwind CSS)</p>
           </div>
 
           <div className ="individualAppContainers">
@@ -162,7 +162,7 @@ function App() {
                 <p className="imageTextOverlay">Music store</p>
               </button>
             </a>
-            <p>This is an e-commerce website design for a music store (Designed with HTML5/Tailwind CSS)</p>
+            <p>This is an e-commerce website design for a Music Store (Designed with HTML5/Tailwind CSS)</p>
           </div>
           
           <div className ="individualAppContainers">
@@ -228,9 +228,9 @@ function App() {
           <button class="designsPageButton RightButton" onClick={() => handleArrowClick("right")}>&gt;</button>
         </div>;  
       case "experience":
-        return <h1>My Coding Experience</h1>;
+        return <h1>Coding Experience</h1>;
       case "resume":
-        return <h1>My Resume</h1>;
+        return <h1>Documents</h1>;
       default:
         return <h1>No Page Found!</h1>;
     }
@@ -254,18 +254,18 @@ function App() {
       </div>
       <div className="logo"></div>
       <div className="navigationBar">
-        <div className={currentPage === "home" ? "active" : "navigationItem"} onClick={() => handlePageChange("home")}>Home</div>
+        <div className={currentPage === "home" ? "active" : "navigationItem"} onClick={() => handlePageChange("home")}>About</div>
         <div className={currentPage === "Web Apps" ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Apps")}>Apps</div>
         <div className={(currentPage === "Web Design") | (currentPage === "Photoshop Design") ? "active" : "navigationItem"} onClick={() => handlePageChange("Web Design")}>Designs</div>
         <div className={currentPage === "experience" ? "active" : "navigationItem"} onClick={() => handlePageChange("experience")}>Experience</div>
-        <div className={currentPage === "resume" ? "active" : "navigationItem"} onClick={() => handlePageChange("resume")}>Resume</div>
+        <div className={currentPage === "resume" ? "active" : "navigationItem"} onClick={() => handlePageChange("resume")}>Documents</div>
       </div> 
       <div class="mailIconContainer">
       
       </div>
       {(currentPage === "Web Apps" || currentPage === "Web Design") && (
         <div className = "projectDisclaimer">
-          <p>Please Note: Not All Features May Work</p>
+          <p>Please Note: Not All Features/Links May Work</p>
         </div>
       )}
 
