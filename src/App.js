@@ -107,7 +107,7 @@ function App() {
 					</div>
 				</div >;
 			default:
-				return <div>There was a problem displaying the web apps. Please Refresh.</div>
+				return <div>There was a problem displaying the web apps. Please refresh the tab.</div>
 		}
 	};
 
@@ -128,9 +128,15 @@ function App() {
 							<img className="Portrait" src="/PotraitMySelf.jpg" alt="PortraitOfSelf" />
 						</div>
 						<div className="QuickLinks">
-							<img className="Icon" src="/GitHub Logo.png" alt="GitHubLink" />
-							<img className="Icon" src="/LinkedIn Logo.jpg" alt="LinkedInLink" />
-							<img className="Icon" src="/mailIcon.png" alt="MailLink" />
+							<a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer">
+								<img className="Icon" src="/GitHub Logo.png" alt="GitHubLink" />
+							</a>
+							<a href="https://www.linkedin.com/in/lucassetiady/" target="_blank" rel="noopener noreferrer">
+								<img className="Icon" src="/LinkedIn Logo.jpg" alt="LinkedInLink" />
+							</a>
+							<a href="mailto:luca.setia@gmail.com" target="_blank" rel="noopener noreferrer">
+								<img className="Icon" src="/mailIcon.png" alt="MailLink" />
+							</a>
 						</div>
 					</div>
 					<div className="AboutMeRight">
