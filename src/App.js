@@ -44,7 +44,7 @@ function App() {
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
 					<div className="ApplicationDescription">
-						<h1>Life Planner</h1>
+						<h1 className="ApplicationTitle">Life Planner</h1>
 						<p>This is an interactive one-page planning website to store & see upcoming plans (Made with React) with features such as adjustable calendar, easily add/remove plans, 
 							search functionality. <br  /><b>Made with HTML, CSS & JavaScript.</b></p>
 					</div>
@@ -62,7 +62,7 @@ function App() {
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
 					<div className="ApplicationDescription">
-						<h1>JobRecorderNet</h1>
+						<h1 className="ApplicationTitle">JobRecorderNet</h1>
 						<p>JobRecorderNet is a port of a quality assurance application (university-based project) that was made for an external client & his company which included features such as
 							role-based job access, evidence uploading, job filtering/searching and more.<br  /><b>This port uses Tailwind CSS and Razor Pages in ASP.NET written with C#.</b></p>
 					</div>
@@ -82,7 +82,7 @@ function App() {
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
 					<div className="ApplicationDescription">
-						<h1>Plan Finder</h1>
+						<h1 className="ApplicationTitle">Plan Finder</h1>
 						<p>This is a website that utilises Wikipedia's free API to show things to do while on holidays (Made using React) with features such as adjustable searches, text generation/parsing, 
 							and multi-content display.<br  /><b>Made with HTML, CSS & JavaScript.</b></p>
 					</div>
@@ -102,7 +102,7 @@ function App() {
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
 					<div className="ApplicationDescription">
-						<h1>Skycast</h1>
+						<h1 className="ApplicationTitle">Skycast</h1>
 						<p>This is a simple web app that displays weather information from the OpenWeather API (made with ReactVite) with features such as extensive weather displays, 3-hourly intervals 
 							for key weather metrics and forecast up to 5 days in advance. <br  /><b>Made with HTML, CSS & JavaScript.</b></p>
 					</div>
