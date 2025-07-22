@@ -207,11 +207,11 @@ function App() {
 							with a user-friendly layout that utilises various graphics & animations for visual flair. </p>
 					</div>
 					<div className="WebDesignCard">
-						<a title="Former Portfolio Design">
+						<a href="https://old-portfolio-123948.vercel.app/" target="_blank" rel="noopener noreferrer" title="Former Portfolio Design">
 							<img className="SourceImage" src="/OlderPortfolioDesign.png" alt="OlderPortfolioWebDesign"/>
 						</a>
-						<a className="WebGitHubLink" href="" target="_blank" rel="noopener noreferrer">
-							<img className="GitHubImage" src="/GitHub Logo.png" />
+						<a className="WebGitHubLink" href="https://github.com/lseti1/OldPortfolio-123948" target="_blank" rel="noopener noreferrer">
+							<img className="GitHubImage" src="/GitHub Logo.png"/>
 						</a>
 						<p className="WebDesignDescription">This was the original web design for my portfolio (built using HTML and CSS). It featured a single, fixed-layout page
 							that utilized dynamically changing content containers to manage on-screen text, allowing for seamless content transitions without the need for scrolling/loading. </p>
