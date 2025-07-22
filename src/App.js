@@ -100,7 +100,7 @@ function App() {
 						<button onClick={decrement} className="ApplicationsCarouselButton">&lt;</button>
 						<div className="ImageWrapper">
 							<a href="https://sky-cast-853920.vercel.app/" target="_blank" rel="noopener noreferrer" title="Weather App">
-								<img className="SourceImage" src="/skycast.png" alt="SkycastApp"/>
+								<img className="SourceImage" src="/skyCast.png" alt="SkycastApp"/>
 							</a>
 							<a className="GitHubLink" href="https://github.com/lseti1/skyCast-853920" target="_blank" rel="noopener noreferrer" title="Weather App Repository">
 								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
