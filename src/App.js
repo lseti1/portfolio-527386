@@ -1,8 +1,14 @@
 import React, { useState, useEffect, useRef } from "react";
 import './App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function App() {
+	useEffect(() => {
+		AOS.init({duration: 1800, once: true});
+	}, []);
+
 	const jumpTo = (id) => {
 		const element = document.getElementById(id);
 		if (element) {
@@ -43,7 +49,7 @@ function App() {
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
-					<div className="ApplicationDescription">
+					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
 						<h1 className="ApplicationTitle">Life Planner</h1>
 						<p>This is an interactive one-page planning website to store & see upcoming plans (Made with React) with features such as adjustable calendar, easily add/remove plans, 
 							search functionality. <br  /><b>Made with HTML, CSS & JavaScript.</b></p>
@@ -61,7 +67,7 @@ function App() {
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
-					<div className="ApplicationDescription">
+					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
 						<h1 className="ApplicationTitle">JobRecorderNet</h1>
 						<p>JobRecorderNet is a port of a quality assurance application (university-based project) that was made for an external client & his company which included features such as
 							role-based job access, evidence uploading, and job filtering/searching.<br  /><b>This port uses Tailwind CSS and Razor Pages in ASP.NET written with C#.</b> </p>
@@ -82,7 +88,7 @@ function App() {
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
-					<div className="ApplicationDescription">
+					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
 						<h1 className="ApplicationTitle">Plan Finder</h1>
 						<p>This is a website that utilises Wikipedia's free API to show things to do while on holidays (Made using React) with features such as adjustable searches, text generation/parsing, 
 							and multi-content display.<br  /><b>Made with HTML, CSS & JavaScript.</b></p>
@@ -102,7 +108,7 @@ function App() {
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
-					<div className="ApplicationDescription">
+					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
 						<h1 className="ApplicationTitle">Skycast</h1>
 						<p>This is a simple web app that displays weather information from the OpenWeather API (made with ReactVite) with features such as extensive weather displays, 3-hourly intervals 
 							for key weather metrics and forecast up to 5 days in advance. <br  /><b>Made with HTML, CSS & JavaScript.</b></p>
@@ -124,9 +130,9 @@ function App() {
 					<p onClick={() => jumpTo('EducationExperience')} className="NavBarTitle">Education/Experience</p>
 				</div>
 			</div>
-			<div id="AboutMe" className="AboutMe">
+			<div id="AboutMe" className="AboutMe" >
 				<div className="ContentWrapper AboutMeContent">
-					<div className="AboutMeLeft">
+					<div className="AboutMeLeft" data-aos="fade-up">
 						<div className="PortraitWrapper">
 							<img className="Portrait" src="/PotraitMySelf.jpg" alt="PortraitOfSelf" title="Display Picture"/>
 						</div>
@@ -142,7 +148,7 @@ function App() {
 							</a>
 						</div>
 					</div>
-					<div className="AboutMeRight">
+					<div className="AboutMeRight" data-aos="fade-up">
 						<h1 className="ContentTitle" style={{ padding: '0' }}>About Me</h1>
 						<p>Hi, I’m Lucas, a Bachelor of Computer Science graduate from Griffith University. I am passionate about the tech industry and
 							am currently seeking real-world experience in frontend/web/software development. I'm excited to learn and grow as part of an impactful team and improve
@@ -153,11 +159,11 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<div id="Applications" className="Applications">
+			<div id="Applications" className="Applications" data-aos="fade-up">
 				<h1 className="ContentWrapper ContentTitle">Web Applications</h1>
 				<div className="ContentWrapper WebAppRender">{WebAppRender()}</div>
 			</div>
-			<div id="Designs" className="WebsiteDesigns">
+			<div id="Designs" className="WebsiteDesigns" data-aos="fade-up" data-aos-offset="800">
 				<h1 className="ContentWrapper ContentTitle" style={{ color: 'white' }}>Website Designs</h1>
 				<div className="ContentWrapper WebsiteDesignsContent">
 					<div className="WebDesignCard">
@@ -180,7 +186,7 @@ function App() {
 						<p className="WebDesignDescription">This is an eCommerce design for a multi-page Music store (made with HTML/Tailwind CSS) including Hero Banners,
 							product cards and other e-commerce visuals. Designed with a music-inspired theme and a number of different banners.</p>
 					</div>
-					<div className="WebDesignCard">
+					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="700">
 						<a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer" title="Tourism Web Design">
 							<img className="SourceImage" src="/elementorDesign1.png" alt="ElementorWebDesign1"/>
 						</a>
@@ -188,7 +194,7 @@ function App() {
 							modern design that emphasizes key aspects of London tourism, such as immersive experiences, iconic attractions, and upcoming events, creating an
 							engaging and informative experience for visitors.</p>
 					</div>
-					<div className="WebDesignCard">
+					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="700">
 						<a href="https://lucas.websitedesign2.in/" target="_blank" rel="noopener noreferrer" title="Restaurant Web Design">
 							<img className="SourceImage" src="/elementorDesign2.png" alt="ElementorWebDesign2"/>
 						</a>
@@ -196,7 +202,7 @@ function App() {
 							It features a refined and minimalist design that captures the essence of Japanese aesthetics while showcasing the restaurant’s signature style,
 							special offers, and seasonal events, offering an immersive and appetizing introduction to the cuisine.</p>
 					</div>
-					<div className="WebDesignCard">
+					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="900">
 						<a href="https://portfolio-design-478053.vercel.app/" target="_blank" rel="noopener noreferrer" title="Photography Portfolio Design">
 							<img className="SourceImage" src="/portfolioDesign.png" alt="WebDesign1"/>
 						</a>
@@ -206,7 +212,7 @@ function App() {
 						<p className="WebDesignDescription">This is a web-design for a photographer's Digital Portfolio (Made with HTML/CSS) including multiple accessible sections
 							with a user-friendly layout that utilises various graphics & animations for visual flair. </p>
 					</div>
-					<div className="WebDesignCard">
+					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="900">
 						<a href="https://old-portfolio-123948.vercel.app/" target="_blank" rel="noopener noreferrer" title="Former Portfolio Design">
 							<img className="SourceImage" src="/OlderPortfolioDesign.png" alt="OlderPortfolioWebDesign"/>
 						</a>
@@ -218,9 +224,9 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<div id="EducationExperience" className="EducationExperience">
-				<h1 class="ContentWrapper ContentTitle">Education & Experience</h1>
-				<div className="ContentWrapper EducationExperienceContent">
+			<div id="EducationExperience" className="EducationExperience" data-aos="fade-up" data-aos-offset="1500">
+				<h1 class="ContentWrapper ContentTitle" data-aos="fade-up">Education & Experience</h1>
+				<div className="ContentWrapper EducationExperienceContent" data-aos="fade-up">
 					<div className="EducationLeft">
 						<div className="EducationExperienceCards">
 							<div>
@@ -284,7 +290,7 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<div className="Footer">
+			<div className="Footer" data-aos="fade-up">
 				<p className="ContentWrapper FooterContent"><b>Please Note:</b> This Portfolio is best viewed in Full Screen on a Desktop Computer</p>
 			</div>
 		</div>
