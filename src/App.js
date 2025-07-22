@@ -38,7 +38,7 @@ function App() {
 								<img className="SourceImage" src="/lifePlanner.png" alt="LifePlannerApp"/>
 							</a>
 							<a className="GitHubLink" href="https://github.com/lseti1/lifePlanner-773629" target="_blank" rel="noopener noreferrer" title="Planner Repository">
-								<img className="GitHubImage" src="/GitHub Logo.png" />
+								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 							</a>
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
@@ -56,7 +56,7 @@ function App() {
 						<div className="ImageWrapper">
 							<img className="SourceImage" src="/JobRecorderNet.png" alt="LifePlannerApp"/>
 							<a className="GitHubLink" href="https://github.com/MatchaBreak/JobRecorderNet" target="_blank" rel="noopener noreferrer"  title="JobRecorderNet Repository">
-								<img className="GitHubImage" src="/GitHub Logo.png" />
+								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 							</a>
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
@@ -77,7 +77,7 @@ function App() {
 								<img className="SourceImage" src="/planFinder.png" alt="PlanFinderApp"/>
 							</a>
 							<a className="GitHubLink" href="https://github.com/lseti1/planFinder-198302" target="_blank" rel="noopener noreferrer"  title="Plan Finder Repository">
-								<img className="GitHubImage" src="/GitHub Logo.png" />
+								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 							</a>
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
@@ -97,7 +97,7 @@ function App() {
 								<img className="SourceImage" src="/skycast.png" alt="SkycastApp"/>
 							</a>
 							<a className="GitHubLink" href="https://github.com/lseti1/skyCast-853920" target="_blank" rel="noopener noreferrer" title="Weather App Repository">
-								<img className="GitHubImage" src="/GitHub Logo.png" />
+								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 							</a>
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
@@ -165,7 +165,7 @@ function App() {
 							<img className="SourceImage" src="/eCommerceDesign1.png" alt="eCommerceWebDesign1"/>
 						</a>
 						<a className="WebGitHubLink" href="https://github.com/lseti1/eCommerceDesign-202501" target="_blank" rel="noopener noreferrer" title="eCommerce Tech Design Repository">
-							<img className="GitHubImage" src="/GitHub Logo.png" />
+							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 						</a>
 						<p className="WebDesignDescription">This is a multi-page eCommerce design for a Tech store (made with HTML/Tailwind CSS) including large Hero Banners,
 							multi-section pages and a number of accessible pages to simulate a fully functional eCommerce store.</p>
@@ -175,7 +175,7 @@ function App() {
 							<img className="SourceImage" src="/eCommerceDesign2.png" alt="eCommerceWebDesign2"/>
 						</a>
 						<a className="WebGitHubLink" href="https://github.com/lseti1/eCommerceDesign-202502" target="_blank" rel="noopener noreferrer" title="eCommerce Music Design Repository">
-							<img className="GitHubImage" src="/GitHub Logo.png" />
+							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 						</a>
 						<p className="WebDesignDescription">This is an eCommerce design for a multi-page Music store (made with HTML/Tailwind CSS) including Hero Banners,
 							product cards and other e-commerce visuals. Designed with a music-inspired theme and a number of different banners.</p>
@@ -201,7 +201,7 @@ function App() {
 							<img className="SourceImage" src="/portfolioDesign.png" alt="WebDesign1"/>
 						</a>
 						<a className="WebGitHubLink" href="https://github.com/lseti1/portfolioDesign-478053" target="_blank" rel="noopener noreferrer" title="Photography Portfolio Repository">
-							<img className="GitHubImage" src="/GitHub Logo.png" />
+							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 						</a>
 						<p className="WebDesignDescription">This is a web-design for a photographer's Digital Portfolio (Made with HTML/CSS) including multiple accessible sections
 							with a user-friendly layout that utilises various graphics & animations for visual flair. </p>
@@ -211,7 +211,7 @@ function App() {
 							<img className="SourceImage" src="/OlderPortfolioDesign.png" alt="OlderPortfolioWebDesign"/>
 						</a>
 						<a className="WebGitHubLink" href="https://github.com/lseti1/OldPortfolio-123948" target="_blank" rel="noopener noreferrer">
-							<img className="GitHubImage" src="/GitHub Logo.png"/>
+							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 						</a>
 						<p className="WebDesignDescription">This was the original web design for my portfolio (built using HTML and CSS). It featured a single, fixed-layout page
 							that utilized dynamically changing content containers to manage on-screen text, allowing for seamless content transitions without the need for scrolling/loading. </p>
