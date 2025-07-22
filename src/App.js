@@ -64,7 +64,8 @@ function App() {
 					<div className="ApplicationDescription">
 						<h1 className="ApplicationTitle">JobRecorderNet</h1>
 						<p>JobRecorderNet is a port of a quality assurance application (university-based project) that was made for an external client & his company which included features such as
-							role-based job access, evidence uploading, job filtering/searching and more.<br  /><b>This port uses Tailwind CSS and Razor Pages in ASP.NET written with C#.</b></p>
+							role-based job access, evidence uploading, and job filtering/searching.<br  /><b>This port uses Tailwind CSS and Razor Pages in ASP.NET written with C#.</b> </p>
+						<p style={{ fontSize : "1rem", padding : "0.5rem"}}>Note: Application is still in the process of being ported</p>
 					</div>
 				</div >;
 			case 'PlanFinder':
