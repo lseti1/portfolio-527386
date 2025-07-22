@@ -141,7 +141,7 @@ function App() {
 								<img className="Icon" src="/GitHub Logo.png" alt="GitHubLink" />
 							</a>
 							<a href="https://www.linkedin.com/in/lucassetiady/" target="_blank" rel="noopener noreferrer" title="Personal LinkedIn Profile">
-								<img className="Icon" src="/LinkedIn Logo.jpg" alt="LinkedInLink" />
+								<img className="Icon" src="/LinkedIn Logo.webp" alt="LinkedInLink" />
 							</a>
 							<a href="mailto:luca.setia@gmail.com" target="_blank" rel="noopener noreferrer" title="Personal Email">
 								<img className="Icon" src="/mailIcon.png" alt="MailLink" />
