@@ -6,7 +6,8 @@ function App() {
 	const jumpTo = (id) => {
 		const element = document.getElementById(id);
 		if (element) {
-			element.scrollIntoView({behavior: 'smooth'});
+			const offset = element.getBoundingClientRect().top + window.scrollY - 70;
+			window.scrollTo({ top: offset, behavior: 'smooth' });
 		}
 	};
 
