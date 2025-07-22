@@ -40,6 +40,7 @@
     height: 4rem;
     width: 4.5rem;
     margin: auto 0;
+    cursor: pointer;
 }
 
 .NavBarTitle {

@@ -121,9 +121,10 @@ function App() {
 
 	return (
 		<div className="App">
+			<div id="Top"></div>
 			<div className="NavBar">
 				<div className="ContentWrapper NavBarContent">
-					<img className="Logo" src="/logo.png" alt="Logo"/>
+					<img onClick={() => jumpTo('Top')} className="Logo" src="/logo.png" alt="Logo"/>
 					<p onClick={() => jumpTo('AboutMe')} className="NavBarTitle">About</p>
 					<p onClick={() => jumpTo('Applications')} className="NavBarTitle">Apps</p>
 					<p onClick={() => jumpTo('Designs')} className="NavBarTitle">Designs</p>
