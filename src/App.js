@@ -187,7 +187,7 @@ function App() {
 						<p className="WebDesignDescription">This is an eCommerce design for a multi-page Music store (made with HTML/Tailwind CSS) including Hero Banners,
 							product cards and other e-commerce visuals. Designed with a music-inspired theme and a number of different banners.</p>
 					</div>
-					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="700">
+					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="900">
 						<a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer" title="Tourism Web Design">
 							<img className="SourceImage" src="/elementorDesign1.png" alt="ElementorWebDesign1"/>
 						</a>
@@ -195,7 +195,7 @@ function App() {
 							modern design that emphasizes key aspects of London tourism, such as immersive experiences, iconic attractions, and upcoming events, creating an
 							engaging and informative experience for visitors.</p>
 					</div>
-					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="700">
+					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="900">
 						<a href="https://lucas.websitedesign2.in/" target="_blank" rel="noopener noreferrer" title="Restaurant Web Design">
 							<img className="SourceImage" src="/elementorDesign2.png" alt="ElementorWebDesign2"/>
 						</a>
@@ -203,7 +203,7 @@ function App() {
 							It features a refined and minimalist design that captures the essence of Japanese aesthetics while showcasing the restaurant’s signature style,
 							special offers, and seasonal events, offering an immersive and appetizing introduction to the cuisine.</p>
 					</div>
-					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="900">
+					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="1100">
 						<a href="https://portfolio-design-478053.vercel.app/" target="_blank" rel="noopener noreferrer" title="Photography Portfolio Design">
 							<img className="SourceImage" src="/portfolioDesign.png" alt="WebDesign1"/>
 						</a>
@@ -213,7 +213,7 @@ function App() {
 						<p className="WebDesignDescription">This is a web-design for a photographer's Digital Portfolio (Made with HTML/CSS) including multiple accessible sections
 							with a user-friendly layout that utilises various graphics & animations for visual flair. </p>
 					</div>
-					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="900">
+					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="1100">
 						<a href="https://old-portfolio-123948.vercel.app/" target="_blank" rel="noopener noreferrer" title="Former Portfolio Design">
 							<img className="SourceImage" src="/OlderPortfolioDesign.png" alt="OlderPortfolioWebDesign"/>
 						</a>
