@@ -234,6 +234,7 @@ function App() {
 								<p className="CardTimeline">2022 - 2025 (June)</p>
 								<h1>Bachelor's Degree</h1>
 								<p>Major: Software Development</p>
+								<p>GPA: ~6.5 (On 7-point scale)</p>
 							</div>
 							<a className="DocumentLink" href="https://drive.google.com/file/d/1maTIF8UQtCtTLNpNfdWNWqwi2w337snM/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Certificate">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -257,6 +258,7 @@ function App() {
 							<div>
 								<p className="CardTimeline">Last Updated: 14/07/25</p>
 								<h1>Digital Resume</h1>
+								<p>GitHub: <a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer">https://github.com/lseti1</a></p>
 							</div>
 							<a className="DocumentLink" href="https://drive.google.com/file/d/1EVnFoxOuXq_0qvpaLY5eHc02KuJm6Rao/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -267,26 +269,30 @@ function App() {
 					</div>
 					<div className="ExperienceRight">
 						<div className="EducationExperienceCards">
-							{/* <p className="CardTimeline">2022 - 2025 (June)</p> */}
 							<div>
 								<h1>Frameworks</h1>
 								<p>ASP.NET, Laravel, React, Tailwind CSS, WordPress, Elementor</p>
 							</div>
 						</div>
 						<div className="EducationExperienceCards">
-							{/* <p className="CardTimeline">2022 - 2025 (June)</p> */}
 							<div>
 								<h1>Languages</h1>
 								<p>Python, C/C++/C#, Java, JavaScript, Swift, PHP, HTML5, CSS3</p>
 							</div>
 						</div>
 						<div className="EducationExperienceCards">
-							{/* <p className="CardTimeline">Last Updated:</p> */}
 							<div>
 								<h1>Other</h1>
 								<p>Tools: GitHub, VS Code, Vercel, XCode</p>
 								<p>Additional: Indonesian (Language), Photoshop (Photopea)</p>
 							</div>
+						</div>
+						<div className="EducationExperienceCards">
+							<div>
+								<h1>University-Based Projects</h1>
+								<p>Client-Server Systems, AI Development, OOP Based Encoder/Decoder</p>
+							</div>
+							
 						</div>
 					</div>
 				</div>
