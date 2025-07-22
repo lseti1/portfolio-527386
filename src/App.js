@@ -116,6 +116,7 @@ function App() {
 		<div className="App">
 			<div className="NavBar">
 				<div className="ContentWrapper NavBarContent">
+					<img className="Logo" src="/logo.png" alt="Logo"/>
 					<p onClick={() => jumpTo('AboutMe')} className="NavBarTitle">About</p>
 					<p onClick={() => jumpTo('Applications')} className="NavBarTitle">Apps</p>
 					<p onClick={() => jumpTo('Designs')} className="NavBarTitle">Designs</p>

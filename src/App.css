@@ -32,12 +32,20 @@
     justify-content: space-evenly;
     font-weight: lighter;
     font-size: 2rem;
-    padding: 1rem 0;
+}
+
+.Logo {
+    border-radius: 0.5rem;
+    /* background-color: aqua; */
+    height: 4rem;
+    width: 4.5rem;
+    margin: auto 0;
 }
 
 .NavBarTitle {
     font-size: 2rem;
     cursor: pointer;
+    padding: 1rem 0;
 }
 
 .NavBarTitle:hover {
@@ -51,7 +59,7 @@
 .AboutMeContent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 8rem 0;
+    padding: 4rem 0;
 }
 
 .AboutMeContent > div {
