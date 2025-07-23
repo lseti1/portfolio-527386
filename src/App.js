@@ -174,6 +174,9 @@ function App() {
 						<a className="WebGitHubLink" href="https://github.com/lseti1/eCommerceDesign-202501" target="_blank" rel="noopener noreferrer" title="eCommerce Tech Design Repository">
 							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 						</a>
+						<a className="WebFigmaLink" href="https://www.figma.com/design/fSl6ItzZASRf6SkKRlL5IG/eCommerce-Design-1?node-id=0-1&t=E4cai4VvIoDfHejU-1" target="_blank" rel="noopener noreferrer" title="eCommerce Tech Store Figma Mock-Up">
+							<img className="FigmaImage" src="/FigmaIcon.png" alt="FigmaLink"/>
+						</a>
 						<p className="WebDesignDescription">This is a multi-page eCommerce design for a Tech store (made with HTML/Tailwind CSS) including large Hero Banners,
 							multi-section pages and a number of accessible pages to simulate a fully functional eCommerce store.</p>
 					</div>
@@ -284,7 +287,7 @@ function App() {
 							<div>
 								<h1>Other</h1>
 								<p>Tools: GitHub, VS Code, Vercel, XCode</p>
-								<p>Additional: Indonesian (Language), Photoshop (Photopea)</p>
+								<p>Additional: Indonesian (Language), Photoshop (Photopea), Figma</p>
 							</div>
 						</div>
 						<div className="EducationExperienceCards">
