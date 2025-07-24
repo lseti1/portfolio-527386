@@ -76,6 +76,7 @@
 }
 
 .PortraitWrapper {
+    position: relative;
     overflow: hidden;
     width: 12rem;
     height: 12rem;
@@ -85,12 +86,35 @@
 }
 
 .Portrait {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover; 
     object-position: 10% 20%;
     
     transform: scale(1.2);
+}
+
+.PortraitOverlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;     
+    bottom: 0;    
+    width: 100;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.PortraitOverlay:hover {
+    opacity: 100;
 }
 
 .QuickLinks {
@@ -121,6 +145,31 @@
     font-size: 1.2rem;
     font-weight: 200;
     grid-column: span 2;
+}
+
+.ContactPopUp {
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    font-weight: 100;
+    padding: 1rem 3rem;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.PopUp-enter {
+  transform: translateX(-500px);
+}
+.PopUp-enter-active {
+  transform: translateX(0);
+  transition: 0.3s ease;
+}
+.PopUp-exit {
+  transform: translateX(0);
+}
+.PopUp-exit-active {
+  transform: translateX(-500px);
+  transition: 0.3s ease;
 }
 
 .Applications {

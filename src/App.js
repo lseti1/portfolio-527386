@@ -2,13 +2,24 @@ import React, { useState, useEffect, useRef } from "react";
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { CSSTransition } from 'react-transition-group';
 
 
 function App() {
+	// This is for the contact info
+	const [isInfoPopupVisible, setIsInfoPopupVisible] = useState(false);
+	const nodeRef = useRef(null);
+	const togglePopup = () => {
+		setIsInfoPopupVisible(prev => !prev);
+		console.log("Info Pop Up: ", isInfoPopupVisible);
+	}
+
+	// This is for animation effects (fade ins)
 	useEffect(() => {
 		AOS.init({duration: 1800, once: true});
 	}, []);
 
+	// This is for moving to different sections of the screen with a slight offset when selecting them in the NavBar
 	const jumpTo = (id) => {
 		const element = document.getElementById(id);
 		if (element) {
@@ -18,15 +29,12 @@ function App() {
 	};
 
 	const WebApps = ['LifePlanner', 'JobRecorderNet', 'PlanFinder', 'Skycast'];
-
 	const [currentIndex, setCurrentIndex] = useState(0);
-
 	const increment = () => {
 		setCurrentIndex((prevIndex) =>
 			prevIndex === WebApps.length - 1 ? 0 : prevIndex + 1
 		);
 	};
-
 	const decrement = () => {
 		setCurrentIndex((prevIndex) =>
 			prevIndex === 0 ? WebApps.length - 1 : prevIndex - 1
@@ -136,6 +144,9 @@ function App() {
 					<div className="AboutMeLeft" data-aos="fade-up">
 						<div className="PortraitWrapper">
 							<img className="Portrait" src="/PotraitMySelf.jpg" alt="PortraitOfSelf" title="Display Picture"/>
+							<div onClick={togglePopup} className="PortraitOverlay">
+								<p style={{userSelect : 'none'}}>Contact Info</p>
+							</div>
 						</div>
 						<div className="QuickLinks">
 							<a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer" title="Personal GitHub Profile">
@@ -160,6 +171,15 @@ function App() {
 					</div>
 				</div>
 			</div>
+			<CSSTransition in={isInfoPopupVisible} timeout={300} classNames="PopUp" unmountOnExit nodeRef={nodeRef}>
+				<div ref={nodeRef} className="ContactPopUp">
+					<h1 className="ContentTitle" style={{ padding: '0', fontSize: '2rem'}}>Contact Information</h1>
+					<h2>Phone:</h2>
+					<p>0439 629 899</p>
+					<h2>Email:</h2>
+					<p>luca.setia@gmail.com</p>
+				</div>
+			</CSSTransition>
 			<div id="Applications" className="Applications" data-aos="fade-up">
 				<h1 className="ContentWrapper ContentTitle">Web Applications</h1>
 				<div className="ContentWrapper WebAppRender">{WebAppRender()}</div>
