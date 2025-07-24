@@ -187,6 +187,9 @@ function App() {
 						<a className="WebGitHubLink" href="https://github.com/lseti1/eCommerceDesign-202502" target="_blank" rel="noopener noreferrer" title="eCommerce Music Design Repository">
 							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 						</a>
+						<a className="WebFigmaLink" href="https://www.figma.com/design/UYAWjDoyWCFHawjublbdYQ/eCommerceDesign2?node-id=1-94&t=XaiKBEEiC5K3dM4L-1" target="_blank" rel="noopener noreferrer" title="eCommerce Tech Store Figma Mock-Up">
+							<img className="FigmaImage" src="/FigmaIcon.png" alt="FigmaLink"/>
+						</a>
 						<p className="WebDesignDescription">This is an eCommerce design for a multi-page Music store (made with HTML/Tailwind CSS) including Hero Banners,
 							product cards and other e-commerce visuals. Designed with a music-inspired theme and a number of different banners.</p>
 					</div>
