@@ -197,8 +197,8 @@ function App() {
 						<a className="WebFigmaLink" href="https://www.figma.com/design/fSl6ItzZASRf6SkKRlL5IG/eCommerce-Design-1?node-id=0-1&t=E4cai4VvIoDfHejU-1" target="_blank" rel="noopener noreferrer" title="eCommerce Tech Store Figma Mock-Up">
 							<img className="FigmaImage" src="/FigmaIcon.png" alt="FigmaLink"/>
 						</a>
-						<p className="WebDesignDescription">This is a multi-page eCommerce design for a Tech store (made with HTML/Tailwind CSS) including large Hero Banners,
-							multi-section pages and a number of accessible pages to simulate a fully functional eCommerce store.</p>
+						<p className="WebDesignDescription">This is a multi-page eCommerce design for a Tech store including large Hero Banners,
+							multi-section pages and a number of accessible pages to simulate a fully functional eCommerce store.<br  /><b>Made with HTML/Tailwind CSS</b></p>
 					</div>
 					<div className="WebDesignCard">
 						<a href="https://e-commerce-design-202502.vercel.app/" target="_blank" rel="noopener noreferrer" title="eCommerce Music Store Web Design">
@@ -210,24 +210,24 @@ function App() {
 						<a className="WebFigmaLink" href="https://www.figma.com/design/UYAWjDoyWCFHawjublbdYQ/eCommerceDesign2?node-id=1-94&t=XaiKBEEiC5K3dM4L-1" target="_blank" rel="noopener noreferrer" title="eCommerce Tech Store Figma Mock-Up">
 							<img className="FigmaImage" src="/FigmaIcon.png" alt="FigmaLink"/>
 						</a>
-						<p className="WebDesignDescription">This is an eCommerce design for a multi-page Music store (made with HTML/Tailwind CSS) including Hero Banners,
-							product cards and other e-commerce visuals. Designed with a music-inspired theme and a number of different banners.</p>
+						<p className="WebDesignDescription">This is an eCommerce design for a multi-page Music store including Hero Banners,
+							product cards and other e-commerce visuals. Designed with a music-inspired theme and a number of different banners.<br  /><b>Made with HTML/Tailwind CSS</b></p>
 					</div>
 					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="900">
 						<a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer" title="Tourism Web Design">
 							<img className="SourceImage" src="/elementorDesign1.png" alt="ElementorWebDesign1"/>
 						</a>
-						<p className="WebDesignDescription">This is a tourism website for the city of London (designed using WordPress and Elementor). It features a sleek,
-							modern design that emphasizes key aspects of London tourism, such as immersive experiences, iconic attractions, and upcoming events, creating an
-							engaging and informative experience for visitors.</p>
+						<p className="WebDesignDescription">This is a tourism website for the city of London. It features a sleek,
+							modern design that emphasizes key aspects of London tourism, such as immersive experiences and upcoming events, creating an
+							engaging and informative experience for visitors.<br  /><b>Designed using WordPress & Elementor</b></p>
 					</div>
 					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="900">
 						<a href="https://lucas.websitedesign2.in/" target="_blank" rel="noopener noreferrer" title="Restaurant Web Design">
 							<img className="SourceImage" src="/elementorDesign2.png" alt="ElementorWebDesign2"/>
 						</a>
-						<p className="WebDesignDescription">This is a restaurant website for an authentic Japanese dining experience (crafted in WordPress using Elementor).
+						<p className="WebDesignDescription">This is a restaurant website for an authentic Japanese dining experience.
 							It features a refined and minimalist design that captures the essence of Japanese aesthetics while showcasing the restaurant’s signature style,
-							special offers, and seasonal events, offering an immersive and appetizing introduction to the cuisine.</p>
+							and seasonal events, offering an immersive and appetizing introduction to the cuisine.<br  /><b>Designed using WordPress & Elementor</b></p>
 					</div>
 					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="1100">
 						<a href="https://portfolio-design-478053.vercel.app/" target="_blank" rel="noopener noreferrer" title="Photography Portfolio Design">
@@ -236,8 +236,8 @@ function App() {
 						<a className="WebGitHubLink" href="https://github.com/lseti1/portfolioDesign-478053" target="_blank" rel="noopener noreferrer" title="Photography Portfolio Repository">
 							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 						</a>
-						<p className="WebDesignDescription">This is a web-design for a photographer's Digital Portfolio (Made with HTML/CSS) including multiple accessible sections
-							with a user-friendly layout that utilises various graphics & animations for visual flair. </p>
+						<p className="WebDesignDescription">This is a web-design for a photographer's Digital Portfolio including multiple accessible sections
+							with a user-friendly layout that utilises various graphics & animations for visual flair.<br  /><b>Made with HTML/CSS in React</b></p>
 					</div>
 					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="1100">
 						<a href="https://old-portfolio-123948.vercel.app/" target="_blank" rel="noopener noreferrer" title="Former Portfolio Design">
@@ -246,8 +246,8 @@ function App() {
 						<a className="WebGitHubLink" href="https://github.com/lseti1/OldPortfolio-123948" target="_blank" rel="noopener noreferrer">
 							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 						</a>
-						<p className="WebDesignDescription">This was the original web design for my portfolio (built using HTML and CSS). It featured a single, fixed-layout page
-							that utilized dynamically changing content containers to manage on-screen text, allowing for seamless content transitions without the need for scrolling/loading. </p>
+						<p className="WebDesignDescription">This was the original web design for this portfolio. It featured a single, fixed-layout page
+							that utilized dynamically changing content containers to manage on-screen text, allowing for seamless content transitions without scrolling/loading. <br  /><b>Made with HTML/CSS in React</b></p>
 					</div>
 				</div>
 			</div>
