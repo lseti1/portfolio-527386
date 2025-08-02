@@ -59,8 +59,8 @@ function App() {
 					</div >
 					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
 						<h1 className="ApplicationTitle">Life Planner</h1>
-						<p>This is an interactive one-page planning website to store & see upcoming plans (Made with React) with features such as adjustable calendar, easily add/remove plans, 
-							search functionality. <br  /><b>Made with HTML, CSS & JavaScript.</b></p>
+						<p>This is an interactive one-page planning website to store & see upcoming plans with features such as quick add/remove plans, adjustable calendar, 
+							search bar & responsive design for multiple viewports. <br  /><b>Made with HTML, CSS & JavaScript in React.</b></p>
 					</div>
 				</div >;
 			case 'JobRecorderNet':
@@ -77,7 +77,7 @@ function App() {
 					</div >
 					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
 						<h1 className="ApplicationTitle">JobRecorderNet</h1>
-						<p>JobRecorderNet is a port of a quality assurance application (university-based project) that was made for an external client & his company which included features such as
+						<p>JobRecorderNet is a shared project between myself & a fellow graduate of a port for an external clients quality assurance application (university-based project) which includes features such as
 							role-based job access, evidence uploading, and job filtering/searching.<br  /><b>This port uses Tailwind CSS and Razor Pages in ASP.NET written with C#.</b> </p>
 						<p style={{ fontSize : "1rem", padding : "0.5rem"}}>Note: Application is still in the process of being ported</p>
 					</div>
@@ -98,8 +98,8 @@ function App() {
 					</div >
 					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
 						<h1 className="ApplicationTitle">Plan Finder</h1>
-						<p>This is a website that utilises Wikipedia's free API to show things to do while on holidays (Made using React) with features such as adjustable searches, text generation/parsing, 
-							and multi-content display.<br  /><b>Made with HTML, CSS & JavaScript.</b></p>
+						<p>This is a website that utilises Wikipedia's free API to show things to do while on holidays with features such as adjustable searches, text generation/parsing, 
+							& responsive design for multiple viewports.<br  /><b>Made with HTML, CSS & JavaScript in React.</b></p>
 					</div>
 				</div >;
 			case 'Skycast':
@@ -118,8 +118,8 @@ function App() {
 					</div >
 					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
 						<h1 className="ApplicationTitle">Skycast</h1>
-						<p>This is a simple web app that displays weather information from the OpenWeather API (made with ReactVite) with features such as extensive weather displays, 3-hourly intervals 
-							for key weather metrics and forecast up to 5 days in advance. <br  /><b>Made with HTML, CSS & JavaScript.</b></p>
+						<p>This is a simple web app that displays weather information from the OpenWeather API with features such as extensive weather displays, 3-hourly intervals 
+							for key weather metrics, forecast up to 5 days in advance & responsive design for multiple viewports. <br  /><b>Made with HTML, CSS & JavaScript in ReactVite.</b></p>
 					</div>
 				</div >;
 			default:
@@ -249,7 +249,7 @@ function App() {
 							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 						</a>
 						<p className="WebDesignDescription">This was the original web design for this portfolio. It featured a single, fixed-layout page
-							that utilized dynamically changing content containers to manage on-screen text, allowing for seamless content transitions without scrolling/loading. <br  /><b>Made with HTML/CSS in React</b></p>
+							that utilized dynamically changing content containers to manage on-screen text, allowing for seamless content transitions without scrolling/loading & responsive design for multiple viewports. <br  /><b>Made with HTML/CSS in React</b></p>
 					</div>
 				</div>
 			</div>
