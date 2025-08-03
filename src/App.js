@@ -200,7 +200,7 @@ function App() {
 							<img className="FigmaImage" src="/FigmaIcon.png" alt="FigmaLink"/>
 						</a>
 						<p className="WebDesignDescription">This is a multi-page eCommerce design for a Tech store including large Hero Banners,
-							multi-section pages and a number of accessible pages to simulate a fully functional eCommerce store.<br  /><b>Made with HTML/Tailwind CSS</b></p>
+							multi-section pages and a number of accessible pages to simulate a fully functional eCommerce store.<br  /><b>Made with HTML, Tailwind CSS & JavaScript</b></p>
 					</div>
 					<div className="WebDesignCard">
 						<a href="https://e-commerce-design-202502.vercel.app/" target="_blank" rel="noopener noreferrer" title="eCommerce Music Store Web Design">
@@ -213,7 +213,7 @@ function App() {
 							<img className="FigmaImage" src="/FigmaIcon.png" alt="FigmaLink"/>
 						</a>
 						<p className="WebDesignDescription">This is an eCommerce design for a multi-page Music store including Hero Banners,
-							product cards and other e-commerce visuals. Designed with a music-inspired theme and a number of different banners.<br  /><b>Made with HTML/Tailwind CSS</b></p>
+							product cards and other e-commerce visuals. Designed with a music-inspired theme and a number of different banners.<br  /><b>Made with HTML, Tailwind CSS & JavaScript</b></p>
 					</div>
 					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="900">
 						<a href="https://lucas-websitedesign1.in/" target="_blank" rel="noopener noreferrer" title="Tourism Web Design">
@@ -239,7 +239,7 @@ function App() {
 							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 						</a>
 						<p className="WebDesignDescription">This is a web-design for a photographer's Digital Portfolio including multiple accessible sections
-							with a user-friendly layout that utilises various graphics & animations for visual flair.<br  /><b>Made with HTML/CSS in React</b></p>
+							with a user-friendly layout that utilises various graphics & animations for visual flair.<br  /><b>Made with HTML, Tailwind CSS & JavaScript</b></p>
 					</div>
 					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="1100">
 						<a href="https://old-portfolio-123948.vercel.app/" target="_blank" rel="noopener noreferrer" title="Former Portfolio Design">
@@ -249,7 +249,7 @@ function App() {
 							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 						</a>
 						<p className="WebDesignDescription">This was the original web design for this portfolio. It featured a single, fixed-layout page
-							that utilized dynamically changing content containers to manage on-screen text, allowing for seamless content transitions without scrolling/loading & responsive design for multiple viewports. <br  /><b>Made with HTML/CSS in React</b></p>
+							that utilized dynamically changing content containers to manage on-screen text, allowing for seamless content transitions without scrolling/loading & responsive design for multiple viewports. <br  /><b>Made with HTML, CSS & JavaScript in React</b></p>
 					</div>
 				</div>
 			</div>
