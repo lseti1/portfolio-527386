@@ -260,7 +260,7 @@ function App() {
 						<div className="EducationExperienceCards">
 							<div>
 								<p className="CardTimeline">2022 - 2025 (June)</p>
-								<h1>Bachelor's Degree</h1>
+								<h2>Bachelor's Degree</h2>
 								<p>Major: Software Development</p>
 								<p>GPA: ~6.5 (On 7-point scale)</p>
 							</div>
@@ -273,7 +273,7 @@ function App() {
 						<div className="EducationExperienceCards">
 							<div>
 								<p className="CardTimeline">2022 - 2025 (June)</p>
-								<h1>Academic Transcript</h1>
+								<h2>Academic Transcript</h2>
 								<p>2x Griffith Academic Excellence Award Recipient</p>
 							</div>
 							<a className="DocumentLink" href="https://drive.google.com/file/d/1csel03zxJA76Y9ueQyO46-9wynmcfIGV/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Transcript">
@@ -285,7 +285,7 @@ function App() {
 						<div className="EducationExperienceCards">
 							<div>
 								<p className="CardTimeline">Last Updated: 14/07/25</p>
-								<h1>Digital Resume</h1>
+								<h2>Digital Resume</h2>
 								<p>GitHub: <a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer">https://github.com/lseti1</a></p>
 							</div>
 							<a className="DocumentLink" href="https://drive.google.com/file/d/1EVnFoxOuXq_0qvpaLY5eHc02KuJm6Rao/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
@@ -298,26 +298,26 @@ function App() {
 					<div className="ExperienceRight">
 						<div className="EducationExperienceCards">
 							<div>
-								<h1>Frameworks</h1>
+								<h2>Frameworks</h2>
 								<p>ASP.NET, Laravel, React, Tailwind CSS, WordPress, Elementor</p>
 							</div>
 						</div>
 						<div className="EducationExperienceCards">
 							<div>
-								<h1>Languages</h1>
+								<h2>Languages</h2>
 								<p>Python, C/C++/C#, Java, JavaScript, Swift, PHP, HTML5, CSS3</p>
 							</div>
 						</div>
 						<div className="EducationExperienceCards">
 							<div>
-								<h1>Other</h1>
+								<h2>Other</h2>
 								<p>Tools: GitHub, VS Code, Vercel, XCode</p>
 								<p>Additional: Indonesian (Language), Photoshop (Photopea), Figma</p>
 							</div>
 						</div>
 						<div className="EducationExperienceCards">
 							<div>
-								<h1>University-Based Projects</h1>
+								<h2>University-Based Projects</h2>
 								<p>Client-Server Systems, AI Development, OOP Based Encoder/Decoder</p>
 							</div>
 							
