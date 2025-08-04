@@ -76,8 +76,8 @@ function App() {
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
 					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
-						<h1 className="ApplicationTitle">JobRecorderNet</h1>
-						<p>JobRecorderNet is a shared project between myself & a fellow graduate of a port for an external clients quality assurance application (university-based project) which includes features such as
+						<h1 className="ApplicationTitle">Job Recorder Net</h1>
+						<p>Job Recorder Net is a shared project between myself & a fellow graduate of a port for an external clients quality assurance application (university-based project) which includes features such as
 							role-based job access, evidence uploading, and job filtering/searching.<br  /><b>This port uses Tailwind CSS and Razor Pages in ASP.NET written with C#.</b> </p>
 						<p style={{ fontSize : "1rem", padding : "0.5rem"}}>Note: Application is still in the process of being ported</p>
 					</div>
