@@ -284,11 +284,11 @@ function App() {
 						</div>
 						<div className="EducationExperienceCards">
 							<div>
-								<p className="CardTimeline">Last Updated: 14/07/25</p>
+								<p className="CardTimeline">Last Updated: 04/08/25</p>
 								<h2>Digital Resume</h2>
 								<p>GitHub: <a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer">https://github.com/lseti1</a></p>
 							</div>
-							<a className="DocumentLink" href="https://drive.google.com/file/d/1EVnFoxOuXq_0qvpaLY5eHc02KuJm6Rao/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
+							<a className="DocumentLink" href="https://drive.google.com/file/d/1GcbM0VK3fcTW1yVSlrItOReZQpCpADSj/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M8 16h8M8 12h8m-6 8h6a2 2 0 002-2V7a2 2 0 00-.59-1.41l-4-4A2 2 0 0012 1H6a2 2 0 00-2 2v16a2 2 0 002 2h2" />
 								</svg>
