@@ -28,7 +28,7 @@ function App() {
 		}
 	};
 
-	const WebApps = ['LifePlanner', 'JobRecorderNet', 'PlanFinder', 'Skycast'];
+	const WebApps = ['InfoMovie', 'PlanFinder', 'LifePlanner', 'Skycast', 'JobRecorderNet'];
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const increment = () => {
 		setCurrentIndex((prevIndex) =>
@@ -43,43 +43,24 @@ function App() {
 
 	const WebAppRender = () => {
 		switch (WebApps[currentIndex]) {
-			case 'LifePlanner':
+			case 'InfoMovie':
 				return <div className="ApplicationsContent">
 					<div className="ApplicationImage" >
 						<button onClick={decrement} className="ApplicationsCarouselButton">&lt;</button>
 						<div className="ImageWrapper">
-							<a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer" title="Planner App">
-								<img className="SourceImage" src="/lifePlanner.png" alt="LifePlannerApp"/>
+							<a href="https://info-movie-513258.vercel.app/" target="_blank" rel="noopener noreferrer" title="Info Movie App">
+								<img className="SourceImage" src="/infoMovie.png" alt="InfoMovieApp"/>
 							</a>
-							<a className="GitHubLink" href="https://github.com/lseti1/lifePlanner-773629" target="_blank" rel="noopener noreferrer" title="Planner Repository">
+							<a className="GitHubLink" href="https://github.com/lseti1/InfoMovie-513258" target="_blank" rel="noopener noreferrer"  title="Plan Finder Repository">
 								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
 							</a>
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
 					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
-						<h1 className="ApplicationTitle">Life Planner</h1>
-						<p>This is an interactive one-page planning website to store & see upcoming plans with features such as quick add/remove plans, adjustable calendar, 
-							search bar & responsive design for multiple viewports. <br  /><b>Made with HTML, CSS & JavaScript in React.</b></p>
-					</div>
-				</div >;
-			case 'JobRecorderNet':
-				return <div className="ApplicationsContent">
-					<div className="ApplicationImage" >
-						<button onClick={decrement} className="ApplicationsCarouselButton">&lt;</button>
-						<div className="ImageWrapper">
-							<img className="SourceImage" src="/JobRecorderNet.png" alt="LifePlannerApp"/>
-							<a className="GitHubLink" href="https://github.com/MatchaBreak/JobRecorderNet" target="_blank" rel="noopener noreferrer"  title="JobRecorderNet Repository">
-								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
-							</a>
-						</div>
-						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
-					</div >
-					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
-						<h1 className="ApplicationTitle">Job Recorder Net</h1>
-						<p>Job Recorder Net is a shared project between myself & a fellow graduate of a port for an external clients quality assurance application (university-based project) which includes features such as
-							role-based job access, evidence uploading, and job filtering/searching.<br  /><b>This port uses Tailwind CSS and Razor Pages in ASP.NET written with C#.</b> </p>
-						<p style={{ fontSize : "1rem", padding : "0.5rem"}}>Note: Application is still in the process of being ported</p>
+						<h1 className="ApplicationTitle">Info Movie</h1>
+						<p>This is a web app made in Angular using tmdb's free API to display key metrics about trending, upcoming and top rated films. It also includes functionality for users to search
+							for a specific movie they're after and find out information about it .<br  /><b>Made with Tailwind CSS & DaisyUI in Angular.</b></p>
 					</div>
 				</div >;
 			case 'PlanFinder':
@@ -102,6 +83,26 @@ function App() {
 							& responsive design for multiple viewports.<br  /><b>Made with HTML, CSS & JavaScript in React.</b></p>
 					</div>
 				</div >;
+			case 'LifePlanner':
+				return <div className="ApplicationsContent">
+					<div className="ApplicationImage" >
+						<button onClick={decrement} className="ApplicationsCarouselButton">&lt;</button>
+						<div className="ImageWrapper">
+							<a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer" title="Planner App">
+								<img className="SourceImage" src="/lifePlanner.png" alt="LifePlannerApp"/>
+							</a>
+							<a className="GitHubLink" href="https://github.com/lseti1/lifePlanner-773629" target="_blank" rel="noopener noreferrer" title="Planner Repository">
+								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
+							</a>
+						</div>
+						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
+					</div >
+					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
+						<h1 className="ApplicationTitle">Life Planner</h1>
+						<p>This is an interactive one-page planning website to store & see upcoming plans with features such as quick add/remove plans, adjustable calendar, 
+							search bar & responsive design for multiple viewports. <br  /><b>Made with HTML, CSS & JavaScript in React.</b></p>
+					</div>
+				</div >;
 			case 'Skycast':
 				return <div className="ApplicationsContent">
 					<div className="ApplicationImage" >
@@ -120,6 +121,25 @@ function App() {
 						<h1 className="ApplicationTitle">Skycast</h1>
 						<p>This is a simple web app that displays weather information from the OpenWeather API with features such as extensive weather displays, 3-hourly intervals 
 							for key weather metrics, forecast up to 5 days in advance & responsive design for multiple viewports. <br  /><b>Made with HTML, CSS & JavaScript in ReactVite.</b></p>
+					</div>
+				</div >;
+			case 'JobRecorderNet':
+				return <div className="ApplicationsContent">
+					<div className="ApplicationImage" >
+						<button onClick={decrement} className="ApplicationsCarouselButton">&lt;</button>
+						<div className="ImageWrapper">
+							<img className="SourceImage" src="/JobRecorderNet.png" alt="LifePlannerApp"/>
+							<a className="GitHubLink" href="https://github.com/MatchaBreak/JobRecorderNet" target="_blank" rel="noopener noreferrer"  title="JobRecorderNet Repository">
+								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
+							</a>
+						</div>
+						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
+					</div >
+					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
+						<h1 className="ApplicationTitle">Job Recorder Net</h1>
+						<p>Job Recorder Net is a shared project between myself & a fellow graduate of a port for an external clients quality assurance application (university-based project) which includes features such as
+							role-based job access, evidence uploading, and job filtering/searching.<br  /><b>This port uses Tailwind CSS and Razor Pages in ASP.NET written with C#.</b> </p>
+						<p style={{ fontSize : "1rem", padding : "0.5rem"}}>Note: Application is still in the process of being ported</p>
 					</div>
 				</div >;
 			default:
@@ -305,7 +325,7 @@ function App() {
 						<div className="EducationExperienceCards">
 							<div>
 								<h2>Languages</h2>
-								<p>Python, C/C++/C#, Java, JavaScript, Swift, PHP, HTML5, CSS3</p>
+								<p>Python, C/C++/C#, Java, JavaScript, Swift, PHP, HTML5, CSS3, TypeScript</p>
 							</div>
 						</div>
 						<div className="EducationExperienceCards">
