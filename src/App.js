@@ -3,6 +3,7 @@ import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { CSSTransition } from 'react-transition-group';
+import { Analytics } from "@vercel/analytics/react";
 
 
 function App() {
@@ -349,6 +350,7 @@ function App() {
 			<div className="Footer" data-aos="fade-up">
 				<p className="ContentWrapper FooterContent"><b>Please Note:</b> This Portfolio is best viewed in Full Screen on a Desktop Computer</p>
 			</div>
+			<Analytics />
 		</div>
 	);
 }
