@@ -281,8 +281,8 @@ function App() {
 							<div>
 								<p className="CardTimeline">2022 - 2025 (June)</p>
 								<h2>Bachelor's Degree</h2>
-								<p>Major: Software Development</p>
-								<p>GPA: ~6.5 (On 7-point scale)</p>
+								<p><b>Major: </b>Software Development</p>
+								<p><b>GPA: </b>~6.5 (On 7-point scale)</p>
 							</div>
 							<a className="DocumentLink" href="https://drive.google.com/file/d/1maTIF8UQtCtTLNpNfdWNWqwi2w337snM/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Certificate">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -306,7 +306,7 @@ function App() {
 							<div>
 								<p className="CardTimeline">Last Updated: 04/08/25</p>
 								<h2>Digital Resume</h2>
-								<p>GitHub: <a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer">https://github.com/lseti1</a></p>
+								<p><b>GitHub: </b><a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer">https://github.com/lseti1</a></p>
 							</div>
 							<a className="DocumentLink" href="https://drive.google.com/file/d/1GcbM0VK3fcTW1yVSlrItOReZQpCpADSj/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -319,7 +319,7 @@ function App() {
 						<div className="EducationExperienceCards">
 							<div>
 								<h2>Frameworks</h2>
-								<p>ASP.NET, Laravel, React, Tailwind CSS, WordPress, Elementor</p>
+								<p>ASP.NET, Laravel, Angular, React, Tailwind CSS, WordPress, Elementor</p>
 							</div>
 						</div>
 						<div className="EducationExperienceCards">
@@ -331,8 +331,9 @@ function App() {
 						<div className="EducationExperienceCards">
 							<div>
 								<h2>Other</h2>
-								<p>Tools: GitHub, VS Code, Vercel, XCode</p>
-								<p>Additional: Indonesian (Language), Photoshop (Photopea), Figma</p>
+								<p><b>Tools:</b> GitHub, VS Code, Vercel, XCode</p>
+								<p><b>Databases:</b> SQLite</p>
+								<p><b>Additional:</b> Indonesian (Language), Photoshop (Photopea), Figma</p>
 							</div>
 						</div>
 						<div className="EducationExperienceCards">
