@@ -4,6 +4,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { CSSTransition } from 'react-transition-group';
 import { Analytics } from "@vercel/analytics/react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
+import { faSquareLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faSquareFigma } from "@fortawesome/free-brands-svg-icons";
 
 
 function App() {
@@ -53,7 +57,7 @@ function App() {
 								<img className="SourceImage" src="/infoMovie.png" alt="InfoMovieApp"/>
 							</a>
 							<a className="GitHubLink" href="https://github.com/lseti1/InfoMovie-513258" target="_blank" rel="noopener noreferrer"  title="Plan Finder Repository">
-								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
+								<FontAwesomeIcon icon={faSquareGithub} className="GitHubImage" style={{ color: 'black' }} alt="GitHubLink"/>
 							</a>
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
@@ -73,7 +77,7 @@ function App() {
 								<img className="SourceImage" src="/planFinder.png" alt="PlanFinderApp"/>
 							</a>
 							<a className="GitHubLink" href="https://github.com/lseti1/planFinder-198302" target="_blank" rel="noopener noreferrer"  title="Plan Finder Repository">
-								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
+								<FontAwesomeIcon icon={faSquareGithub} className="GitHubImage" style={{ color: 'black' }} alt="GitHubLink"/>
 							</a>
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
@@ -93,7 +97,7 @@ function App() {
 								<img className="SourceImage" src="/lifePlanner.png" alt="LifePlannerApp"/>
 							</a>
 							<a className="GitHubLink" href="https://github.com/lseti1/lifePlanner-773629" target="_blank" rel="noopener noreferrer" title="Planner Repository">
-								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
+								<FontAwesomeIcon icon={faSquareGithub} className="GitHubImage" style={{ color: 'black' }} alt="GitHubLink"/>
 							</a>
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
@@ -113,7 +117,7 @@ function App() {
 								<img className="SourceImage" src="/skyCast.png" alt="SkycastApp"/>
 							</a>
 							<a className="GitHubLink" href="https://github.com/lseti1/skyCast-853920" target="_blank" rel="noopener noreferrer" title="Weather App Repository">
-								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
+								<FontAwesomeIcon icon={faSquareGithub} className="GitHubImage" style={{ color: 'black' }} alt="GitHubLink"/>
 							</a>
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
@@ -131,7 +135,7 @@ function App() {
 						<div className="ImageWrapper">
 							<img className="SourceImage" src="/JobRecorderNet.png" alt="LifePlannerApp"/>
 							<a className="GitHubLink" href="https://github.com/MatchaBreak/JobRecorderNet" target="_blank" rel="noopener noreferrer"  title="JobRecorderNet Repository">
-								<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
+								<FontAwesomeIcon icon={faSquareGithub} className="GitHubImage" style={{ color: 'black' }} alt="GitHubLink"/>
 							</a>
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
@@ -165,21 +169,21 @@ function App() {
 					<div className="AboutMeLeft" data-aos="fade-up">
 						<div className="PortraitWrapper">
 							<img className="Portrait" src="/PotraitMySelf.jpg" alt="PortraitOfSelf" title="Display Picture"/>
-							<svg onClick={togglePopup} className="PortraitOverlay" style={{userSelect : 'none'}} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Contact Info" role="img" > 
+							{/* <svg onClick={togglePopup} className="PortraitOverlay" style={{userSelect : 'none'}} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Contact Info" role="img" > 
 								<circle cx="12" cy="12" r="10" stroke="#494949ff" strokeWidth="2" /> 
 								<circle cx="12" cy="8" r="1.5" fill="#5c5c5cff" /> 
 								<rect x="11.25" y="10" width="1.5" height="6" rx="0.75" fill="#000000ff" /> 
-							</svg>
+							</svg> */}
 						</div>
 						<div className="QuickLinks">
 							<a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer" title="Personal GitHub Profile">
-								<img className="Icon" src="/GitHub Logo.png" alt="GitHubLink" />
-							</a>
-							<a href="https://www.linkedin.com/in/lucassetiady/" target="_blank" rel="noopener noreferrer" title="Personal LinkedIn Profile">
-								<img className="Icon" src="/LinkedIn Logo.webp" alt="LinkedInLink" />
+								<FontAwesomeIcon icon={faSquareGithub} className="Icon" style={{ color: 'black' }} alt="GitHubLink"/>
 							</a>
 							<a href="mailto:luca.setia@gmail.com" target="_blank" rel="noopener noreferrer" title="Personal Email">
 								<img className="Icon" src="/mailIcon.png" alt="MailLink" />
+							</a>
+							<a href="https://www.linkedin.com/in/lucassetiady/" target="_blank" rel="noopener noreferrer" title="Personal LinkedIn Profile">
+								<FontAwesomeIcon icon={faSquareLinkedin} className="Icon" alt="LinkedInLink"/>
 							</a>
 						</div>
 					</div>
@@ -215,10 +219,10 @@ function App() {
 							<img className="SourceImage" src="/eCommerceDesign1.png" alt="eCommerceWebDesign1"/>
 						</a>
 						<a className="WebGitHubLink" href="https://github.com/lseti1/eCommerceDesign-202501" target="_blank" rel="noopener noreferrer" title="eCommerce Tech Design Repository">
-							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
+							<FontAwesomeIcon icon={faSquareGithub} className="GitHubImage" style={{ color: 'black' }} alt="GitHubLink"/>
 						</a>
 						<a className="WebFigmaLink" href="https://www.figma.com/design/fSl6ItzZASRf6SkKRlL5IG/eCommerce-Design-1?node-id=0-1&t=E4cai4VvIoDfHejU-1" target="_blank" rel="noopener noreferrer" title="eCommerce Tech Store Figma Mock-Up">
-							<img className="FigmaImage" src="/FigmaIcon.png" alt="FigmaLink"/>
+							<FontAwesomeIcon icon={faSquareFigma} className="FigmaImage" alt="FigmaLink"/>
 						</a>
 						<p className="WebDesignDescription">This is a multi-page eCommerce design for a Tech store including large Hero Banners,
 							multi-section pages and a number of accessible pages to simulate a fully functional eCommerce store.<br  /><b>Made with HTML, Tailwind CSS & JavaScript</b></p>
@@ -228,10 +232,10 @@ function App() {
 							<img className="SourceImage" src="/eCommerceDesign2.png" alt="eCommerceWebDesign2"/>
 						</a>
 						<a className="WebGitHubLink" href="https://github.com/lseti1/eCommerceDesign-202502" target="_blank" rel="noopener noreferrer" title="eCommerce Music Design Repository">
-							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
+							<FontAwesomeIcon icon={faSquareGithub} className="GitHubImage" style={{ color: 'black' }} alt="GitHubLink"/>
 						</a>
 						<a className="WebFigmaLink" href="https://www.figma.com/design/UYAWjDoyWCFHawjublbdYQ/eCommerceDesign2?node-id=1-94&t=XaiKBEEiC5K3dM4L-1" target="_blank" rel="noopener noreferrer" title="eCommerce Tech Store Figma Mock-Up">
-							<img className="FigmaImage" src="/FigmaIcon.png" alt="FigmaLink"/>
+							<FontAwesomeIcon icon={faSquareFigma} className="FigmaImage" alt="FigmaLink"/>
 						</a>
 						<p className="WebDesignDescription">This is an eCommerce design for a multi-page Music store including Hero Banners,
 							product cards and other e-commerce visuals. Designed with a music-inspired theme and a number of different banners.<br  /><b>Made with HTML, Tailwind CSS & JavaScript</b></p>
@@ -257,7 +261,7 @@ function App() {
 							<img className="SourceImage" src="/portfolioDesign.png" alt="WebDesign1"/>
 						</a>
 						<a className="WebGitHubLink" href="https://github.com/lseti1/portfolioDesign-478053" target="_blank" rel="noopener noreferrer" title="Photography Portfolio Repository">
-							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
+							<FontAwesomeIcon icon={faSquareGithub} className="GitHubImage" style={{ color: 'black' }} alt="GitHubLink"/>
 						</a>
 						<p className="WebDesignDescription">This is a web-design for a photographer's Digital Portfolio including multiple accessible sections
 							with a user-friendly layout that utilises various graphics & animations for visual flair.<br  /><b>Made with HTML, Tailwind CSS & JavaScript</b></p>
@@ -267,7 +271,7 @@ function App() {
 							<img className="SourceImage" src="/OlderPortfolioDesign.png" alt="OlderPortfolioWebDesign"/>
 						</a>
 						<a className="WebGitHubLink" href="https://github.com/lseti1/OldPortfolio-123948" target="_blank" rel="noopener noreferrer">
-							<img className="GitHubImage" src="/GitHub Logo.png" alt="GitHubLink"/>
+							<FontAwesomeIcon icon={faSquareGithub} className="GitHubImage" style={{ color: 'black' }} alt="GitHubLink"/>
 						</a>
 						<p className="WebDesignDescription">This was the original web design for this portfolio. It featured a single, fixed-layout page
 							that utilized dynamically changing content containers to manage on-screen text, allowing for seamless content transitions without scrolling/loading & responsive design for multiple viewports. <br  /><b>Made with HTML, CSS & JavaScript in React</b></p>
