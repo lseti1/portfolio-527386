@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
 import { faSquareLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faSquareFigma } from "@fortawesome/free-brands-svg-icons";
+import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 
 
 function App() {
@@ -169,11 +170,7 @@ function App() {
 					<div className="AboutMeLeft" data-aos="fade-up">
 						<div className="PortraitWrapper">
 							<img className="Portrait" src="/PotraitMySelf.jpg" alt="PortraitOfSelf" title="Display Picture"/>
-							{/* <svg onClick={togglePopup} className="PortraitOverlay" style={{userSelect : 'none'}} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Contact Info" role="img" > 
-								<circle cx="12" cy="12" r="10" stroke="#494949ff" strokeWidth="2" /> 
-								<circle cx="12" cy="8" r="1.5" fill="#5c5c5cff" /> 
-								<rect x="11.25" y="10" width="1.5" height="6" rx="0.75" fill="#000000ff" /> 
-							</svg> */}
+							<FontAwesomeIcon icon={faCircleInfo} onClick={togglePopup} className="PortraitOverlay" size="lg"/>
 						</div>
 						<div className="QuickLinks">
 							<a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer" title="Personal GitHub Profile">
