@@ -350,6 +350,8 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   font-weight: 100;
+	width: 100%;
+	transition: 0.5s;
 }
 
 .EducationLeft {
@@ -374,10 +376,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   border: 1px solid rgba(128, 128, 128, 0.1);
   box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.456);
   background-color: rgba(255, 255, 255, 0.1);
+	
 }
 
 .CardTimeline {
@@ -411,7 +414,15 @@
   	max-width: 80%;
 	}
 
-	*, .WebDesignDescription {
+	.AboutMeRight, .ApplicationDescription {
+		font-size: 1rem;
+	}
+
+	.EducationExperienceCards {
+		font-size: 0.9rem;
+	}
+
+	.WebDesignDescription {
 		font-size: 1rem;
 	}
 
@@ -420,7 +431,7 @@
 	}
 
 	.ApplicationTitle {
-		font-size: 2rem;
+		font-size: 1.8rem;
 	}
 
 	.PortraitWrapper {
