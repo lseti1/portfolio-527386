@@ -281,7 +281,7 @@ function App() {
 						<div className="EducationExperienceCards">
 							<div>
 								<p className="CardTimeline">2022 - 2025 (June)</p>
-								<h2>Bachelor's Degree</h2>
+								<h2 className="CardTitle">Bachelor's Degree</h2>
 								<p><b>Major: </b>Software Development</p>
 								<p><b>GPA: </b>~6.5 (On 7-point scale)</p>
 							</div>
@@ -294,7 +294,7 @@ function App() {
 						<div className="EducationExperienceCards">
 							<div>
 								<p className="CardTimeline">2022 - 2025 (June)</p>
-								<h2>Academic Transcript</h2>
+								<h2 className="CardTitle">Academic Transcript</h2>
 								<p>2x Griffith Academic Excellence Award Recipient</p>
 							</div>
 							<a className="DocumentLink" href="https://drive.google.com/file/d/1csel03zxJA76Y9ueQyO46-9wynmcfIGV/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Transcript">
@@ -306,7 +306,7 @@ function App() {
 						<div className="EducationExperienceCards">
 							<div>
 								<p className="CardTimeline">Last Updated: 04/08/25</p>
-								<h2>Digital Resume</h2>
+								<h2 className="CardTitle">Digital Resume</h2>
 								<p><b>GitHub: </b><a href="https://github.com/lseti1" target="_blank" rel="noopener noreferrer">https://github.com/lseti1</a></p>
 							</div>
 							<a className="DocumentLink" href="https://drive.google.com/file/d/1GcbM0VK3fcTW1yVSlrItOReZQpCpADSj/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
@@ -319,19 +319,19 @@ function App() {
 					<div className="ExperienceRight">
 						<div className="EducationExperienceCards">
 							<div>
-								<h2>Frameworks</h2>
+								<h2 className="CardTitle">Frameworks</h2>
 								<p>ASP.NET, Laravel, Angular, React, Tailwind CSS, WordPress, Elementor</p>
 							</div>
 						</div>
 						<div className="EducationExperienceCards">
 							<div>
-								<h2>Languages</h2>
+								<h2 className="CardTitle">Languages</h2>
 								<p>Python, C/C++/C#, Java, JavaScript, Swift, PHP, HTML5, CSS3, TypeScript</p>
 							</div>
 						</div>
 						<div className="EducationExperienceCards">
 							<div>
-								<h2>Other</h2>
+								<h2 className="CardTitle">Other</h2>
 								<p><b>Tools:</b> GitHub, VS Code, Vercel, XCode</p>
 								<p><b>Databases:</b> SQLite</p>
 								<p><b>Additional:</b> Indonesian (Language), Photoshop (Photopea), Figma</p>
@@ -339,7 +339,7 @@ function App() {
 						</div>
 						<div className="EducationExperienceCards">
 							<div>
-								<h2>University-Based Projects</h2>
+								<h2 className="CardTitle">University-Based Projects</h2>
 								<p>Client-Server Systems, AI Development, OOP Based Encoder/Decoder</p>
 							</div>
 							
