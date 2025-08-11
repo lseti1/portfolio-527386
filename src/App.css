@@ -1,147 +1,152 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+	transition-duration: 0.5s;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+	
 }
 
 .ContentWrapper {
-    max-width: 70%;
-    margin: 0 auto;
+	transition-duration: 0.5s;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .ContentTitle {
-    text-align: center;
-    font-size: 2.8rem;
-    font-weight: 300;
-    padding-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 300;
+  padding-bottom: 1.5rem;
+	transition: 0.5s;
 }
 
 .NavBar {
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: rgb(80, 80, 173);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.145);
-    box-shadow: 0px 0px 5px black;
+  color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: rgb(80, 80, 173);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.145);
+  box-shadow: 0px 0px 5px black;
 }
 
 .NavBarContent {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-weight: lighter;
-    font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: lighter;
+  font-size: 2rem;
 }
 
 .Logo {
-    border-radius: 0.5rem;
-    /* background-color: aqua; */
-    height: 4rem;
-    width: 4rem;
-    margin: auto 0;
-    cursor: pointer;
+  border-radius: 0.5rem;
+  /* background-color: aqua; */
+  height: 4rem;
+  width: 4rem;
+  margin: auto 0;
+  cursor: pointer;
 }
 
 .NavBarTitle {
-    font-size: 1.7rem;
-    cursor: pointer;
-    padding: 1rem 0;
+  font-size: 1.7rem;
+  cursor: pointer;
+  padding: 1rem 0;
 }
 
 .NavBarTitle:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .AboutMe {
-    background-color: rgb(80, 80, 173);
+  background-color: rgb(80, 80, 173);
 }
 
 .AboutMeContent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 4rem 0;
 }
 
 .AboutMeContent > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .AboutMeLeft {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .PortraitWrapper {
-    position: relative;
-    overflow: hidden;
-    width: 12rem;
-    height: 12rem;
-    position: relative;
-    border-radius: 50%; 
-    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.504);
-    border: 1px solid gray
+  position: relative;
+  overflow: hidden;
+  width: 12rem;
+  height: 12rem;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.504);
+  border: 1px solid gray;
 }
 
 .Portrait {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    object-position: 10% 20%;
-    
-    transform: scale(1.2);
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 10% 20%;
+
+  transform: scale(1.2);
 }
 
 .PortraitOverlay {
-    position: absolute;
-    left: 15%;
-    top: 15%;    
-    cursor: pointer;
-    transition: 0.5s;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .QuickLinks {
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+	transition: 0.5s;
 }
 
 .Icon {
-    width: 3rem;
-    height: 3rem;
-    background-color: white;
-    border-radius: 20%; 
-    box-shadow: 0px 0px 2px white;
-    transition: 0.5s;
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  border-radius: 20%;
+  box-shadow: 0px 0px 2px white;
+  transition: 0.5s;
 }
 
 .Icon:hover {
-    background-color: rgb(214, 214, 214);
+  background-color: rgb(214, 214, 214);
 }
 
 .AboutMeRight {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 200;
-    grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 200;
+  grid-column: span 2;
 }
 
 .ContactPopUp {
-    position: absolute;
-    left: 0%;
-    top: 15%;
-    font-weight: 100;
-    padding: 1rem 3rem;
-    background-color: white;
-    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.496);
+  position: absolute;
+  left: 0%;
+  top: 15%;
+  font-weight: 100;
+  padding: 1rem 3rem;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.496);
 }
 
 .PopUp-enter {
@@ -160,37 +165,38 @@
 }
 
 .Applications {
-    background-color: rgb(255, 255, 255);
-    padding: 2rem 0;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 0;
 }
 
 .WebAppRender {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .ApplicationsContent {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .ApplicationImage {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    padding: 1rem 0;
-    height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 1rem 0;
+  height: 100%;
 }
 
 .ApplicationTitle {
-    text-align: center;
-    font-size: 2.2rem;
-    font-weight: 400;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+	transition: 0.5s;
 }
 
 .ImageWrapper {
@@ -199,199 +205,267 @@
 }
 
 .GitHubLink {
-    position: absolute;
-    top: 2%;
-    right: 1%;
-    width: 2rem;
-    height: 2rem;
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  width: 2rem;
+  height: 2rem;
 }
 
 .GitHubImage {
-    display: block;
-    border-radius: 20%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 5px black;
-    width: 2rem;
-    height: 2rem;
-    transition: 0.5s;
-    z-index: 10;
+  display: block;
+  border-radius: 20%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px black;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: 10;
 }
 
 .GitHubImage:hover {
-    background-color: rgb(214, 214, 214);
+  background-color: rgb(214, 214, 214);
 }
 
 .SourceImage {
-    display: block;
-    border-radius: 0.5rem;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.456);
-    width: 100%;
-    height: auto;
+  display: block;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.456);
+  width: 100%;
+  height: auto;
 }
 
-.WebDesignDescription { 
-    font-weight: 100;
-    font-size: 1.2rem;
-    text-align: center;
-    padding-bottom: 1rem;
+.WebDesignDescription {
+	transition-duration: 0.5s;
+  font-weight: 100;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .ApplicationsOverlayButton {
-    background-color: rgba(0, 0, 0, 0.31);
-    color: white;
-    border: 1px solid rgb(183, 183, 183);
-    padding: 1rem;
-    border-radius: 2rem;
-    cursor: pointer;
-    transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.31);
+  color: white;
+  border: 1px solid rgb(183, 183, 183);
+  padding: 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .ApplicationsOverlayButton:hover {
-    background-color: rgba(0, 0, 0, 0.455);
+  background-color: rgba(0, 0, 0, 0.455);
 }
 
 .ApplicationsCarouselButton {
-    background-color: rgba(255, 255, 255, 0);
-    color: rgb(172, 172, 172);
-    font-size: xx-large;
-    font-family: 'Fira Code', monospace;
-    height: 0%;
-    margin: 0 auto;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(172, 172, 172);
+  font-size: xx-large;
+  font-family: "Fira Code", monospace;
+  height: 0%;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .ApplicationsCarouselButton:hover {
-    color: black;
+  color: black;
 }
 
 .ApplicationDescription {
-    font-weight: 100;
-    font-size: 1.2rem;
-    margin: 0 auto;
-    text-align: center;
-    width: 50%;
+  font-weight: 100;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
 }
 
 .WebsiteDesigns {
-    background-color: rgb(80, 80, 173);
-    padding: 2rem 0;
+  background-color: rgb(80, 80, 173);
+  padding: 2rem 0;
 }
 
 .WebsiteDesignsContent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 3;
-    color: white;
-    width: 100%;
-    gap: 1rem;
-    /* background-color: rgba(255, 255, 255, 0.384); */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 3;
+  color: white;
+  width: 100%;
+  gap: 1rem;
+  /* background-color: rgba(255, 255, 255, 0.384); */
 }
 
 .WebDesignCard {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0.5rem;
-    gap: 1rem;
-    /* background-color: white; */
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 1rem;
+  /* background-color: white; */
 }
 
 .WebGitHubLink {
-    position: absolute;
-    top: 4%;
-    right: 2%;
-    width: 2rem;
-    height: auto;
+  position: absolute;
+  top: 4%;
+  right: 2%;
+  width: 2rem;
+  height: 2rem;
 }
 
 .WebFigmaLink {
-    position: absolute;
-    top: 4%;
-    right: 8%;
-    width: 2rem;
-    height: 2rem;
+  position: absolute;
+  top: 4%;
+  right: 8%;
+  width: 2rem;
+  height: 2rem;
 }
 
 .FigmaImage {
-    /* color: black; */
-    display: block;
-    border-radius: 20%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 5px black;
-    width: 2rem;
-    height: 2rem;
-    transition: 0.5s;
-    z-index: 10;
+  /* color: black; */
+  display: block;
+  border-radius: 20%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px black;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: 10;
 }
 
 .FigmaImage:hover {
-    background-color: rgb(185, 185, 185);
+  background-color: rgb(185, 185, 185);
 }
 
 .EducationExperience {
-    background-color: white;
-    padding: 2rem 0;
+  background-color: white;
+  padding: 2rem 0;
+	
 }
 
 .EducationExperienceContent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    font-weight: 100;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  font-weight: 100;
 }
 
 .EducationLeft {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 1rem;
-    padding: 1rem 1rem;
-    border-right: 2px solid rgba(128, 128, 128, 0.24)
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem 1rem;
+  border-right: 2px solid rgba(128, 128, 128, 0.24);
 }
 
 .ExperienceRight {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    padding: 1rem 0rem;
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 1rem 0rem;
+  gap: 1rem;
 }
 
 .EducationExperienceCards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    border: 1px solid rgba(128, 128, 128, 0.1);
-    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.456);
-    background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.456);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .CardTimeline {
-    font-weight: bold;
-    color: gray;
+  font-weight: bold;
+  color: gray;
 }
 
 .DocumentLink {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5rem;
-    height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: auto;
+	transition: 0.5s;
 }
 
 .Footer {
-    background-color: rgb(80, 80, 173);
+  background-color: rgb(80, 80, 173);
 }
 
 .FooterContent {
-    text-align: center;
-    padding: 1rem 0;
-    color: white;
-    font-weight: 300;
+  text-align: center;
+  padding: 1rem 0;
+  color: white;
+  font-weight: 300;
+}
+
+/* smaller desktops / large laptops */
+@media (max-width: 1535px) {
+  .ContentWrapper {
+  	max-width: 80%;
+	}
+
+	*, .WebDesignDescription {
+		font-size: 1rem;
+	}
+
+	.ContentTitle {
+		font-size: 2.2rem;
+	}
+
+	.ApplicationTitle {
+		font-size: 2rem;
+	}
+
+	.PortraitWrapper {
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.Icon {
+		width: 2.5rem;
+  	height: 2.5rem;
+	}
+
+	.WebFigmaLink {
+		right: 9%;
+	}
+
+	.DocumentLink {
+		width: 4.5rem;
+	}
+}
+
+/* medium laptops */
+@media (max-width: 1279px) {
+	.NavBar {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+/* tablets in landscape / small laptops */
+@media (max-width: 1023px) {
+	.NavBar {
+    background-color: rgb(0, 0, 0);
+  }
+}
+
+/* tablets in portrait */
+@media (max-width: 767px) {
+	.NavBar {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+/* mobile phones */
+@media (max-width: 639px) {
+	.NavBar {
+    background-color: rgb(0, 0, 0);
+  }
 }

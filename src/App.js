@@ -12,21 +12,20 @@ import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 
 
 function App() {
-	// This is for the contact info
-	const [isInfoPopupVisible, setIsInfoPopupVisible] = useState(false);
+	const [isInfoPopupVisible, setIsInfoPopupVisible] = useState(false); // This is for the contact info
 	const nodeRef = useRef(null);
 	const togglePopup = () => {
 		setIsInfoPopupVisible(prev => !prev);
 		console.log("Info Pop Up: ", isInfoPopupVisible);
 	}
 
-	// This is for animation effects (fade ins)
-	useEffect(() => {
+	
+	useEffect(() => { // This is for animation effects (fade ins)
 		AOS.init({duration: 1800, once: true});
 	}, []);
 
-	// This is for moving to different sections of the screen with a slight offset when selecting them in the NavBar
-	const jumpTo = (id) => {
+
+	const jumpTo = (id) => { 	// This is for moving to different sections of the screen with a slight offset when selecting them in the NavBar
 		const element = document.getElementById(id);
 		if (element) {
 			const offset = element.getBoundingClientRect().top + window.scrollY - 70;
