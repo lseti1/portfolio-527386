@@ -455,9 +455,22 @@
 
 /* medium laptops */
 @media (max-width: 1279px) {
-	.NavBar {
-    background-color: rgb(255, 255, 255);
-  }
+	.ContentWrapper {
+  	max-width: 90%;
+	}
+
+	.Icon {
+		width: 2.5rem;
+  	height: 2.5rem;
+	}
+
+	.WebFigmaLink {
+		right: 10%;
+	}
+
+	.DocumentLink {
+		width: 4rem;
+	}
 }
 
 /* tablets in landscape / small laptops */
