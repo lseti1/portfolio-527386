@@ -10,7 +10,6 @@ import { faSquareLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faSquareFigma } from "@fortawesome/free-brands-svg-icons";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 
-
 function App() {
 	const [isInfoPopupVisible, setIsInfoPopupVisible] = useState(false); // This is for the contact info
 	const nodeRef = useRef(null);
@@ -196,10 +195,11 @@ function App() {
 			<CSSTransition in={isInfoPopupVisible} timeout={300} classNames="PopUp" unmountOnExit nodeRef={nodeRef}>
 				<div ref={nodeRef} className="ContactPopUp">
 					<h1 className="ContentTitle" style={{ padding: '0', fontSize: '2rem'}}>Contact Information</h1>
-					<h2>Phone:</h2>
+					<h3>Phone:</h3>
 					<p>0439 629 899</p>
-					<h2>Email:</h2>
+					<h3>Email:</h3>
 					<p>luca.setia@gmail.com</p>
+					<button className="ContactPopUpCloseButton" onClick={togglePopup}>X</button>
 				</div>
 			</CSSTransition>
 			<div id="Applications" className="Applications" data-aos="fade-up">

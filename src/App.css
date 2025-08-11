@@ -150,16 +150,35 @@
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.496);
 }
 
+.ContactPopUpCloseButton {
+	position: absolute;
+	font-weight: 600;
+	font-size: 1rem;
+	color: rgb(128, 128, 128);
+	top: 4%;
+	right: 2%;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	cursor: pointer;
+}
+
+.ContactPopUpCloseButton:hover {
+	color: black;
+}
+
 .PopUp-enter {
   transform: translateX(-500px);
 }
+
 .PopUp-enter-active {
   transform: translateX(0);
   transition: 0.3s ease;
 }
+
 .PopUp-exit {
   transform: translateX(0);
 }
+
 .PopUp-exit-active {
   transform: translateX(-500px);
   transition: 0.3s ease;
