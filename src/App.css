@@ -359,7 +359,7 @@
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
-  padding: 1rem 1rem;
+  padding: 1rem;
   border-right: 2px solid rgba(128, 128, 128, 0.24);
 }
 
@@ -500,9 +500,72 @@
 
 /* tablets in portrait */
 @media (max-width: 767px) {
-	.NavBar {
-    background-color: rgb(255, 255, 255);
-  }
+	.WebsiteDesignsContent {
+		width: 90%;
+	}
+
+	.ContentWrapper {
+  	max-width: 95%;
+	}
+
+	.Logo {
+		width: 3rem;
+		height: 3rem;
+	}
+
+	.AboutMeRight, .ApplicationDescription {
+		font-size: 1rem;
+	}
+
+	.ApplicationDescription {
+		width: 80%;
+	}
+
+	.EducationExperienceCards {
+		font-size: 0.9rem;
+	}
+
+	.WebDesignDescription {
+		font-size: 1rem;
+	}
+
+	.ContentTitle {
+		font-size: 2.2rem;
+	}
+
+	.ApplicationTitle {
+		font-size: 1.8rem;
+	}
+
+	.PortraitWrapper {
+		width: 7rem;
+		height: 7rem;
+	}
+
+	.Icon {
+		width: 2rem;
+  	height: 2rem;
+	}
+
+	.WebFigmaLink {
+		right: 9%;
+	}
+
+	.DocumentLink {
+		width: 4.5rem;
+	}
+
+	.EducationExperienceContent {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.EducationLeft {
+		border: none;
+	}
+
+	.ExperienceRight {
+		padding: 1rem;
+	}
 }
 
 /* mobile phones */
