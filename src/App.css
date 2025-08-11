@@ -33,6 +33,7 @@
 .NavBarContent {
   display: flex;
   flex-direction: row;
+	flex-wrap: wrap;
   justify-content: space-evenly;
   font-weight: lighter;
   font-size: 2rem;
@@ -570,7 +571,69 @@
 
 /* mobile phones */
 @media (max-width: 639px) {
-	.NavBar {
-    background-color: rgb(0, 0, 0);
-  }
+	.NavBarTitle {
+		font-size: 1.5rem;
+
+	}
+
+	.AboutMeContent {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.WebsiteDesignsContent {
+		width: 90%;
+	}
+
+	.ContentWrapper {
+  	max-width: 95%;
+	}
+
+	.AboutMeRight, .ApplicationDescription {
+		font-size: 1rem;
+	}
+
+	.ApplicationDescription {
+		width: 80%;
+	}
+
+	.EducationExperienceCards {
+		font-size: 0.9rem;
+		text-align: center;
+		flex-direction: column;
+		justify-content: center;
+		gap: 0.5rem;
+	}
+
+	.WebDesignDescription {
+		font-size: 1rem;
+	}
+
+	.ContentTitle {
+		font-size: 2.2rem;
+	}
+
+	.ApplicationTitle {
+		font-size: 1.8rem;
+	}
+
+	.PortraitWrapper {
+		width: 7rem;
+		height: 7rem;
+	}
+
+	.Icon {
+		display: none;
+	}
+
+	.WebFigmaLink {
+		right: 12%;
+	}
+
+	.DocumentLink {
+		width: 3.5rem;
+	}
+
+	.FooterContent {
+		padding: 1rem;
+	}
 }
