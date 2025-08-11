@@ -25,6 +25,7 @@
   position: sticky;
   top: 0;
   z-index: 10;
+	min-height: 70px;
   background-color: rgb(80, 80, 173);
   border-bottom: 1px solid rgba(0, 0, 0, 0.145);
   box-shadow: 0px 0px 5px black;
@@ -141,13 +142,24 @@
 }
 
 .ContactPopUp {
+	display: flex;
+	flex-direction: column;
+	justify-content: centers;
+	align-items: start;
+	gap: 2%;
   position: absolute;
-  left: 0%;
-  top: 15%;
-  font-weight: 100;
-  padding: 1rem 3rem;
+  right: 0%;
+  top: 70px;
+	font-size: 1rem;
+	padding: 2rem;
+	z-index: 100;
   background-color: white;
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.496);
+	border: 1px solid gray;
+}
+
+.ContactPopUpTitle {
+	font-weight: 100;
 }
 
 .ContactPopUpCloseButton {
@@ -155,8 +167,8 @@
 	font-weight: 600;
 	font-size: 1rem;
 	color: rgb(128, 128, 128);
-	top: 4%;
-	right: 2%;
+	top: 5%;
+	right: 4%;
 	background-color: rgba(255, 255, 255, 0);
 	border: none;
 	cursor: pointer;
@@ -167,12 +179,12 @@
 }
 
 .PopUp-enter {
-  transform: translateX(-500px);
+  transform: translateX(500px);
 }
 
 .PopUp-enter-active {
   transform: translateX(0);
-  transition: 0.3s ease;
+  transition: 0.5s;
 }
 
 .PopUp-exit {
@@ -180,8 +192,8 @@
 }
 
 .PopUp-exit-active {
-  transform: translateX(-500px);
-  transition: 0.3s ease;
+  transform: translateX(500px);
+  transition: 0.5s;
 }
 
 .Applications {
@@ -471,12 +483,20 @@
 	.DocumentLink {
 		width: 4.5rem;
 	}
+
+	.ContactPopUp {
+		padding: 0.5rem;
+	}
 }
 
 /* medium laptops */
 @media (max-width: 1279px) {
 	.ContentWrapper {
   	max-width: 90%;
+	}
+
+	.AboutMeRight {
+		font-size: 0.9rem;
 	}
 
 	.Icon {
@@ -490,6 +510,10 @@
 
 	.DocumentLink {
 		width: 4rem;
+	}
+
+	.ContactPopUp {
+		font-size: 0.8rem;
 	}
 }
 
@@ -654,5 +678,9 @@
 
 	.FooterContent {
 		padding: 1rem;
+	}
+
+	.ContactPopUp {
+		display: none;
 	}
 }

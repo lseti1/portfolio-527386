@@ -194,11 +194,9 @@ function App() {
 			</div>
 			<CSSTransition in={isInfoPopupVisible} timeout={300} classNames="PopUp" unmountOnExit nodeRef={nodeRef}>
 				<div ref={nodeRef} className="ContactPopUp">
-					<h1 className="ContentTitle" style={{ padding: '0', fontSize: '2rem'}}>Contact Information</h1>
-					<h3>Phone:</h3>
-					<p>0439 629 899</p>
-					<h3>Email:</h3>
-					<p>luca.setia@gmail.com</p>
+					<p><b>Contact Info</b></p>
+					<p><b>Phone </b>- 0439 629 899</p>
+					<p><b>Email </b>-  luca.setia@gmail.com</p>
 					<button className="ContactPopUpCloseButton" onClick={togglePopup}>X</button>
 				</div>
 			</CSSTransition>
