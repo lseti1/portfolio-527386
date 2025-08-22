@@ -60,7 +60,7 @@ function App() {
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
-					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
+					<div className="ApplicationDescription" data-aos="fade-up">
 						<h1 className="ApplicationTitle">Info Movie</h1>
 						<p>This is a web app made in Angular using tmdb's free API to display key metrics about trending, upcoming and top rated films. It also includes functionality for users to search
 							for a specific movie they're after and find out information about it .<br  /><b>Made with Tailwind CSS & DaisyUI in Angular.</b></p>
@@ -80,7 +80,7 @@ function App() {
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
-					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
+					<div className="ApplicationDescription" data-aos="fade-up">
 						<h1 className="ApplicationTitle">Plan Finder</h1>
 						<p>This is a website that utilises Wikipedia's free API to show things to do while on holidays with features such as adjustable searches, text generation/parsing, 
 							& responsive design for multiple viewports.<br  /><b>Made with HTML, CSS & JavaScript in React.</b></p>
@@ -100,7 +100,7 @@ function App() {
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
-					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
+					<div className="ApplicationDescription" data-aos="fade-up">
 						<h1 className="ApplicationTitle">Life Planner</h1>
 						<p>This is an interactive one-page planning website to store & see upcoming plans with features such as quick add/remove plans, adjustable calendar, 
 							search bar & responsive design for multiple viewports. <br  /><b>Made with HTML, CSS & JavaScript in React.</b></p>
@@ -120,7 +120,7 @@ function App() {
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
-					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
+					<div className="ApplicationDescription" data-aos="fade-up">
 						<h1 className="ApplicationTitle">Skycast</h1>
 						<p>This is a simple web app that displays weather information from the OpenWeather API with features such as extensive weather displays, 3-hourly intervals 
 							for key weather metrics, forecast up to 5 days in advance & responsive design for multiple viewports. <br  /><b>Made with HTML, CSS & JavaScript in ReactVite.</b></p>
@@ -138,7 +138,7 @@ function App() {
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
-					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="600">
+					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="400">
 						<h1 className="ApplicationTitle">Job Recorder Net</h1>
 						<p>Job Recorder Net is a shared project between myself & a fellow graduate of a port for an external client's quality assurance application (university-based project) which includes features such as
 							role-based job access, evidence uploading, and job filtering/searching.<br  /><b>This port uses Tailwind CSS and Razor Pages in ASP.NET written with C#.</b> </p>
@@ -207,7 +207,7 @@ function App() {
 			<div id="Designs" className="WebsiteDesigns" data-aos="fade-up" data-aos-offset="800">
 				<h1 className="ContentWrapper ContentTitle" style={{ color: 'white' }}>Website Designs</h1>
 				<div className="ContentWrapper WebsiteDesignsContent">
-					<div className="WebDesignCard">
+					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="800">
 						<a href="https://e-commerce-design-202501.vercel.app/" target="_blank" rel="noopener noreferrer" title="eCommerce Tech Store Web Design">
 							<img className="SourceImage" src="/eCommerceDesign1.png" alt="eCommerceWebDesign1"/>
 						</a>
@@ -220,7 +220,7 @@ function App() {
 						<p className="WebDesignDescription">This is a multi-page eCommerce design for a Tech store including large Hero Banners,
 							multi-section pages and a number of accessible pages to simulate a fully functional eCommerce store.<br  /><b>Made with HTML, Tailwind CSS & JavaScript</b></p>
 					</div>
-					<div className="WebDesignCard">
+					<div className="WebDesignCard" data-aos="fade-up" data-aos-offset="800">
 						<a href="https://e-commerce-design-202502.vercel.app/" target="_blank" rel="noopener noreferrer" title="eCommerce Music Store Web Design">
 							<img className="SourceImage" src="/eCommerceDesign2.png" alt="eCommerceWebDesign2"/>
 						</a>
