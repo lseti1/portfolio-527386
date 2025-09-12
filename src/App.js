@@ -11,7 +11,7 @@ import { faSquareFigma } from "@fortawesome/free-brands-svg-icons";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
-	const [isInfoPopupVisible, setIsInfoPopupVisible] = useState(false); // This is for the contact info
+	const [isInfoPopupVisible, setIsInfoPopupVisible] = useState(false); 
 	const nodeRef = useRef(null);
 	const togglePopup = () => {
 		setIsInfoPopupVisible(prev => !prev);
@@ -23,7 +23,7 @@ function App() {
 	}, []);
 
 
-	const jumpTo = (id) => { 	// This is for moving to different sections of the screen with a slight offset when selecting them in the NavBar
+	const jumpTo = (id) => { 
 		const element = document.getElementById(id);
 		if (element) {
 			const offset = element.getBoundingClientRect().top + window.scrollY - 70;
@@ -31,7 +31,7 @@ function App() {
 		}
 	};
 
-	const WebApps = ['InfoMovie', 'PlanFinder', 'LifePlanner', 'Skycast', 'JobRecorderNet'];
+	const WebApps = ['StudyStacker', 'InfoMovie', 'PlanFinder', 'LifePlanner', 'Skycast'];
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const increment = () => {
 		setCurrentIndex((prevIndex) =>
@@ -126,23 +126,24 @@ function App() {
 							for key weather metrics, forecast up to 5 days in advance & responsive design for multiple viewports. <br  /><b>Made with HTML, CSS & JavaScript in ReactVite.</b></p>
 					</div>
 				</div >;
-			case 'JobRecorderNet':
+			case 'StudyStacker':
 				return <div className="ApplicationsContent">
 					<div className="ApplicationImage" >
 						<button onClick={decrement} className="ApplicationsCarouselButton">&lt;</button>
 						<div className="ImageWrapper">
-							<img className="SourceImage" src="/JobRecorderNet.png" alt="LifePlannerApp"/>
-							<a className="GitHubLink" href="https://github.com/MatchaBreak/JobRecorderNet" target="_blank" rel="noopener noreferrer"  title="JobRecorderNet Repository">
+							<a href="https://angular-study-stacker-123913.vercel.app/" target="_blank" rel="noopener noreferrer" title="Flashcards App">
+								<img className="SourceImage" src="/StudyStacker.png" alt="StudyStackerApp"/>
+							</a>
+							<a className="GitHubLink" href="https://github.com/lseti1/AngularStudyStacker-123913" target="_blank" rel="noopener noreferrer"  title="StudyStacker Repository">
 								<FontAwesomeIcon icon={faSquareGithub} className="GitHubImage" style={{ color: 'black' }} alt="GitHubLink"/>
 							</a>
 						</div>
 						<button onClick={increment} className="ApplicationsCarouselButton">&gt;</button>
 					</div >
 					<div className="ApplicationDescription" data-aos="fade-up" data-aos-offset="400">
-						<h1 className="ApplicationTitle">Job Recorder Net</h1>
-						<p>Job Recorder Net is a shared project between myself & a fellow graduate of a port for an external client's quality assurance application (university-based project) which includes features such as
-							role-based job access, evidence uploading, and job filtering/searching.<br  /><b>This port uses Tailwind CSS and Razor Pages in ASP.NET written with C#.</b> </p>
-						<p style={{ fontSize : "1rem", padding : "0.5rem"}}>Note: Application is still in the process of being ported</p>
+						<h1 className="ApplicationTitle">Study Stacker</h1>
+						<p>This is full-fledged web app made in Angular using many Services, Components & Pipes. It includes functionality for users to add, edit, learn, or delete flashcards & decks, as well as 
+							have their flashcards persist using Local Storage. The application also has mock authentication pages, adjustable settings and a demo user available with three saved decks.<br  /><b>Made with Tailwind CSS in Angular.</b></p>
 					</div>
 				</div >;
 			default:
