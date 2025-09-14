@@ -31,7 +31,7 @@ function App() {
 		}
 	};
 
-	const WebApps = ['StudyStacker', 'InfoMovie', 'PlanFinder', 'LifePlanner', 'Skycast'];
+	const WebApps = ['StudyStacker', 'LifePlanner', 'InfoMovie', 'PlanFinder', 'Skycast'];
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const increment = () => {
 		setCurrentIndex((prevIndex) =>
@@ -91,10 +91,10 @@ function App() {
 					<div className="ApplicationImage" >
 						<button onClick={decrement} className="ApplicationsCarouselButton">&lt;</button>
 						<div className="ImageWrapper">
-							<a href="https://planner773629-tau-three.vercel.app/" target="_blank" rel="noopener noreferrer" title="Planner App">
+							<a href="https://angular-life-planner-1234890.vercel.app/" target="_blank" rel="noopener noreferrer" title="Planner App">
 								<img className="SourceImage" src="/lifePlanner.png" alt="LifePlannerApp"/>
 							</a>
-							<a className="GitHubLink" href="https://github.com/lseti1/lifePlanner-773629" target="_blank" rel="noopener noreferrer" title="Planner Repository">
+							<a className="GitHubLink" href="https://github.com/lseti1/AngularLifePlanner-1234890" target="_blank" rel="noopener noreferrer" title="Planner Repository">
 								<FontAwesomeIcon icon={faSquareGithub} className="GitHubImage" style={{ color: 'black' }} alt="GitHubLink"/>
 							</a>
 						</div>
@@ -102,8 +102,8 @@ function App() {
 					</div >
 					<div className="ApplicationDescription" data-aos="fade-up">
 						<h1 className="ApplicationTitle">Life Planner</h1>
-						<p>This is an interactive one-page planning website to store & see upcoming plans with features such as quick add/remove plans, adjustable calendar, 
-							search bar & responsive design for multiple viewports. <br  /><b>Made with HTML, CSS & JavaScript in React.</b></p>
+						<p>This is full-fledged web app made in Angular using Services, Components & Pipes. It includes functionality for users to edit, add, delete and save plans (through use of Local Storage) 
+							The application focuses on UI/UX with easily accessible plans from the sidebar as well as a clear display of plans on the calendar.<br  /><b>Made with Tailwind CSS in Angular.</b></p>
 					</div>
 				</div >;
 			case 'Skycast':
