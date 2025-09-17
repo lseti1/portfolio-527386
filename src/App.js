@@ -345,9 +345,6 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<div className="Footer" data-aos="fade-up">
-				<p className="ContentWrapper FooterContent"><b>Please Note:</b> This Portfolio is best viewed in Full Screen on a Desktop Computer</p>
-			</div>
 			<Analytics />
 		</div>
 	);
